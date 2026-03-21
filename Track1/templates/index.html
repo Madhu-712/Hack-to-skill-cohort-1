@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Intelligence Dashboard | Track1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.1); }
+        .chat-scroll::-webkit-scrollbar { width: 5px; }
+        .chat-scroll::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-[#0f172a] text-slate-200 h-screen flex overflow-hidden">
+
+    <div class="flex-1 flex flex-col relative">
+        <header class="p-6 border-b border-white/5 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="p-2 bg-blue-500/20 rounded-lg text-blue-400">
+                    <i data-lucide="bot"></i>
+                </div>
+                <div>
+                    <h1 class="font-bold text-lg leading-none">Support Agent</h1>
+                    <span class="text-[10px] text-green-400 uppercase tracking-widest font-bold">Online & Adaptive</span>
+                </div>
+            </div>
+            <button class="text-slate-500 hover:text-white transition-colors"><i data-lucide="more-horizontal"></i></button>
+        </header>
+
+        <div id="chat-box" class="flex-1 p-8 overflow-y-auto space-y-6 chat-scroll">
+            <div class="flex gap-4 max-w-2xl">
+                <div class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center flex-shrink-0 border border-white/10">
+                    <i data-lucide="user" class="w-4 h-4 text-slate-400"></i>
+                </div>
+                <div class="glass p-4 rounded-2xl rounded-tl-none shadow-xl">
+                    <p class="text-sm leading-relaxed">Hello! I'm your AI Support Agent. Describe your issue, and I'll classify it, research a solution, and create a ticket for you.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-6 bg-[#0f172a]/80 backdrop-blur-md">
+            <div class="max-w-4xl mx-auto relative group">
+                <input id="user-input" type="text" 
+                    class="w-full bg-slate-800/50 border border-white/10 rounded-2xl px-6 py-4 pr-16 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all placeholder-slate-500 shadow-2xl" 
+                    placeholder="Describe your billing, technical, or account issue..."
+                    onkeypress="if(event.key === 'Enter') sendMessage()">
+                <button onclick="sendMessage()" class="absolute right-3 top-1/2 -translate-y-1/2 p-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl transition-all shadow-lg active:scale-95">
+                    <i data-lucide="send" class="w-5 h-5"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-96 glass m-4 rounded-3xl p-6 flex flex-col gap-6 shadow-2xl overflow-hidden border-white/5">
+        <h2 class="text-xs font-bold text-slate-500 uppercase tracking-[0.2em]">Agent Intelligence</h2>
+        
+        <div class="space-y-2">
+            <label class="text-[10px] font-bold text-slate-400 uppercase">Current Classification</label>
+            <div id="badge-container" class="bg-slate-900/50 p-4 rounded-2xl border border-white/5 flex items-center justify-between">
+                <span id="display-category" class="text-sm font-mono text-slate-500">PENDING...</span>
+                <i id="category-icon" data-lucide="loader-2" class="w-4 h-4 text-slate-600 animate-spin"></i>
+            </div>
+        </div>
+
+        <div class="space-y-6 flex-1 py-4">
+            <div id="step-1" class="flex items-start gap-4 opacity-30 transition-all">
+                <div class="p-1.5 bg-blue-500 rounded-full mt-0.5 shadow-[0_0_15px_rgba(59,130,246,0.5)]"></div>
+                <div><h3 class="text-sm font-semibold">Classification</h3><p class="text-[10px] text-slate-500">Mapping intent to domain</p></div>
+            </div>
+            <div id="step-2" class="flex items-start gap-4 opacity-30 transition-all">
+                <div class="p-1.5 bg-blue-500 rounded-full mt-0.5"></div>
+                <div><h3 class="text-sm font-semibold">Live Research</h3><p class="text-[10px] text-slate-500">Querying Google Search API</p></div>
+            </div>
+            <div id="step-3" class="flex items-start gap-4 opacity-30 transition-all">
+                <div class="p-1.5 bg-green-500 rounded-full mt-0.5 shadow-[0_0_15px_rgba(34,197,94,0.5)]"></div>
+                <div><h3 class="text-sm font-semibold">Resolution & Ticket</h3><p class="text-[10px] text-slate-500">Finalizing support record</p></div>
+            </div>
+        </div>
+
+        <div class="mt-auto bg-black/30 rounded-2xl p-4 border border-white/5">
+            <div class="flex items-center justify-between mb-2">
+                <span class="text-[9px] text-slate-500 font-bold uppercase italic">System Logs</span>
+                <span class="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse"></span>
+            </div>
+            <div id="tool-log" class="text-[11px] font-mono text-blue-400/80 leading-relaxed h-12 overflow-hidden">
+                > Initializing session...<br>
+                > Awaiting user input...
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        async function sendMessage() {
+            const input = document.getElementById('user-input');
+            const box = document.getElementById('chat-box');
+            const log = document.getElementById('tool-log');
+            if (!input.value) return;
+
+            const userMsg = input.value;
+            box.innerHTML += `
+                <div class="flex gap-4 max-w-2xl ml-auto justify-end">
+                    <div class="bg-blue-600 p-4 rounded-2xl rounded-tr-none shadow-xl text-white text-sm">
+                        ${userMsg}
+                    </div>
+                </div>
+            `;
+            input.value = '';
+            box.scrollTop = box.scrollHeight;
+            log.innerHTML = `> Processing input...<br>> Thinking...`;
+
+            try {
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({message: userMsg, user_id: 'madhu_712'})
+                });
+                
+                const data = await response.json();
+                
+                data.responses.forEach(text => {
+                    box.innerHTML += `
+                        <div class="flex gap-4 max-w-2xl">
+                            <div class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center flex-shrink-0 border border-white/10">
+                                <i data-lucide="bot" class="w-4 h-4 text-blue-400"></i>
+                            </div>
+                            <div class="glass p-4 rounded-2xl rounded-tl-none shadow-xl border-white/5">
+                                <p class="text-sm leading-relaxed">${text.replace(/\n/g, '<br>')}</p>
+                            </div>
+                        </div>
+                    `;
+
+                    // Intelligence UI Logic
+                    if(text.toLowerCase().includes("classified")) {
+                        const cat = text.split("as ")[1].split(".")[0];
+                        document.getElementById('display-category').innerText = cat;
+                        document.getElementById('display-category').className = "text-sm font-mono text-blue-400 font-bold";
+                        document.getElementById('step-1').classList.replace('opacity-30', 'opacity-100');
+                        log.innerHTML = `> tool: classify_customer_message<br>> category set to: ${cat}`;
+                    }
+                    
+                    if(text.toLowerCase().includes("search") || text.toLowerCase().includes("research")) {
+                        document.getElementById('step-2').classList.replace('opacity-30', 'opacity-100');
+                        log.innerHTML = `> tool: google_search<br>> scanning web for fixes...`;
+                    }
+
+                    if(text.toLowerCase().includes("ticket") || text.toLowerCase().includes("tck-")) {
+                        document.getElementById('step-3').classList.replace('opacity-30', 'opacity-100');
+                        log.innerHTML = `> tool: create_support_ticket<br>> record committed to db.`;
+                    }
+                });
+
+                lucide.createIcons(); // Refresh icons for new messages
+                box.scrollTop = box.scrollHeight;
+            } catch (err) {
+                console.error(err);
+                log.innerHTML = `> ERROR: Could not connect to backend.`;
+            }
+        }
+    </script>
+</body>
+</html>
