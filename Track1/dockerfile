@@ -1,0 +1,31 @@
+# Use a specific version for reproducibility
+FROM python:3.11-slim
+
+# Set environment variables to optimize Python for containers
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+ENV PORT=8080
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install requirements + ADK
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt && \
+    pip install --no-cache-dir google-adk
+
+# Copy the rest of the app
+COPY . .
+
+# Set default environment variables
+ENV GOOGLE_GENAI_USE_VERTEXAI=TRUE
+
+EXPOSE 8080
+
+# 'exec' ensures the app receives termination signals from Cloud Run
+# 'adk web' starts the built-in UI/API server
+CMD exec adk web --host 0.0.0.0 --port $PORT .

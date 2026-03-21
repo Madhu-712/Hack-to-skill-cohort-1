@@ -1,0 +1,20 @@
+
+google-adk[eval]
+
+
+# Core Agent Development Kit
+google-adk>=1.23.0
+
+# Google Cloud & Vertex AI (Essential for the backend)
+google-cloud-aiplatform>=1.70.0
+google-auth>=2.23.0
+
+# Web Server & UI (Required for 'adk web')
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+gunicorn>=21.2.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+streamlit==1.55.0
