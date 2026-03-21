@@ -13,6 +13,9 @@ The application is built using a modular agent-first architecture:
 - **Tool Layer (`tools.py`)**: Implements the business logic for classification, screenshot analysis, and ticket creation as ADK FunctionTools.
 - **Web UI (`adk web`)**: The project uses the built-in ADK Web UI for interactive testing, debugging, and session management.
 
+  <img width="2752" height="1536" alt="unnamed (1)" src="https://github.com/user-attachments/assets/701f107d-eb89-4dbb-b0ef-39471a0f723c" />
+
+
 ## Project Structure
 ```text
 .
