@@ -1,0 +1,32 @@
+name: bigquery-agent-v32
+version: 1.0.0
+description: "An AI agent that queries BigQuery datasets using natural language."
+
+# The main model configuration
+agent:
+  name: "BigQueryManager"
+  model: "gemini-2.5-flash"
+  instructions: |
+    You are a data analyst expert in Google BigQuery. 
+    Your goal is to help users explore their datasets, write optimized SQL, and provide insights.
+    Always verify table schemas before performing complex joins.
+
+# Tooling configuration for BigQuery
+tools:
+  - name: "bigquery_tool"
+    # This assumes you are using the built-in BigQuery tool or a custom one
+    # If using MCP, this section would reference your MCP server configuration.
+    type: "function" 
+
+# Critical section for the Web UI
+runtime:
+  web_ui: true
+  port: 8080
+  host: "0.0.0.0"
+
+# Deployment specific settings
+deployment:
+  platform: "cloud-run"
+  region: "us-central1"
+  memory: "512Mi"
+  cpu: 1
