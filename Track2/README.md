@@ -313,7 +313,8 @@ curl -X POST https://bigquery-agent-v32-h2fgvrniba-uc.a.run.app/run \
     }
   }'
 ```
-
+### Step 3- Python script (response.py)
+python3 response.py
 ### 💬 Sample Questions
 
 ```bash
