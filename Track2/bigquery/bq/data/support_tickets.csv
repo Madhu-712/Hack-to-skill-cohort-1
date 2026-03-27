@@ -1,0 +1,2942 @@
+ticket_id,zone,date,category,priority,resolution_time_minutes,escalated
+T1001,Whitefield,2026-01-01,Rider No Show,High,85,Yes
+T1002,Whitefield,2026-01-01,Rider Shortage,Medium,45,No
+T1003,Whitefield,2026-01-01,Rider Shortage,Low,78,No
+T1004,Whitefield,2026-01-01,Rider No Show,High,39,Yes
+T1005,Whitefield,2026-01-01,Payment Issue,Critical,52,Yes
+T1006,Whitefield,2026-01-01,Rider Shortage,Medium,28,No
+T1007,Whitefield,2026-01-01,Rider No Show,Low,22,No
+T1008,Whitefield,2026-01-02,Delivery Delay,Critical,68,Yes
+T1009,Whitefield,2026-01-02,Payment Issue,Low,16,No
+T1010,Whitefield,2026-01-02,Rider No Show,Low,70,No
+T1011,Whitefield,2026-01-02,App Issue,Medium,75,No
+T1012,Whitefield,2026-01-03,App Issue,High,36,Yes
+T1013,Whitefield,2026-01-03,Payment Issue,High,49,Yes
+T1014,Whitefield,2026-01-03,App Issue,Critical,30,Yes
+T1015,Whitefield,2026-01-03,Rider Shortage,Critical,64,Yes
+T1016,Whitefield,2026-01-03,App Issue,Medium,57,No
+T1017,Whitefield,2026-01-03,App Issue,Critical,31,Yes
+T1018,Whitefield,2026-01-04,App Issue,Medium,16,No
+T1019,Whitefield,2026-01-04,Rider Shortage,High,18,Yes
+T1020,Whitefield,2026-01-04,App Issue,High,53,Yes
+T1021,Whitefield,2026-01-05,App Issue,Medium,20,No
+T1022,Whitefield,2026-01-05,Payment Issue,High,83,Yes
+T1023,Whitefield,2026-01-05,Rider No Show,Critical,83,Yes
+T1024,Whitefield,2026-01-06,App Issue,Low,78,No
+T1025,Whitefield,2026-01-06,Rider Shortage,High,30,Yes
+T1026,Whitefield,2026-01-06,Payment Issue,Low,65,No
+T1027,Whitefield,2026-01-06,Rider Shortage,High,51,Yes
+T1028,Whitefield,2026-01-06,Rider Shortage,High,87,Yes
+T1029,Whitefield,2026-01-07,Delivery Delay,Critical,56,Yes
+T1030,Whitefield,2026-01-07,Payment Issue,Low,71,No
+T1031,Whitefield,2026-01-07,Rider No Show,Medium,80,No
+T1032,Whitefield,2026-01-07,Delivery Delay,Low,23,No
+T1033,Whitefield,2026-01-07,App Issue,Low,78,No
+T1034,Whitefield,2026-01-07,App Issue,Low,36,No
+T1035,Whitefield,2026-01-08,Rider No Show,High,69,Yes
+T1036,Whitefield,2026-01-08,Delivery Delay,Critical,43,Yes
+T1037,Whitefield,2026-01-08,Rider No Show,Low,52,No
+T1038,Whitefield,2026-01-09,Rider No Show,Medium,32,No
+T1039,Whitefield,2026-01-09,Payment Issue,Critical,85,Yes
+T1040,Whitefield,2026-01-09,Rider No Show,High,79,Yes
+T1041,Whitefield,2026-01-09,Rider Shortage,Critical,15,Yes
+T1042,Whitefield,2026-01-10,Payment Issue,Low,18,No
+T1043,Whitefield,2026-01-10,Rider Shortage,Medium,41,No
+T1044,Whitefield,2026-01-10,App Issue,Critical,57,Yes
+T1045,Whitefield,2026-01-10,App Issue,High,73,Yes
+T1046,Whitefield,2026-01-10,Rider Shortage,Critical,46,Yes
+T1047,Whitefield,2026-01-11,Rider No Show,Low,42,No
+T1048,Whitefield,2026-01-11,App Issue,Medium,69,No
+T1049,Whitefield,2026-01-12,Rider Shortage,Low,74,No
+T1050,Whitefield,2026-01-12,Payment Issue,Medium,84,No
+T1051,Whitefield,2026-01-12,Rider Shortage,Medium,76,No
+T1052,Whitefield,2026-01-12,Rider Shortage,High,48,Yes
+T1053,Whitefield,2026-01-12,Rider Shortage,Critical,70,Yes
+T1054,Whitefield,2026-01-13,App Issue,Medium,27,No
+T1055,Whitefield,2026-01-13,Rider Shortage,Low,70,No
+T1056,Whitefield,2026-01-14,Payment Issue,Low,68,No
+T1057,Whitefield,2026-01-14,Rider Shortage,Low,57,No
+T1058,Whitefield,2026-01-14,Delivery Delay,Critical,53,Yes
+T1059,Whitefield,2026-01-15,Rider No Show,Critical,56,Yes
+T1060,Whitefield,2026-01-15,Delivery Delay,High,32,Yes
+T1061,Whitefield,2026-01-15,App Issue,High,37,Yes
+T1062,Whitefield,2026-01-15,Rider Shortage,Low,68,No
+T1063,Whitefield,2026-01-15,Rider Shortage,High,44,Yes
+T1064,Whitefield,2026-01-15,App Issue,High,72,Yes
+T1065,Whitefield,2026-01-16,Rider No Show,Low,81,No
+T1066,Whitefield,2026-01-16,Rider Shortage,Medium,85,No
+T1067,Whitefield,2026-01-16,Payment Issue,Low,32,No
+T1068,Whitefield,2026-01-16,Rider No Show,Critical,21,Yes
+T1069,Whitefield,2026-01-16,Delivery Delay,High,54,Yes
+T1070,Whitefield,2026-01-17,Rider No Show,Low,79,No
+T1071,Whitefield,2026-01-17,App Issue,High,82,Yes
+T1072,Whitefield,2026-01-17,Delivery Delay,Low,63,No
+T1073,Whitefield,2026-01-17,Rider No Show,Low,66,No
+T1074,Whitefield,2026-01-17,Delivery Delay,Critical,43,Yes
+T1075,Whitefield,2026-01-17,Payment Issue,Low,35,No
+T1076,Whitefield,2026-01-17,Payment Issue,Low,23,No
+T1077,Whitefield,2026-01-18,Delivery Delay,Medium,61,No
+T1078,Whitefield,2026-01-18,Payment Issue,Critical,56,Yes
+T1079,Whitefield,2026-01-18,Rider Shortage,High,65,Yes
+T1080,Whitefield,2026-01-18,Rider Shortage,Critical,70,Yes
+T1081,Whitefield,2026-01-19,Payment Issue,Critical,84,Yes
+T1082,Whitefield,2026-01-19,Rider No Show,High,34,Yes
+T1083,Whitefield,2026-01-19,Rider Shortage,Critical,41,Yes
+T1084,Whitefield,2026-01-19,Delivery Delay,Medium,52,No
+T1085,Whitefield,2026-01-20,App Issue,High,68,Yes
+T1086,Whitefield,2026-01-20,App Issue,High,38,Yes
+T1087,Whitefield,2026-01-21,Payment Issue,Medium,77,No
+T1088,Whitefield,2026-01-21,Rider No Show,Critical,71,Yes
+T1089,Whitefield,2026-01-21,Payment Issue,Low,69,No
+T1090,Whitefield,2026-01-21,Payment Issue,High,74,Yes
+T1091,Whitefield,2026-01-22,Payment Issue,Low,76,No
+T1092,Whitefield,2026-01-22,Payment Issue,Medium,44,No
+T1093,Whitefield,2026-01-22,Payment Issue,Medium,36,No
+T1094,Whitefield,2026-01-22,Payment Issue,Low,89,No
+T1095,Whitefield,2026-01-23,Payment Issue,Low,43,No
+T1096,Whitefield,2026-01-23,Payment Issue,Low,55,No
+T1097,Whitefield,2026-01-23,Rider Shortage,Critical,56,Yes
+T1098,Whitefield,2026-01-23,Rider Shortage,Medium,79,No
+T1099,Whitefield,2026-01-23,App Issue,Critical,45,Yes
+T1100,Whitefield,2026-01-24,Rider No Show,Critical,32,Yes
+T1101,Whitefield,2026-01-24,App Issue,Low,31,No
+T1102,Whitefield,2026-01-24,App Issue,Medium,52,No
+T1103,Whitefield,2026-01-24,Rider Shortage,Low,28,No
+T1104,Whitefield,2026-01-24,Payment Issue,Critical,70,Yes
+T1105,Whitefield,2026-01-24,Rider No Show,Low,36,No
+T1106,Whitefield,2026-01-24,App Issue,High,81,Yes
+T1107,Whitefield,2026-01-25,Rider No Show,Critical,71,Yes
+T1108,Whitefield,2026-01-25,Rider Shortage,Medium,58,No
+T1109,Whitefield,2026-01-25,Payment Issue,Low,49,No
+T1110,Whitefield,2026-01-25,Rider Shortage,Low,15,No
+T1111,Whitefield,2026-01-26,Delivery Delay,High,84,Yes
+T1112,Whitefield,2026-01-26,Rider No Show,High,51,Yes
+T1113,Whitefield,2026-01-26,Payment Issue,Low,79,No
+T1114,Whitefield,2026-01-26,Rider No Show,Medium,65,No
+T1115,Whitefield,2026-01-26,Rider Shortage,Medium,15,No
+T1116,Whitefield,2026-01-27,Rider No Show,Medium,35,No
+T1117,Whitefield,2026-01-27,Payment Issue,Medium,67,No
+T1118,Whitefield,2026-01-27,Rider Shortage,Medium,30,No
+T1119,Whitefield,2026-01-27,Delivery Delay,Low,75,No
+T1120,Whitefield,2026-01-28,App Issue,Medium,54,No
+T1121,Whitefield,2026-01-28,Rider Shortage,Medium,40,No
+T1122,Whitefield,2026-01-28,Rider Shortage,High,79,Yes
+T1123,Whitefield,2026-01-28,Rider No Show,Critical,88,Yes
+T1124,Whitefield,2026-01-28,Rider Shortage,Critical,78,Yes
+T1125,Whitefield,2026-01-28,Rider No Show,Medium,57,No
+T1126,Whitefield,2026-01-28,Payment Issue,High,31,Yes
+T1127,Whitefield,2026-01-29,Rider Shortage,Low,73,No
+T1128,Whitefield,2026-01-29,Delivery Delay,Low,37,No
+T1129,Whitefield,2026-01-30,App Issue,Critical,67,Yes
+T1130,Whitefield,2026-01-30,Delivery Delay,Critical,85,Yes
+T1131,Whitefield,2026-01-30,Payment Issue,Low,48,No
+T1132,Whitefield,2026-01-30,Payment Issue,Medium,60,No
+T1133,Whitefield,2026-01-30,Delivery Delay,Medium,82,No
+T1134,Whitefield,2026-01-31,Rider No Show,Critical,30,Yes
+T1135,Whitefield,2026-01-31,Rider No Show,High,85,Yes
+T1136,Whitefield,2026-01-31,Payment Issue,Low,33,No
+T1137,Whitefield,2026-01-31,Payment Issue,High,16,Yes
+T1138,Whitefield,2026-01-31,App Issue,Critical,24,Yes
+T1139,Whitefield,2026-01-31,Rider Shortage,Medium,64,No
+T1140,Whitefield,2026-01-31,Rider Shortage,Critical,26,Yes
+T1141,Whitefield,2026-02-01,Rider No Show,Low,36,No
+T1142,Whitefield,2026-02-01,Delivery Delay,Critical,46,Yes
+T1143,Whitefield,2026-02-01,App Issue,High,15,Yes
+T1144,Whitefield,2026-02-01,Rider Shortage,Critical,68,Yes
+T1145,Whitefield,2026-02-01,Rider Shortage,High,72,Yes
+T1146,Whitefield,2026-02-01,Rider Shortage,High,84,Yes
+T1147,Whitefield,2026-02-01,Payment Issue,Low,32,No
+T1148,Whitefield,2026-02-02,Delivery Delay,Critical,59,Yes
+T1149,Whitefield,2026-02-02,Rider Shortage,Critical,37,Yes
+T1150,Whitefield,2026-02-02,Rider No Show,Medium,37,No
+T1151,Whitefield,2026-02-02,App Issue,High,40,Yes
+T1152,Whitefield,2026-02-02,Rider Shortage,Low,21,No
+T1153,Whitefield,2026-02-02,Payment Issue,Low,58,No
+T1154,Whitefield,2026-02-02,Payment Issue,Critical,41,Yes
+T1155,Whitefield,2026-02-03,Delivery Delay,Critical,50,Yes
+T1156,Whitefield,2026-02-03,Rider Shortage,High,69,Yes
+T1157,Whitefield,2026-02-03,Delivery Delay,Medium,78,No
+T1158,Whitefield,2026-02-04,Rider No Show,Low,71,No
+T1159,Whitefield,2026-02-04,Rider No Show,Low,83,No
+T1160,Whitefield,2026-02-04,App Issue,High,75,Yes
+T1161,Whitefield,2026-02-04,Payment Issue,High,16,Yes
+T1162,Whitefield,2026-02-05,Delivery Delay,High,52,Yes
+T1163,Whitefield,2026-02-05,Delivery Delay,Medium,43,No
+T1164,Whitefield,2026-02-05,Payment Issue,Critical,40,Yes
+T1165,Whitefield,2026-02-06,Rider Shortage,Critical,81,Yes
+T1166,Whitefield,2026-02-06,App Issue,Low,43,No
+T1167,Whitefield,2026-02-06,Delivery Delay,Low,48,No
+T1168,Whitefield,2026-02-06,Delivery Delay,Critical,55,Yes
+T1169,Whitefield,2026-02-07,App Issue,Critical,37,Yes
+T1170,Whitefield,2026-02-07,App Issue,High,85,Yes
+T1171,Whitefield,2026-02-08,Rider No Show,Critical,72,Yes
+T1172,Whitefield,2026-02-08,Delivery Delay,Low,46,No
+T1173,Whitefield,2026-02-08,Rider Shortage,High,45,Yes
+T1174,Whitefield,2026-02-08,Delivery Delay,High,57,Yes
+T1175,Whitefield,2026-02-09,Rider Shortage,High,15,Yes
+T1176,Whitefield,2026-02-09,Rider No Show,Low,75,No
+T1177,Whitefield,2026-02-10,Rider No Show,Critical,66,Yes
+T1178,Whitefield,2026-02-10,Rider Shortage,Critical,20,Yes
+T1179,Whitefield,2026-02-10,Delivery Delay,Low,24,No
+T1180,Whitefield,2026-02-10,Rider Shortage,Low,85,No
+T1181,Whitefield,2026-02-10,App Issue,Medium,44,No
+T1182,Whitefield,2026-02-10,App Issue,Medium,35,No
+T1183,Whitefield,2026-02-10,Delivery Delay,Medium,74,No
+T1184,Whitefield,2026-02-11,App Issue,Medium,88,No
+T1185,Whitefield,2026-02-11,Rider Shortage,Low,77,No
+T1186,Whitefield,2026-02-12,Delivery Delay,Medium,65,No
+T1187,Whitefield,2026-02-12,Rider No Show,Critical,78,Yes
+T1188,Whitefield,2026-02-12,Rider Shortage,Low,70,No
+T1189,Whitefield,2026-02-13,App Issue,Critical,46,Yes
+T1190,Whitefield,2026-02-13,Payment Issue,Medium,29,No
+T1191,Whitefield,2026-02-14,Payment Issue,High,41,Yes
+T1192,Whitefield,2026-02-14,App Issue,Medium,42,No
+T1193,Whitefield,2026-02-14,Delivery Delay,Medium,78,No
+T1194,Whitefield,2026-02-14,App Issue,High,73,Yes
+T1195,Whitefield,2026-02-14,App Issue,Low,72,No
+T1196,Whitefield,2026-02-14,App Issue,High,16,Yes
+T1197,Whitefield,2026-02-14,Rider Shortage,High,50,Yes
+T1198,Whitefield,2026-02-15,Rider Shortage,Critical,85,Yes
+T1199,Whitefield,2026-02-15,Rider No Show,Critical,27,Yes
+T1200,Whitefield,2026-02-15,App Issue,Medium,29,No
+T1201,Whitefield,2026-02-16,Rider No Show,Critical,74,Yes
+T1202,Whitefield,2026-02-16,Delivery Delay,High,36,Yes
+T1203,Whitefield,2026-02-17,Rider Shortage,High,89,Yes
+T1204,Whitefield,2026-02-17,Delivery Delay,Critical,88,Yes
+T1205,Whitefield,2026-02-17,Rider No Show,Low,39,No
+T1206,Whitefield,2026-02-18,Delivery Delay,Low,62,No
+T1207,Whitefield,2026-02-18,Delivery Delay,Critical,57,Yes
+T1208,Whitefield,2026-02-18,Rider No Show,Low,52,No
+T1209,Whitefield,2026-02-18,Payment Issue,High,55,Yes
+T1210,Whitefield,2026-02-18,Rider No Show,Low,59,No
+T1211,Whitefield,2026-02-18,Delivery Delay,Critical,54,Yes
+T1212,Whitefield,2026-02-19,Delivery Delay,Low,31,No
+T1213,Whitefield,2026-02-19,App Issue,Critical,71,Yes
+T1214,Whitefield,2026-02-19,Rider Shortage,Low,16,No
+T1215,Whitefield,2026-02-19,Rider No Show,Critical,76,Yes
+T1216,Whitefield,2026-02-19,Payment Issue,Medium,23,No
+T1217,Whitefield,2026-02-19,Rider No Show,High,82,Yes
+T1218,Whitefield,2026-02-19,Rider No Show,High,31,Yes
+T1219,Whitefield,2026-02-20,Delivery Delay,Low,64,No
+T1220,Whitefield,2026-02-20,Payment Issue,High,54,Yes
+T1221,Whitefield,2026-02-20,Payment Issue,Low,72,No
+T1222,Whitefield,2026-02-20,Payment Issue,Low,89,No
+T1223,Whitefield,2026-02-20,Delivery Delay,Medium,35,No
+T1224,Whitefield,2026-02-20,Rider Shortage,Medium,32,No
+T1225,Whitefield,2026-02-21,Delivery Delay,Medium,38,No
+T1226,Whitefield,2026-02-21,Delivery Delay,Medium,88,No
+T1227,Whitefield,2026-02-21,Rider No Show,High,31,Yes
+T1228,Whitefield,2026-02-21,Rider No Show,Critical,32,Yes
+T1229,Whitefield,2026-02-21,Delivery Delay,Low,56,No
+T1230,Whitefield,2026-02-21,Rider No Show,Critical,59,Yes
+T1231,Whitefield,2026-02-22,App Issue,Critical,31,Yes
+T1232,Whitefield,2026-02-22,Delivery Delay,High,87,Yes
+T1233,Whitefield,2026-02-22,Rider No Show,Critical,28,Yes
+T1234,Whitefield,2026-02-23,Payment Issue,Critical,43,Yes
+T1235,Whitefield,2026-02-23,Delivery Delay,High,18,Yes
+T1236,Whitefield,2026-02-24,Rider No Show,Medium,34,No
+T1237,Whitefield,2026-02-24,App Issue,Low,61,No
+T1238,Whitefield,2026-02-24,App Issue,Low,23,No
+T1239,Whitefield,2026-02-25,Rider No Show,High,41,Yes
+T1240,Whitefield,2026-02-25,Delivery Delay,Medium,29,No
+T1241,Whitefield,2026-02-25,Rider No Show,Low,33,No
+T1242,Whitefield,2026-02-25,Payment Issue,High,66,Yes
+T1243,Whitefield,2026-02-25,App Issue,Medium,40,No
+T1244,Whitefield,2026-02-25,Payment Issue,Medium,40,No
+T1245,Whitefield,2026-02-26,Payment Issue,Low,60,No
+T1246,Whitefield,2026-02-26,App Issue,Low,63,No
+T1247,Whitefield,2026-02-26,Rider Shortage,Critical,67,Yes
+T1248,Whitefield,2026-02-27,Rider No Show,Low,80,No
+T1249,Whitefield,2026-02-27,Payment Issue,Low,56,No
+T1250,Whitefield,2026-02-27,App Issue,High,33,Yes
+T1251,Whitefield,2026-02-27,Delivery Delay,High,31,Yes
+T1252,Whitefield,2026-02-28,Delivery Delay,High,47,Yes
+T1253,Whitefield,2026-02-28,App Issue,High,63,Yes
+T1254,Whitefield,2026-02-28,App Issue,Medium,70,No
+T1255,Whitefield,2026-02-28,Payment Issue,Critical,77,Yes
+T1256,Whitefield,2026-02-28,Payment Issue,Critical,17,Yes
+T1257,Whitefield,2026-03-01,Delivery Delay,Medium,63,No
+T1258,Whitefield,2026-03-01,Rider No Show,Critical,69,Yes
+T1259,Whitefield,2026-03-01,App Issue,Low,40,No
+T1260,Whitefield,2026-03-01,App Issue,High,86,Yes
+T1261,Whitefield,2026-03-02,Rider No Show,Critical,21,Yes
+T1262,Whitefield,2026-03-02,Delivery Delay,High,60,Yes
+T1263,Whitefield,2026-03-02,Payment Issue,Medium,60,No
+T1264,Whitefield,2026-03-02,Payment Issue,Medium,30,No
+T1265,Whitefield,2026-03-02,Rider No Show,Low,38,No
+T1266,Whitefield,2026-03-02,Delivery Delay,High,75,Yes
+T1267,Whitefield,2026-03-02,Payment Issue,Critical,68,Yes
+T1268,Whitefield,2026-03-02,Payment Issue,Low,76,No
+T1269,Whitefield,2026-03-03,Delivery Delay,High,39,Yes
+T1270,Whitefield,2026-03-03,Payment Issue,Medium,24,No
+T1271,Whitefield,2026-03-03,Payment Issue,Medium,30,No
+T1272,Whitefield,2026-03-03,Payment Issue,Medium,72,No
+T1273,Whitefield,2026-03-03,App Issue,High,86,Yes
+T1274,Whitefield,2026-03-04,App Issue,High,20,Yes
+T1275,Whitefield,2026-03-04,Rider No Show,Critical,30,Yes
+T1276,Whitefield,2026-03-04,Delivery Delay,Critical,34,Yes
+T1277,Whitefield,2026-03-04,Payment Issue,Low,85,No
+T1278,Whitefield,2026-03-04,App Issue,Medium,57,No
+T1279,Whitefield,2026-03-04,App Issue,Critical,40,Yes
+T1280,Whitefield,2026-03-04,Delivery Delay,High,85,Yes
+T1281,Whitefield,2026-03-04,Delivery Delay,High,47,Yes
+T1282,Whitefield,2026-03-04,Delivery Delay,High,40,Yes
+T1283,Whitefield,2026-03-04,App Issue,Medium,59,No
+T1284,Whitefield,2026-03-04,Rider No Show,High,77,Yes
+T1285,Whitefield,2026-03-05,Payment Issue,Low,40,No
+T1286,Whitefield,2026-03-05,Rider Shortage,Critical,89,Yes
+T1287,Whitefield,2026-03-05,Delivery Delay,High,16,Yes
+T1288,Whitefield,2026-03-05,Rider Shortage,High,28,Yes
+T1289,Whitefield,2026-03-05,App Issue,Medium,44,No
+T1290,Whitefield,2026-03-05,Delivery Delay,Low,63,No
+T1291,Whitefield,2026-03-05,Delivery Delay,High,26,Yes
+T1292,Whitefield,2026-03-06,Rider Shortage,High,27,Yes
+T1293,Whitefield,2026-03-06,Delivery Delay,High,40,Yes
+T1294,Whitefield,2026-03-06,App Issue,Critical,35,Yes
+T1295,Whitefield,2026-03-06,Payment Issue,Medium,42,No
+T1296,Whitefield,2026-03-06,App Issue,Low,62,No
+T1297,Whitefield,2026-03-06,Payment Issue,High,54,Yes
+T1298,Whitefield,2026-03-07,App Issue,Low,87,No
+T1299,Whitefield,2026-03-07,Delivery Delay,High,37,Yes
+T1300,Whitefield,2026-03-07,Delivery Delay,High,62,Yes
+T1301,Whitefield,2026-03-07,Rider Shortage,High,16,Yes
+T1302,Whitefield,2026-03-07,Delivery Delay,Low,34,No
+T1303,Whitefield,2026-03-07,Rider No Show,High,73,Yes
+T1304,Whitefield,2026-03-07,Delivery Delay,Low,60,No
+T1305,Whitefield,2026-03-08,Delivery Delay,Medium,26,No
+T1306,Whitefield,2026-03-08,Delivery Delay,Medium,54,No
+T1307,Whitefield,2026-03-08,Rider No Show,Critical,80,Yes
+T1308,Whitefield,2026-03-08,App Issue,Low,30,No
+T1309,Whitefield,2026-03-08,Delivery Delay,High,48,Yes
+T1310,Whitefield,2026-03-08,Payment Issue,Medium,58,No
+T1311,Whitefield,2026-03-08,Rider Shortage,High,20,Yes
+T1312,Whitefield,2026-03-08,Rider Shortage,Medium,78,No
+T1313,Whitefield,2026-03-08,Delivery Delay,High,36,Yes
+T1314,Whitefield,2026-03-09,Payment Issue,Critical,65,Yes
+T1315,Whitefield,2026-03-09,App Issue,Low,85,No
+T1316,Whitefield,2026-03-09,Rider Shortage,Low,62,No
+T1317,Whitefield,2026-03-09,Payment Issue,Medium,33,No
+T1318,Whitefield,2026-03-09,Rider No Show,Low,20,No
+T1319,Whitefield,2026-03-09,App Issue,Medium,41,No
+T1320,Whitefield,2026-03-09,Delivery Delay,High,67,Yes
+T1321,Whitefield,2026-03-09,Rider No Show,Low,62,No
+T1322,Whitefield,2026-03-10,App Issue,Critical,25,Yes
+T1323,Whitefield,2026-03-10,Rider No Show,Medium,29,No
+T1324,Whitefield,2026-03-10,App Issue,Critical,78,Yes
+T1325,Whitefield,2026-03-10,Rider No Show,Medium,17,No
+T1326,Whitefield,2026-03-10,App Issue,Critical,83,Yes
+T1327,Whitefield,2026-03-10,Payment Issue,Low,37,No
+T1328,Whitefield,2026-03-10,App Issue,Critical,67,Yes
+T1329,Whitefield,2026-03-11,Rider Shortage,High,29,Yes
+T1330,Whitefield,2026-03-11,Payment Issue,Medium,17,No
+T1331,Whitefield,2026-03-11,Rider Shortage,Medium,84,No
+T1332,Whitefield,2026-03-11,App Issue,High,31,Yes
+T1333,Whitefield,2026-03-11,Payment Issue,Low,40,No
+T1334,Whitefield,2026-03-11,Delivery Delay,Critical,35,Yes
+T1335,Whitefield,2026-03-11,Delivery Delay,High,86,Yes
+T1336,Whitefield,2026-03-11,Rider No Show,Medium,35,No
+T1337,Whitefield,2026-03-11,Payment Issue,Critical,25,Yes
+T1338,Whitefield,2026-03-12,Payment Issue,Medium,49,No
+T1339,Whitefield,2026-03-12,Delivery Delay,Medium,28,No
+T1340,Whitefield,2026-03-12,Delivery Delay,Medium,28,No
+T1341,Whitefield,2026-03-12,Rider Shortage,High,24,Yes
+T1342,Whitefield,2026-03-12,Rider No Show,Medium,26,No
+T1343,Whitefield,2026-03-12,Delivery Delay,Low,52,No
+T1344,Whitefield,2026-03-12,App Issue,High,48,Yes
+T1345,Whitefield,2026-03-12,App Issue,Low,55,No
+T1346,Whitefield,2026-03-12,Rider No Show,High,24,Yes
+T1347,Whitefield,2026-03-12,App Issue,Critical,31,Yes
+T1348,Whitefield,2026-03-12,Delivery Delay,High,31,Yes
+T1349,Whitefield,2026-03-13,Payment Issue,High,15,Yes
+T1350,Whitefield,2026-03-13,App Issue,Critical,26,Yes
+T1351,Whitefield,2026-03-13,Delivery Delay,Low,18,No
+T1352,Whitefield,2026-03-13,Rider Shortage,Critical,56,Yes
+T1353,Whitefield,2026-03-13,Delivery Delay,Low,27,No
+T1354,Whitefield,2026-03-13,Payment Issue,Medium,18,No
+T1355,Whitefield,2026-03-13,Payment Issue,Low,83,No
+T1356,Whitefield,2026-03-13,Rider No Show,High,33,Yes
+T1357,Whitefield,2026-03-14,Payment Issue,Critical,88,Yes
+T1358,Whitefield,2026-03-14,App Issue,Low,20,No
+T1359,Whitefield,2026-03-14,Rider Shortage,Low,22,No
+T1360,Whitefield,2026-03-14,App Issue,Medium,65,No
+T1361,Whitefield,2026-03-14,Rider No Show,Low,25,No
+T1362,Whitefield,2026-03-14,App Issue,High,77,Yes
+T1363,Whitefield,2026-03-15,Rider Shortage,Critical,26,Yes
+T1364,Whitefield,2026-03-15,App Issue,Low,87,No
+T1365,Whitefield,2026-03-15,Payment Issue,Medium,16,No
+T1366,Whitefield,2026-03-15,Rider No Show,High,22,Yes
+T1367,Whitefield,2026-03-15,Rider No Show,Low,25,No
+T1368,Whitefield,2026-03-15,Payment Issue,High,67,Yes
+T1369,Whitefield,2026-03-15,Payment Issue,High,24,Yes
+T1370,Whitefield,2026-03-16,App Issue,Low,28,No
+T1371,Whitefield,2026-03-16,Delivery Delay,High,68,Yes
+T1372,Whitefield,2026-03-16,Rider Shortage,High,35,Yes
+T1373,Whitefield,2026-03-16,Rider No Show,Critical,64,Yes
+T1374,Whitefield,2026-03-16,Rider Shortage,Medium,53,No
+T1375,Whitefield,2026-03-16,Rider Shortage,Low,34,No
+T1376,Whitefield,2026-03-16,App Issue,Low,21,No
+T1377,Whitefield,2026-03-16,Payment Issue,Medium,23,No
+T1378,Whitefield,2026-03-16,Delivery Delay,Critical,15,Yes
+T1379,Whitefield,2026-03-17,Payment Issue,Low,52,No
+T1380,Whitefield,2026-03-17,Rider No Show,High,75,Yes
+T1381,Whitefield,2026-03-17,Delivery Delay,Critical,58,Yes
+T1382,Whitefield,2026-03-17,Rider Shortage,Critical,58,Yes
+T1383,Whitefield,2026-03-17,Payment Issue,Medium,88,No
+T1384,Whitefield,2026-03-17,Delivery Delay,High,76,Yes
+T1385,Whitefield,2026-03-17,App Issue,Medium,20,No
+T1386,Whitefield,2026-03-18,Rider Shortage,Low,52,No
+T1387,Whitefield,2026-03-18,Rider No Show,Medium,38,No
+T1388,Whitefield,2026-03-18,Payment Issue,Critical,65,Yes
+T1389,Whitefield,2026-03-18,Payment Issue,Medium,24,No
+T1390,Whitefield,2026-03-18,App Issue,Low,86,No
+T1391,Whitefield,2026-03-18,Payment Issue,Medium,35,No
+T1392,Whitefield,2026-03-18,Delivery Delay,Critical,84,Yes
+T1393,Whitefield,2026-03-19,Rider No Show,Low,53,No
+T1394,Whitefield,2026-03-19,App Issue,High,47,Yes
+T1395,Whitefield,2026-03-19,Rider Shortage,Medium,73,No
+T1396,Whitefield,2026-03-19,Rider Shortage,High,32,Yes
+T1397,Whitefield,2026-03-19,Rider No Show,Medium,70,No
+T1398,Whitefield,2026-03-19,Rider Shortage,High,71,Yes
+T1399,Whitefield,2026-03-19,Payment Issue,Medium,62,No
+T1400,Whitefield,2026-03-19,Rider No Show,High,56,Yes
+T1401,Whitefield,2026-03-19,Rider No Show,Medium,41,No
+T1402,Whitefield,2026-03-20,Rider Shortage,Critical,66,Yes
+T1403,Whitefield,2026-03-20,Rider No Show,Low,56,No
+T1404,Whitefield,2026-03-20,Rider Shortage,High,46,Yes
+T1405,Whitefield,2026-03-20,Rider Shortage,Critical,40,Yes
+T1406,Whitefield,2026-03-20,App Issue,Critical,39,Yes
+T1407,Whitefield,2026-03-20,Delivery Delay,High,89,Yes
+T1408,Whitefield,2026-03-20,App Issue,Critical,37,Yes
+T1409,Whitefield,2026-03-21,Payment Issue,Medium,66,No
+T1410,Whitefield,2026-03-21,Rider No Show,High,45,Yes
+T1411,Whitefield,2026-03-21,Rider No Show,Critical,78,Yes
+T1412,Whitefield,2026-03-21,Payment Issue,Low,85,No
+T1413,Whitefield,2026-03-21,Payment Issue,High,47,Yes
+T1414,Whitefield,2026-03-21,Delivery Delay,Medium,16,No
+T1415,Whitefield,2026-03-22,Payment Issue,Medium,47,No
+T1416,Whitefield,2026-03-22,Rider Shortage,Medium,49,No
+T1417,Whitefield,2026-03-22,App Issue,Low,65,No
+T1418,Whitefield,2026-03-22,Rider No Show,High,32,Yes
+T1419,Whitefield,2026-03-22,Payment Issue,Low,86,No
+T1420,Whitefield,2026-03-22,App Issue,Medium,44,No
+T1421,Whitefield,2026-03-22,Delivery Delay,Medium,58,No
+T1422,Whitefield,2026-03-22,Delivery Delay,Medium,67,No
+T1423,Whitefield,2026-03-23,Delivery Delay,Medium,66,No
+T1424,Whitefield,2026-03-23,Delivery Delay,Low,63,No
+T1425,Whitefield,2026-03-23,Delivery Delay,Medium,25,No
+T1426,Whitefield,2026-03-23,Payment Issue,Low,80,No
+T1427,Whitefield,2026-03-23,Payment Issue,High,72,Yes
+T1428,Whitefield,2026-03-23,Rider No Show,Medium,50,No
+T1429,Whitefield,2026-03-23,Delivery Delay,Medium,47,No
+T1430,Whitefield,2026-03-23,Delivery Delay,Critical,61,Yes
+T1431,Whitefield,2026-03-24,Payment Issue,High,82,Yes
+T1432,Whitefield,2026-03-24,Rider Shortage,Medium,56,No
+T1433,Whitefield,2026-03-24,App Issue,High,33,Yes
+T1434,Whitefield,2026-03-24,Delivery Delay,Critical,33,Yes
+T1435,Whitefield,2026-03-24,App Issue,Critical,72,Yes
+T1436,Whitefield,2026-03-24,Rider Shortage,Low,37,No
+T1437,Whitefield,2026-03-24,Payment Issue,Low,68,No
+T1438,Whitefield,2026-03-24,Rider Shortage,Low,79,No
+T1439,Whitefield,2026-03-24,Payment Issue,High,26,Yes
+T1440,Whitefield,2026-03-25,Rider No Show,Low,22,No
+T1441,Whitefield,2026-03-25,Rider Shortage,Medium,32,No
+T1442,Whitefield,2026-03-25,Payment Issue,Medium,71,No
+T1443,Whitefield,2026-03-25,App Issue,Medium,19,No
+T1444,Whitefield,2026-03-25,Rider No Show,Critical,40,Yes
+T1445,Whitefield,2026-03-25,Rider Shortage,High,44,Yes
+T1446,Whitefield,2026-03-26,App Issue,Low,43,No
+T1447,Whitefield,2026-03-26,App Issue,Low,17,No
+T1448,Whitefield,2026-03-26,Delivery Delay,Critical,72,Yes
+T1449,Whitefield,2026-03-26,Rider No Show,Medium,16,No
+T1450,Whitefield,2026-03-26,Payment Issue,High,89,Yes
+T1451,Whitefield,2026-03-26,Rider No Show,Low,42,No
+T1452,Whitefield,2026-03-26,Rider Shortage,High,16,Yes
+T1453,Whitefield,2026-03-26,Rider Shortage,Critical,21,Yes
+T1454,Whitefield,2026-03-26,Rider No Show,Medium,40,No
+T1455,Whitefield,2026-03-26,Rider No Show,Critical,30,Yes
+T1456,Whitefield,2026-03-27,Payment Issue,Low,46,No
+T1457,Whitefield,2026-03-27,Delivery Delay,Low,29,No
+T1458,Whitefield,2026-03-27,Payment Issue,High,27,Yes
+T1459,Whitefield,2026-03-27,Delivery Delay,Critical,19,Yes
+T1460,Whitefield,2026-03-27,Delivery Delay,Low,89,No
+T1461,Whitefield,2026-03-27,Rider Shortage,Critical,88,Yes
+T1462,Whitefield,2026-03-27,Rider No Show,High,66,Yes
+T1463,Whitefield,2026-03-27,Rider No Show,High,55,Yes
+T1464,Whitefield,2026-03-27,App Issue,Medium,67,No
+T1465,Whitefield,2026-03-27,Payment Issue,High,64,Yes
+T1466,Whitefield,2026-03-28,App Issue,Low,21,No
+T1467,Whitefield,2026-03-28,Rider No Show,Low,54,No
+T1468,Whitefield,2026-03-28,Delivery Delay,Low,42,No
+T1469,Whitefield,2026-03-28,App Issue,Low,46,No
+T1470,Whitefield,2026-03-28,Delivery Delay,Medium,29,No
+T1471,Whitefield,2026-03-28,Rider Shortage,Low,84,No
+T1472,Whitefield,2026-03-28,Rider No Show,High,79,Yes
+T1473,Whitefield,2026-03-28,App Issue,Low,18,No
+T1474,Whitefield,2026-03-29,Rider No Show,Low,75,No
+T1475,Whitefield,2026-03-29,Rider No Show,Critical,51,Yes
+T1476,Whitefield,2026-03-29,App Issue,Medium,37,No
+T1477,Whitefield,2026-03-29,Rider Shortage,Low,54,No
+T1478,Whitefield,2026-03-29,App Issue,Medium,37,No
+T1479,Whitefield,2026-03-29,Payment Issue,High,30,Yes
+T1480,Whitefield,2026-03-29,App Issue,High,75,Yes
+T1481,Whitefield,2026-03-29,Delivery Delay,Critical,82,Yes
+T1482,Whitefield,2026-03-30,Payment Issue,Low,39,No
+T1483,Whitefield,2026-03-30,App Issue,Medium,58,No
+T1484,Whitefield,2026-03-30,Rider Shortage,Low,26,No
+T1485,Whitefield,2026-03-30,App Issue,Medium,23,No
+T1486,Whitefield,2026-03-30,Payment Issue,Medium,26,No
+T1487,Whitefield,2026-03-30,Rider Shortage,Medium,83,No
+T1488,Whitefield,2026-03-30,Rider Shortage,High,68,Yes
+T1489,Whitefield,2026-03-30,Payment Issue,Low,68,No
+T1490,Whitefield,2026-03-30,Rider No Show,Medium,42,No
+T1491,Whitefield,2026-03-30,Payment Issue,Critical,70,Yes
+T1492,Whitefield,2026-03-31,Rider Shortage,Critical,72,Yes
+T1493,Whitefield,2026-03-31,Rider Shortage,Low,89,No
+T1494,Whitefield,2026-03-31,App Issue,High,56,Yes
+T1495,Whitefield,2026-03-31,Payment Issue,High,52,Yes
+T1496,Whitefield,2026-03-31,Rider No Show,Medium,82,No
+T1497,Whitefield,2026-03-31,Payment Issue,Medium,67,No
+T1498,Whitefield,2026-03-31,App Issue,Critical,47,Yes
+T1499,Whitefield,2026-04-01,Payment Issue,High,65,Yes
+T1500,Whitefield,2026-04-01,App Issue,Critical,88,Yes
+T1501,Whitefield,2026-04-01,Delivery Delay,Medium,57,No
+T1502,Whitefield,2026-04-01,Rider No Show,Medium,29,No
+T1503,Whitefield,2026-04-01,Rider Shortage,Low,52,No
+T1504,Whitefield,2026-04-02,Delivery Delay,Low,68,No
+T1505,Whitefield,2026-04-02,App Issue,Critical,65,Yes
+T1506,Whitefield,2026-04-02,Payment Issue,Medium,24,No
+T1507,Whitefield,2026-04-02,Delivery Delay,High,26,Yes
+T1508,Whitefield,2026-04-02,Payment Issue,High,18,Yes
+T1509,Whitefield,2026-04-02,Payment Issue,High,32,Yes
+T1510,Whitefield,2026-04-02,Payment Issue,Critical,50,Yes
+T1511,Whitefield,2026-04-02,Rider Shortage,Medium,39,No
+T1512,Whitefield,2026-04-02,App Issue,High,50,Yes
+T1513,Whitefield,2026-04-03,Delivery Delay,High,23,Yes
+T1514,Whitefield,2026-04-03,Rider No Show,High,75,Yes
+T1515,Whitefield,2026-04-03,Rider No Show,Low,67,No
+T1516,Whitefield,2026-04-03,App Issue,Medium,32,No
+T1517,Whitefield,2026-04-03,App Issue,Critical,57,Yes
+T1518,Whitefield,2026-04-03,Delivery Delay,Medium,49,No
+T1519,Whitefield,2026-04-03,Rider No Show,Critical,77,Yes
+T1520,Whitefield,2026-04-03,Payment Issue,Medium,18,No
+T1521,Whitefield,2026-04-03,Rider No Show,High,55,Yes
+T1522,Whitefield,2026-04-03,Payment Issue,Critical,59,Yes
+T1523,Whitefield,2026-04-03,Rider Shortage,High,64,Yes
+T1524,Whitefield,2026-04-04,App Issue,Low,83,No
+T1525,Whitefield,2026-04-04,Delivery Delay,Low,15,No
+T1526,Whitefield,2026-04-04,App Issue,High,53,Yes
+T1527,Whitefield,2026-04-04,Rider No Show,Medium,31,No
+T1528,Whitefield,2026-04-04,Rider Shortage,High,49,Yes
+T1529,Whitefield,2026-04-04,Rider Shortage,Medium,60,No
+T1530,Whitefield,2026-04-04,App Issue,Low,56,No
+T1531,Whitefield,2026-04-04,App Issue,Medium,53,No
+T1532,Whitefield,2026-04-04,Delivery Delay,Medium,63,No
+T1533,Whitefield,2026-04-05,Rider Shortage,Low,37,No
+T1534,Whitefield,2026-04-05,Delivery Delay,Low,36,No
+T1535,Whitefield,2026-04-05,Rider Shortage,Low,18,No
+T1536,Whitefield,2026-04-05,Payment Issue,High,63,Yes
+T1537,Whitefield,2026-04-05,Rider No Show,Critical,73,Yes
+T1538,Whitefield,2026-04-05,Payment Issue,Critical,87,Yes
+T1539,Whitefield,2026-04-05,Payment Issue,Medium,82,No
+T1540,Whitefield,2026-04-05,Rider Shortage,Critical,85,Yes
+T1541,Whitefield,2026-04-05,Payment Issue,Critical,16,Yes
+T1542,Whitefield,2026-04-05,App Issue,Low,63,No
+T1543,Whitefield,2026-04-05,Rider Shortage,Low,45,No
+T1544,Whitefield,2026-04-06,Rider Shortage,Critical,69,Yes
+T1545,Whitefield,2026-04-06,Rider No Show,Medium,63,No
+T1546,Whitefield,2026-04-06,Rider No Show,Medium,71,No
+T1547,Whitefield,2026-04-06,Rider Shortage,Low,29,No
+T1548,Whitefield,2026-04-06,Payment Issue,Low,41,No
+T1549,Whitefield,2026-04-06,Payment Issue,High,82,Yes
+T1550,Whitefield,2026-04-06,App Issue,High,78,Yes
+T1551,Whitefield,2026-04-06,App Issue,Low,44,No
+T1552,Whitefield,2026-04-06,Rider Shortage,Low,50,No
+T1553,Whitefield,2026-04-07,App Issue,Low,63,No
+T1554,Whitefield,2026-04-07,App Issue,Medium,69,No
+T1555,Whitefield,2026-04-07,Payment Issue,Medium,70,No
+T1556,Whitefield,2026-04-07,App Issue,Medium,82,No
+T1557,Whitefield,2026-04-07,Rider Shortage,Medium,58,No
+T1558,Whitefield,2026-04-07,Rider Shortage,Critical,45,Yes
+T1559,Whitefield,2026-04-07,Payment Issue,High,72,Yes
+T1560,Whitefield,2026-04-07,App Issue,Medium,67,No
+T1561,Whitefield,2026-04-08,Rider Shortage,Low,37,No
+T1562,Whitefield,2026-04-08,Rider Shortage,Medium,42,No
+T1563,Whitefield,2026-04-08,Delivery Delay,Critical,30,Yes
+T1564,Whitefield,2026-04-08,Payment Issue,High,51,Yes
+T1565,Whitefield,2026-04-08,Rider No Show,Critical,35,Yes
+T1566,Whitefield,2026-04-08,App Issue,High,31,Yes
+T1567,Whitefield,2026-04-08,Rider Shortage,Critical,51,Yes
+T1568,Whitefield,2026-04-08,Delivery Delay,High,33,Yes
+T1569,Whitefield,2026-04-08,Delivery Delay,Low,44,No
+T1570,Whitefield,2026-04-08,Payment Issue,Low,59,No
+T1571,Whitefield,2026-04-09,Payment Issue,Critical,76,Yes
+T1572,Whitefield,2026-04-09,Payment Issue,Low,50,No
+T1573,Whitefield,2026-04-09,Delivery Delay,High,66,Yes
+T1574,Whitefield,2026-04-09,Payment Issue,Medium,33,No
+T1575,Whitefield,2026-04-09,App Issue,Medium,58,No
+T1576,Whitefield,2026-04-09,Rider Shortage,Critical,21,Yes
+T1577,Whitefield,2026-04-09,Rider No Show,Critical,58,Yes
+T1578,Whitefield,2026-04-10,Payment Issue,Critical,48,Yes
+T1579,Whitefield,2026-04-10,Rider No Show,Low,80,No
+T1580,Whitefield,2026-04-10,Payment Issue,Critical,83,Yes
+T1581,Whitefield,2026-04-10,Delivery Delay,Critical,69,Yes
+T1582,Whitefield,2026-04-10,Payment Issue,High,24,Yes
+T1583,Whitefield,2026-04-10,Payment Issue,Low,56,No
+T1584,Whitefield,2026-04-10,Payment Issue,Critical,55,Yes
+T1585,Whitefield,2026-04-10,Delivery Delay,High,83,Yes
+T1586,Whitefield,2026-04-10,Rider Shortage,High,24,Yes
+T1587,Whitefield,2026-04-10,App Issue,High,24,Yes
+T1588,Whitefield,2026-04-10,Payment Issue,High,74,Yes
+T1589,Whitefield,2026-04-11,Rider Shortage,High,22,Yes
+T1590,Whitefield,2026-04-11,App Issue,High,79,Yes
+T1591,Whitefield,2026-04-11,Rider No Show,Medium,44,No
+T1592,Whitefield,2026-04-11,Rider No Show,Low,63,No
+T1593,Whitefield,2026-04-11,App Issue,High,23,Yes
+T1594,Whitefield,2026-04-11,Rider Shortage,Medium,31,No
+T1595,Whitefield,2026-04-11,Rider Shortage,Low,83,No
+T1596,Whitefield,2026-04-12,Delivery Delay,Critical,76,Yes
+T1597,Whitefield,2026-04-12,Rider No Show,Medium,66,No
+T1598,Whitefield,2026-04-12,Payment Issue,High,75,Yes
+T1599,Whitefield,2026-04-12,App Issue,Low,54,No
+T1600,Whitefield,2026-04-12,Rider No Show,Critical,52,Yes
+T1601,Whitefield,2026-04-12,Payment Issue,Low,57,No
+T1602,Whitefield,2026-04-13,Rider Shortage,High,47,Yes
+T1603,Whitefield,2026-04-13,Payment Issue,Low,27,No
+T1604,Whitefield,2026-04-13,Rider No Show,Low,76,No
+T1605,Whitefield,2026-04-13,Delivery Delay,Low,57,No
+T1606,Whitefield,2026-04-13,Rider No Show,High,63,Yes
+T1607,Whitefield,2026-04-13,Rider Shortage,Critical,50,Yes
+T1608,Whitefield,2026-04-13,Delivery Delay,Medium,24,No
+T1609,Whitefield,2026-04-13,Rider Shortage,Critical,20,Yes
+T1610,Whitefield,2026-04-14,App Issue,High,85,Yes
+T1611,Whitefield,2026-04-14,Payment Issue,Low,72,No
+T1612,Whitefield,2026-04-14,Payment Issue,Low,35,No
+T1613,Whitefield,2026-04-14,Delivery Delay,Low,70,No
+T1614,Whitefield,2026-04-14,App Issue,High,34,Yes
+T1615,Whitefield,2026-04-15,Rider Shortage,Medium,39,No
+T1616,Whitefield,2026-04-15,Rider Shortage,High,42,Yes
+T1617,Whitefield,2026-04-15,Payment Issue,Critical,19,Yes
+T1618,Whitefield,2026-04-15,Rider Shortage,Low,35,No
+T1619,Whitefield,2026-04-15,Payment Issue,Low,32,No
+T1620,Whitefield,2026-04-15,Delivery Delay,Low,61,No
+T1621,Whitefield,2026-04-15,App Issue,Low,84,No
+T1622,Whitefield,2026-04-15,Payment Issue,Low,71,No
+T1623,Whitefield,2026-04-15,Rider No Show,Critical,33,Yes
+T1624,Whitefield,2026-04-15,Payment Issue,Critical,79,Yes
+T1625,Whitefield,2026-04-15,App Issue,Medium,17,No
+T1626,Whitefield,2026-04-16,Rider Shortage,Low,54,No
+T1627,Whitefield,2026-04-16,Delivery Delay,Critical,81,Yes
+T1628,Whitefield,2026-04-16,Rider No Show,Low,39,No
+T1629,Whitefield,2026-04-16,Payment Issue,High,69,Yes
+T1630,Whitefield,2026-04-16,Payment Issue,Critical,66,Yes
+T1631,Whitefield,2026-04-16,Rider No Show,Critical,58,Yes
+T1632,Whitefield,2026-04-17,Rider No Show,Critical,70,Yes
+T1633,Whitefield,2026-04-17,Delivery Delay,High,69,Yes
+T1634,Whitefield,2026-04-17,Payment Issue,Low,84,No
+T1635,Whitefield,2026-04-17,Delivery Delay,High,87,Yes
+T1636,Whitefield,2026-04-17,Rider Shortage,High,80,Yes
+T1637,Whitefield,2026-04-17,Rider Shortage,Medium,33,No
+T1638,Whitefield,2026-04-17,Delivery Delay,Medium,21,No
+T1639,Whitefield,2026-04-17,Delivery Delay,Critical,77,Yes
+T1640,Whitefield,2026-04-17,App Issue,Low,56,No
+T1641,Whitefield,2026-04-17,Rider No Show,High,56,Yes
+T1642,Whitefield,2026-04-18,Payment Issue,High,31,Yes
+T1643,Whitefield,2026-04-18,Rider Shortage,High,41,Yes
+T1644,Whitefield,2026-04-18,Payment Issue,Low,61,No
+T1645,Whitefield,2026-04-18,Rider Shortage,Critical,16,Yes
+T1646,Whitefield,2026-04-18,Rider Shortage,High,77,Yes
+T1647,Whitefield,2026-04-18,Payment Issue,Critical,76,Yes
+T1648,Whitefield,2026-04-18,Rider Shortage,Critical,33,Yes
+T1649,Whitefield,2026-04-19,Rider Shortage,Critical,53,Yes
+T1650,Whitefield,2026-04-19,Delivery Delay,Critical,85,Yes
+T1651,Whitefield,2026-04-19,Payment Issue,Critical,53,Yes
+T1652,Whitefield,2026-04-19,Rider No Show,Critical,50,Yes
+T1653,Whitefield,2026-04-19,Rider Shortage,Medium,54,No
+T1654,Whitefield,2026-04-20,Payment Issue,High,39,Yes
+T1655,Whitefield,2026-04-20,Delivery Delay,High,83,Yes
+T1656,Whitefield,2026-04-20,Rider No Show,Medium,44,No
+T1657,Whitefield,2026-04-20,Payment Issue,Critical,82,Yes
+T1658,Whitefield,2026-04-20,Delivery Delay,Medium,43,No
+T1659,Whitefield,2026-04-20,App Issue,High,87,Yes
+T1660,Whitefield,2026-04-20,Rider No Show,High,82,Yes
+T1661,Whitefield,2026-04-20,Delivery Delay,High,65,Yes
+T1662,Whitefield,2026-04-20,Delivery Delay,Critical,38,Yes
+T1663,Whitefield,2026-04-20,Rider Shortage,Medium,28,No
+T1664,Whitefield,2026-04-21,Payment Issue,Low,56,No
+T1665,Whitefield,2026-04-21,Rider No Show,Low,71,No
+T1666,Whitefield,2026-04-21,Delivery Delay,Critical,26,Yes
+T1667,Whitefield,2026-04-21,Payment Issue,Low,31,No
+T1668,Whitefield,2026-04-21,Rider Shortage,Low,44,No
+T1669,Whitefield,2026-04-21,Payment Issue,Medium,89,No
+T1670,Whitefield,2026-04-21,Delivery Delay,Critical,37,Yes
+T1671,Whitefield,2026-04-21,Delivery Delay,Low,15,No
+T1672,Whitefield,2026-04-21,Rider Shortage,Critical,46,Yes
+T1673,Whitefield,2026-04-21,Rider Shortage,Medium,23,No
+T1674,Whitefield,2026-04-22,Delivery Delay,High,49,Yes
+T1675,Whitefield,2026-04-22,Payment Issue,Medium,41,No
+T1676,Whitefield,2026-04-22,App Issue,High,34,Yes
+T1677,Whitefield,2026-04-22,Payment Issue,Medium,79,No
+T1678,Whitefield,2026-04-22,Rider No Show,Critical,63,Yes
+T1679,Whitefield,2026-04-22,App Issue,Low,15,No
+T1680,Whitefield,2026-04-22,Delivery Delay,Medium,24,No
+T1681,Whitefield,2026-04-22,Payment Issue,High,61,Yes
+T1682,Whitefield,2026-04-23,Delivery Delay,Critical,76,Yes
+T1683,Whitefield,2026-04-23,Rider No Show,Medium,32,No
+T1684,Whitefield,2026-04-23,App Issue,Critical,60,Yes
+T1685,Whitefield,2026-04-23,Rider Shortage,High,46,Yes
+T1686,Whitefield,2026-04-23,Rider Shortage,High,41,Yes
+T1687,Whitefield,2026-04-23,Rider Shortage,Medium,32,No
+T1688,Whitefield,2026-04-23,App Issue,Low,53,No
+T1689,Whitefield,2026-04-23,Delivery Delay,Low,63,No
+T1690,Whitefield,2026-04-23,Payment Issue,Medium,58,No
+T1691,Whitefield,2026-04-24,Payment Issue,Low,48,No
+T1692,Whitefield,2026-04-24,App Issue,Critical,85,Yes
+T1693,Whitefield,2026-04-24,Payment Issue,Low,50,No
+T1694,Whitefield,2026-04-24,App Issue,High,32,Yes
+T1695,Whitefield,2026-04-24,Payment Issue,High,52,Yes
+T1696,Whitefield,2026-04-24,App Issue,Critical,73,Yes
+T1697,Whitefield,2026-04-24,Rider No Show,Medium,23,No
+T1698,Whitefield,2026-04-24,Delivery Delay,Low,87,No
+T1699,Whitefield,2026-04-24,Rider No Show,Low,86,No
+T1700,Whitefield,2026-04-24,Rider No Show,Low,65,No
+T1701,Whitefield,2026-04-24,Payment Issue,Critical,49,Yes
+T1702,Whitefield,2026-04-24,App Issue,Medium,19,No
+T1703,Whitefield,2026-04-25,Rider No Show,Critical,18,Yes
+T1704,Whitefield,2026-04-25,Delivery Delay,Medium,53,No
+T1705,Whitefield,2026-04-25,Delivery Delay,High,78,Yes
+T1706,Whitefield,2026-04-25,App Issue,High,39,Yes
+T1707,Whitefield,2026-04-25,Rider Shortage,Medium,42,No
+T1708,Whitefield,2026-04-25,Rider Shortage,High,80,Yes
+T1709,Whitefield,2026-04-25,Rider Shortage,Medium,36,No
+T1710,Whitefield,2026-04-25,Rider No Show,Medium,45,No
+T1711,Whitefield,2026-04-25,Payment Issue,High,37,Yes
+T1712,Whitefield,2026-04-25,Rider Shortage,High,62,Yes
+T1713,Whitefield,2026-04-25,Rider Shortage,Medium,34,No
+T1714,Whitefield,2026-04-26,Rider No Show,Medium,69,No
+T1715,Whitefield,2026-04-26,Payment Issue,Low,82,No
+T1716,Whitefield,2026-04-26,Rider Shortage,Medium,15,No
+T1717,Whitefield,2026-04-26,Payment Issue,Critical,21,Yes
+T1718,Whitefield,2026-04-26,Rider No Show,Critical,71,Yes
+T1719,Whitefield,2026-04-26,Rider No Show,Medium,26,No
+T1720,Whitefield,2026-04-26,Rider No Show,High,19,Yes
+T1721,Whitefield,2026-04-26,Rider Shortage,Medium,64,No
+T1722,Whitefield,2026-04-26,Rider Shortage,High,56,Yes
+T1723,Whitefield,2026-04-26,Rider No Show,Low,26,No
+T1724,Whitefield,2026-04-27,Payment Issue,Low,88,No
+T1725,Whitefield,2026-04-27,Rider No Show,Low,31,No
+T1726,Whitefield,2026-04-27,Rider Shortage,Medium,82,No
+T1727,Whitefield,2026-04-27,App Issue,Low,85,No
+T1728,Whitefield,2026-04-27,Delivery Delay,Low,76,No
+T1729,Whitefield,2026-04-27,Delivery Delay,Low,55,No
+T1730,Whitefield,2026-04-27,Payment Issue,Medium,48,No
+T1731,Whitefield,2026-04-28,Rider Shortage,High,59,Yes
+T1732,Whitefield,2026-04-28,App Issue,High,72,Yes
+T1733,Whitefield,2026-04-28,App Issue,Medium,65,No
+T1734,Whitefield,2026-04-28,App Issue,Medium,48,No
+T1735,Whitefield,2026-04-28,App Issue,Low,58,No
+T1736,Whitefield,2026-04-28,App Issue,Medium,29,No
+T1737,Whitefield,2026-04-28,App Issue,High,84,Yes
+T1738,Whitefield,2026-04-28,Rider Shortage,Low,64,No
+T1739,Whitefield,2026-04-28,App Issue,Low,46,No
+T1740,Whitefield,2026-04-28,App Issue,Medium,81,No
+T1741,Whitefield,2026-04-28,Payment Issue,Critical,17,Yes
+T1742,Whitefield,2026-04-29,Rider No Show,High,88,Yes
+T1743,Whitefield,2026-04-29,Rider Shortage,Low,65,No
+T1744,Whitefield,2026-04-29,App Issue,High,81,Yes
+T1745,Whitefield,2026-04-29,Rider No Show,High,62,Yes
+T1746,Whitefield,2026-04-29,Rider No Show,Low,31,No
+T1747,Whitefield,2026-04-29,Delivery Delay,High,21,Yes
+T1748,Whitefield,2026-04-29,Payment Issue,Medium,27,No
+T1749,Whitefield,2026-04-29,Rider Shortage,Low,80,No
+T1750,Whitefield,2026-04-29,App Issue,Critical,18,Yes
+T1751,Whitefield,2026-04-29,Rider No Show,Critical,24,Yes
+T1752,Whitefield,2026-04-29,App Issue,Low,31,No
+T1753,Whitefield,2026-04-30,App Issue,High,83,Yes
+T1754,Whitefield,2026-04-30,Rider Shortage,Critical,88,Yes
+T1755,Whitefield,2026-04-30,App Issue,Low,23,No
+T1756,Whitefield,2026-04-30,App Issue,Low,35,No
+T1757,Whitefield,2026-04-30,Rider No Show,High,38,Yes
+T1758,Whitefield,2026-04-30,Delivery Delay,Critical,18,Yes
+T1759,Whitefield,2026-04-30,App Issue,Critical,38,Yes
+T1760,Whitefield,2026-04-30,App Issue,High,73,Yes
+T1761,Whitefield,2026-04-30,Payment Issue,Medium,17,No
+T1762,Whitefield,2026-05-01,App Issue,High,54,Yes
+T1763,Whitefield,2026-05-01,App Issue,Low,62,No
+T1764,Whitefield,2026-05-01,Rider No Show,Medium,68,No
+T1765,Whitefield,2026-05-01,Rider Shortage,High,49,Yes
+T1766,Whitefield,2026-05-01,Rider Shortage,Medium,70,No
+T1767,Whitefield,2026-05-01,Delivery Delay,Low,54,No
+T1768,Whitefield,2026-05-01,Delivery Delay,High,82,Yes
+T1769,Whitefield,2026-05-01,Rider Shortage,High,60,Yes
+T1770,Whitefield,2026-05-02,Rider No Show,Medium,41,No
+T1771,Whitefield,2026-05-02,Payment Issue,High,20,Yes
+T1772,Whitefield,2026-05-02,Rider No Show,Low,31,No
+T1773,Whitefield,2026-05-02,App Issue,Critical,50,Yes
+T1774,Whitefield,2026-05-02,App Issue,High,16,Yes
+T1775,Whitefield,2026-05-02,Rider No Show,Critical,66,Yes
+T1776,Whitefield,2026-05-02,App Issue,Critical,80,Yes
+T1777,Whitefield,2026-05-02,Delivery Delay,Low,66,No
+T1778,Whitefield,2026-05-02,Delivery Delay,Critical,57,Yes
+T1779,Whitefield,2026-05-02,App Issue,Low,36,No
+T1780,Whitefield,2026-05-03,Payment Issue,Low,81,No
+T1781,Whitefield,2026-05-03,Delivery Delay,Medium,74,No
+T1782,Whitefield,2026-05-03,Rider Shortage,High,72,Yes
+T1783,Whitefield,2026-05-03,Payment Issue,Low,26,No
+T1784,Whitefield,2026-05-03,Payment Issue,High,83,Yes
+T1785,Whitefield,2026-05-03,Rider Shortage,Medium,53,No
+T1786,Whitefield,2026-05-03,Rider Shortage,Low,27,No
+T1787,Whitefield,2026-05-03,Rider Shortage,Medium,55,No
+T1788,Whitefield,2026-05-03,Rider Shortage,Medium,71,No
+T1789,Whitefield,2026-05-04,App Issue,Low,26,No
+T1790,Whitefield,2026-05-04,App Issue,High,27,Yes
+T1791,Whitefield,2026-05-04,Rider Shortage,Critical,88,Yes
+T1792,Whitefield,2026-05-04,Payment Issue,Critical,71,Yes
+T1793,Whitefield,2026-05-04,Payment Issue,Medium,54,No
+T1794,Whitefield,2026-05-04,Rider Shortage,Critical,59,Yes
+T1795,Whitefield,2026-05-04,Rider No Show,Critical,49,Yes
+T1796,Whitefield,2026-05-04,Payment Issue,Low,17,No
+T1797,Whitefield,2026-05-04,Delivery Delay,Low,19,No
+T1798,Whitefield,2026-05-05,Rider No Show,Low,85,No
+T1799,Whitefield,2026-05-05,Rider No Show,High,70,Yes
+T1800,Whitefield,2026-05-05,Payment Issue,High,24,Yes
+T1801,Whitefield,2026-05-05,Delivery Delay,Critical,48,Yes
+T1802,Whitefield,2026-05-05,Delivery Delay,Medium,81,No
+T1803,Whitefield,2026-05-05,Rider No Show,Critical,86,Yes
+T1804,Whitefield,2026-05-05,Rider No Show,Medium,45,No
+T1805,Whitefield,2026-05-05,App Issue,Low,89,No
+T1806,Whitefield,2026-05-06,Payment Issue,Critical,80,Yes
+T1807,Whitefield,2026-05-06,Payment Issue,Medium,84,No
+T1808,Whitefield,2026-05-06,Delivery Delay,Medium,55,No
+T1809,Whitefield,2026-05-06,Rider Shortage,Medium,77,No
+T1810,Whitefield,2026-05-06,App Issue,Low,46,No
+T1811,Whitefield,2026-05-06,Rider Shortage,Medium,34,No
+T1812,Whitefield,2026-05-06,Delivery Delay,Critical,71,Yes
+T1813,Whitefield,2026-05-06,Payment Issue,Medium,64,No
+T1814,Whitefield,2026-05-06,Delivery Delay,Low,39,No
+T1815,Whitefield,2026-05-06,Delivery Delay,Critical,26,Yes
+T1816,Whitefield,2026-05-06,Rider No Show,Low,85,No
+T1817,Whitefield,2026-05-07,Rider No Show,Low,25,No
+T1818,Whitefield,2026-05-07,Rider Shortage,High,84,Yes
+T1819,Whitefield,2026-05-07,App Issue,Low,37,No
+T1820,Whitefield,2026-05-07,Rider Shortage,Critical,84,Yes
+T1821,Whitefield,2026-05-07,Rider No Show,Critical,52,Yes
+T1822,Whitefield,2026-05-08,App Issue,Low,86,No
+T1823,Whitefield,2026-05-08,Rider No Show,High,51,Yes
+T1824,Whitefield,2026-05-08,Delivery Delay,Low,63,No
+T1825,Whitefield,2026-05-08,App Issue,Low,66,No
+T1826,Whitefield,2026-05-08,Rider No Show,Medium,47,No
+T1827,Whitefield,2026-05-08,Rider No Show,Critical,36,Yes
+T1828,Whitefield,2026-05-08,App Issue,Medium,19,No
+T1829,Whitefield,2026-05-09,Payment Issue,Low,51,No
+T1830,Whitefield,2026-05-09,Payment Issue,Medium,78,No
+T1831,Whitefield,2026-05-09,Rider No Show,Critical,24,Yes
+T1832,Whitefield,2026-05-09,Rider Shortage,High,56,Yes
+T1833,Whitefield,2026-05-09,Payment Issue,High,62,Yes
+T1834,Whitefield,2026-05-09,Rider Shortage,Medium,58,No
+T1835,Whitefield,2026-05-09,Delivery Delay,Critical,30,Yes
+T1836,Whitefield,2026-05-10,Delivery Delay,High,49,Yes
+T1837,Whitefield,2026-05-10,Payment Issue,High,42,Yes
+T1838,Whitefield,2026-05-10,Payment Issue,High,16,Yes
+T1839,Whitefield,2026-05-10,App Issue,Medium,27,No
+T1840,Whitefield,2026-05-10,Payment Issue,Low,55,No
+T1841,Whitefield,2026-05-10,Payment Issue,High,73,Yes
+T1842,Whitefield,2026-05-10,Rider Shortage,Low,83,No
+T1843,Whitefield,2026-05-10,Rider No Show,Critical,67,Yes
+T1844,Whitefield,2026-05-10,App Issue,Low,59,No
+T1845,Whitefield,2026-05-10,App Issue,Medium,34,No
+T1846,Whitefield,2026-05-10,Delivery Delay,Low,38,No
+T1847,Whitefield,2026-05-11,Rider No Show,Medium,72,No
+T1848,Whitefield,2026-05-11,App Issue,Critical,41,Yes
+T1849,Whitefield,2026-05-11,Delivery Delay,Medium,40,No
+T1850,Whitefield,2026-05-11,Rider No Show,High,21,Yes
+T1851,Whitefield,2026-05-11,Delivery Delay,Medium,56,No
+T1852,Whitefield,2026-05-11,Payment Issue,Low,61,No
+T1853,Whitefield,2026-05-11,Delivery Delay,Low,67,No
+T1854,Whitefield,2026-05-11,Rider No Show,Medium,73,No
+T1855,Whitefield,2026-05-11,Delivery Delay,Low,52,No
+T1856,Whitefield,2026-05-11,Rider No Show,Critical,83,Yes
+T1857,Whitefield,2026-05-11,Rider No Show,Medium,67,No
+T1858,Whitefield,2026-05-12,Delivery Delay,Medium,33,No
+T1859,Whitefield,2026-05-12,Payment Issue,Low,23,No
+T1860,Whitefield,2026-05-12,Rider No Show,High,78,Yes
+T1861,Whitefield,2026-05-12,Payment Issue,High,68,Yes
+T1862,Whitefield,2026-05-12,Rider Shortage,Low,65,No
+T1863,Whitefield,2026-05-12,Delivery Delay,Low,53,No
+T1864,Whitefield,2026-05-12,Rider No Show,Low,18,No
+T1865,Whitefield,2026-05-12,Rider Shortage,High,17,Yes
+T1866,Whitefield,2026-05-13,Rider No Show,Medium,72,No
+T1867,Whitefield,2026-05-13,Rider No Show,Critical,89,Yes
+T1868,Whitefield,2026-05-13,Rider No Show,Low,41,No
+T1869,Whitefield,2026-05-13,Rider Shortage,Critical,35,Yes
+T1870,Whitefield,2026-05-13,App Issue,Low,53,No
+T1871,Whitefield,2026-05-13,Payment Issue,Medium,60,No
+T1872,Whitefield,2026-05-13,Delivery Delay,Critical,80,Yes
+T1873,Whitefield,2026-05-13,Rider Shortage,Low,50,No
+T1874,Whitefield,2026-05-13,Rider Shortage,Medium,89,No
+T1875,Whitefield,2026-05-13,Payment Issue,High,79,Yes
+T1876,Whitefield,2026-05-13,Payment Issue,Medium,77,No
+T1877,Whitefield,2026-05-14,Rider Shortage,Medium,45,No
+T1878,Whitefield,2026-05-14,App Issue,Medium,42,No
+T1879,Whitefield,2026-05-14,Delivery Delay,Critical,15,Yes
+T1880,Whitefield,2026-05-14,Rider Shortage,High,39,Yes
+T1881,Whitefield,2026-05-14,Rider No Show,Medium,57,No
+T1882,Whitefield,2026-05-14,Payment Issue,Critical,81,Yes
+T1883,Whitefield,2026-05-14,Rider Shortage,Critical,77,Yes
+T1884,Whitefield,2026-05-14,App Issue,Critical,65,Yes
+T1885,Whitefield,2026-05-14,Delivery Delay,High,16,Yes
+T1886,Whitefield,2026-05-15,Rider Shortage,Medium,78,No
+T1887,Whitefield,2026-05-15,App Issue,Medium,88,No
+T1888,Whitefield,2026-05-15,Payment Issue,High,83,Yes
+T1889,Whitefield,2026-05-15,Payment Issue,High,23,Yes
+T1890,Whitefield,2026-05-15,Delivery Delay,Low,16,No
+T1891,Whitefield,2026-05-15,Delivery Delay,Low,48,No
+T1892,Whitefield,2026-05-15,App Issue,Critical,74,Yes
+T1893,Whitefield,2026-05-16,Payment Issue,Low,45,No
+T1894,Whitefield,2026-05-16,Delivery Delay,High,24,Yes
+T1895,Whitefield,2026-05-16,Delivery Delay,Medium,50,No
+T1896,Whitefield,2026-05-16,App Issue,High,63,Yes
+T1897,Whitefield,2026-05-16,Rider No Show,Low,84,No
+T1898,Whitefield,2026-05-16,Rider No Show,Low,63,No
+T1899,Whitefield,2026-05-16,Rider No Show,High,17,Yes
+T1900,Whitefield,2026-05-16,App Issue,Critical,88,Yes
+T1901,Whitefield,2026-05-16,App Issue,Low,19,No
+T1902,Whitefield,2026-05-16,App Issue,High,75,Yes
+T1903,Whitefield,2026-05-17,Rider No Show,High,40,Yes
+T1904,Whitefield,2026-05-17,Rider No Show,High,86,Yes
+T1905,Whitefield,2026-05-17,Rider Shortage,Medium,19,No
+T1906,Whitefield,2026-05-17,Rider No Show,Medium,29,No
+T1907,Whitefield,2026-05-17,Delivery Delay,Low,30,No
+T1908,Whitefield,2026-05-17,Payment Issue,High,15,Yes
+T1909,Whitefield,2026-05-17,Rider No Show,Low,30,No
+T1910,Whitefield,2026-05-17,Payment Issue,Critical,51,Yes
+T1911,Whitefield,2026-05-17,Rider No Show,Low,17,No
+T1912,Whitefield,2026-05-18,Delivery Delay,Medium,27,No
+T1913,Whitefield,2026-05-18,Delivery Delay,High,69,Yes
+T1914,Whitefield,2026-05-18,Rider No Show,Low,35,No
+T1915,Whitefield,2026-05-18,Rider No Show,Low,80,No
+T1916,Whitefield,2026-05-18,App Issue,High,68,Yes
+T1917,Whitefield,2026-05-18,App Issue,Low,41,No
+T1918,Whitefield,2026-05-18,Delivery Delay,Critical,52,Yes
+T1919,Whitefield,2026-05-18,Delivery Delay,Medium,72,No
+T1920,Whitefield,2026-05-18,App Issue,High,76,Yes
+T1921,Whitefield,2026-05-18,App Issue,High,60,Yes
+T1922,Whitefield,2026-05-19,Delivery Delay,Low,86,No
+T1923,Whitefield,2026-05-19,Delivery Delay,Low,22,No
+T1924,Whitefield,2026-05-19,Rider Shortage,Low,85,No
+T1925,Whitefield,2026-05-19,Rider No Show,Low,78,No
+T1926,Whitefield,2026-05-19,Rider No Show,Low,35,No
+T1927,Whitefield,2026-05-19,App Issue,Critical,86,Yes
+T1928,Whitefield,2026-05-19,App Issue,Critical,77,Yes
+T1929,Whitefield,2026-05-20,Delivery Delay,High,60,Yes
+T1930,Whitefield,2026-05-20,Payment Issue,High,45,Yes
+T1931,Whitefield,2026-05-20,Rider Shortage,Low,23,No
+T1932,Whitefield,2026-05-20,App Issue,Low,29,No
+T1933,Whitefield,2026-05-20,Rider Shortage,Critical,40,Yes
+T1934,Whitefield,2026-05-20,Delivery Delay,High,24,Yes
+T1935,Whitefield,2026-05-20,Payment Issue,Critical,43,Yes
+T1936,Whitefield,2026-05-20,Delivery Delay,High,50,Yes
+T1937,Whitefield,2026-05-20,Delivery Delay,High,51,Yes
+T1938,Whitefield,2026-05-20,App Issue,Critical,85,Yes
+T1939,Whitefield,2026-05-21,Rider No Show,High,42,Yes
+T1940,Whitefield,2026-05-21,Payment Issue,Critical,62,Yes
+T1941,Whitefield,2026-05-21,Payment Issue,High,52,Yes
+T1942,Whitefield,2026-05-21,Payment Issue,Critical,45,Yes
+T1943,Whitefield,2026-05-21,Rider Shortage,Low,28,No
+T1944,Whitefield,2026-05-22,Delivery Delay,Low,87,No
+T1945,Whitefield,2026-05-22,App Issue,Low,43,No
+T1946,Whitefield,2026-05-22,Payment Issue,Critical,65,Yes
+T1947,Whitefield,2026-05-22,Delivery Delay,Critical,63,Yes
+T1948,Whitefield,2026-05-22,App Issue,Medium,57,No
+T1949,Whitefield,2026-05-22,Rider No Show,High,86,Yes
+T1950,Whitefield,2026-05-22,Delivery Delay,Medium,19,No
+T1951,Whitefield,2026-05-22,Rider Shortage,Low,56,No
+T1952,Whitefield,2026-05-22,App Issue,Critical,21,Yes
+T1953,Whitefield,2026-05-23,Rider No Show,High,41,Yes
+T1954,Whitefield,2026-05-23,Delivery Delay,Critical,72,Yes
+T1955,Whitefield,2026-05-23,App Issue,Low,60,No
+T1956,Whitefield,2026-05-23,App Issue,Medium,80,No
+T1957,Whitefield,2026-05-23,Rider Shortage,Medium,39,No
+T1958,Whitefield,2026-05-23,App Issue,High,87,Yes
+T1959,Whitefield,2026-05-24,Rider No Show,High,15,Yes
+T1960,Whitefield,2026-05-24,Delivery Delay,High,88,Yes
+T1961,Whitefield,2026-05-24,App Issue,Critical,56,Yes
+T1962,Whitefield,2026-05-24,Payment Issue,Medium,66,No
+T1963,Whitefield,2026-05-24,Delivery Delay,Medium,39,No
+T1964,Whitefield,2026-05-24,Delivery Delay,High,68,Yes
+T1965,Whitefield,2026-05-24,Delivery Delay,Low,81,No
+T1966,Whitefield,2026-05-24,Rider No Show,Medium,20,No
+T1967,Whitefield,2026-05-24,Delivery Delay,Medium,72,No
+T1968,Whitefield,2026-05-24,Delivery Delay,Critical,84,Yes
+T1969,Whitefield,2026-05-24,App Issue,Critical,67,Yes
+T1970,Whitefield,2026-05-25,Rider No Show,Medium,16,No
+T1971,Whitefield,2026-05-25,Rider Shortage,Critical,36,Yes
+T1972,Whitefield,2026-05-25,Rider Shortage,High,51,Yes
+T1973,Whitefield,2026-05-25,Payment Issue,High,34,Yes
+T1974,Whitefield,2026-05-25,Rider No Show,Critical,38,Yes
+T1975,Whitefield,2026-05-25,Delivery Delay,High,79,Yes
+T1976,Whitefield,2026-05-25,Rider Shortage,Medium,79,No
+T1977,Whitefield,2026-05-26,Payment Issue,Medium,15,No
+T1978,Whitefield,2026-05-26,Rider No Show,Critical,17,Yes
+T1979,Whitefield,2026-05-26,Payment Issue,Critical,60,Yes
+T1980,Whitefield,2026-05-26,App Issue,Low,69,No
+T1981,Whitefield,2026-05-26,Rider Shortage,Low,89,No
+T1982,Whitefield,2026-05-26,Rider Shortage,Critical,78,Yes
+T1983,Whitefield,2026-05-26,Delivery Delay,High,59,Yes
+T1984,Whitefield,2026-05-27,Delivery Delay,Low,79,No
+T1985,Whitefield,2026-05-27,Rider No Show,High,38,Yes
+T1986,Whitefield,2026-05-27,Rider No Show,Critical,88,Yes
+T1987,Whitefield,2026-05-27,App Issue,High,49,Yes
+T1988,Whitefield,2026-05-27,Delivery Delay,Medium,38,No
+T1989,Whitefield,2026-05-27,Rider Shortage,Critical,42,Yes
+T1990,Whitefield,2026-05-28,Delivery Delay,High,68,Yes
+T1991,Whitefield,2026-05-28,Rider Shortage,High,30,Yes
+T1992,Whitefield,2026-05-28,App Issue,High,29,Yes
+T1993,Whitefield,2026-05-28,Delivery Delay,Critical,25,Yes
+T1994,Whitefield,2026-05-28,Rider Shortage,Medium,79,No
+T1995,Whitefield,2026-05-28,Rider Shortage,High,82,Yes
+T1996,Whitefield,2026-05-28,Payment Issue,Low,57,No
+T1997,Whitefield,2026-05-28,Payment Issue,Low,83,No
+T1998,Whitefield,2026-05-28,Delivery Delay,Critical,27,Yes
+T1999,Whitefield,2026-05-28,App Issue,Critical,24,Yes
+T2000,Whitefield,2026-05-29,App Issue,High,55,Yes
+T2001,Whitefield,2026-05-29,Payment Issue,Critical,64,Yes
+T2002,Whitefield,2026-05-29,Rider No Show,Critical,85,Yes
+T2003,Whitefield,2026-05-29,Rider No Show,Low,73,No
+T2004,Whitefield,2026-05-29,App Issue,High,53,Yes
+T2005,Whitefield,2026-05-29,Payment Issue,Low,17,No
+T2006,Whitefield,2026-05-29,Payment Issue,High,21,Yes
+T2007,Whitefield,2026-05-29,Rider Shortage,Medium,63,No
+T2008,Whitefield,2026-05-30,App Issue,Critical,62,Yes
+T2009,Whitefield,2026-05-30,Payment Issue,Critical,16,Yes
+T2010,Whitefield,2026-05-30,Delivery Delay,Critical,85,Yes
+T2011,Whitefield,2026-05-30,App Issue,Critical,46,Yes
+T2012,Whitefield,2026-05-30,App Issue,Medium,18,No
+T2013,Whitefield,2026-05-30,Payment Issue,High,34,Yes
+T2014,Whitefield,2026-05-31,Rider No Show,Low,50,No
+T2015,Whitefield,2026-05-31,Rider Shortage,High,46,Yes
+T2016,Whitefield,2026-05-31,App Issue,High,42,Yes
+T2017,Whitefield,2026-05-31,Rider Shortage,Low,15,No
+T2018,Whitefield,2026-05-31,Delivery Delay,Critical,74,Yes
+T2019,Whitefield,2026-05-31,Rider No Show,High,70,Yes
+T2020,Whitefield,2026-06-01,Payment Issue,Low,68,No
+T2021,Whitefield,2026-06-01,Rider Shortage,Medium,50,No
+T2022,Whitefield,2026-06-01,Delivery Delay,Medium,69,No
+T2023,Whitefield,2026-06-01,Rider Shortage,High,72,Yes
+T2024,Whitefield,2026-06-01,Payment Issue,High,79,Yes
+T2025,Whitefield,2026-06-01,App Issue,Medium,83,No
+T2026,Whitefield,2026-06-01,Payment Issue,Low,65,No
+T2027,Whitefield,2026-06-01,App Issue,Medium,36,No
+T2028,Whitefield,2026-06-02,Rider No Show,Critical,67,Yes
+T2029,Whitefield,2026-06-02,Rider No Show,Low,50,No
+T2030,Whitefield,2026-06-02,Delivery Delay,Medium,82,No
+T2031,Whitefield,2026-06-02,Rider Shortage,High,50,Yes
+T2032,Whitefield,2026-06-02,Rider No Show,Low,66,No
+T2033,Whitefield,2026-06-02,Rider No Show,Medium,67,No
+T2034,Whitefield,2026-06-02,App Issue,Medium,64,No
+T2035,Whitefield,2026-06-03,Rider No Show,High,36,Yes
+T2036,Whitefield,2026-06-03,Payment Issue,High,80,Yes
+T2037,Whitefield,2026-06-03,Payment Issue,Low,35,No
+T2038,Whitefield,2026-06-03,Payment Issue,Low,58,No
+T2039,Whitefield,2026-06-03,App Issue,High,61,Yes
+T2040,Whitefield,2026-06-03,Delivery Delay,High,53,Yes
+T2041,Whitefield,2026-06-04,App Issue,High,31,Yes
+T2042,Whitefield,2026-06-04,Delivery Delay,Low,74,No
+T2043,Whitefield,2026-06-04,Rider Shortage,Medium,45,No
+T2044,Whitefield,2026-06-04,App Issue,High,87,Yes
+T2045,Whitefield,2026-06-04,Rider Shortage,Low,63,No
+T2046,Whitefield,2026-06-04,Payment Issue,Low,16,No
+T2047,Whitefield,2026-06-04,Payment Issue,Medium,62,No
+T2048,Whitefield,2026-06-04,Rider No Show,Low,28,No
+T2049,Whitefield,2026-06-04,Delivery Delay,Low,73,No
+T2050,Whitefield,2026-06-04,Rider No Show,High,72,Yes
+T2051,Whitefield,2026-06-05,Payment Issue,Critical,65,Yes
+T2052,Whitefield,2026-06-05,App Issue,High,16,Yes
+T2053,Whitefield,2026-06-05,Rider Shortage,Medium,55,No
+T2054,Whitefield,2026-06-05,App Issue,Low,30,No
+T2055,Whitefield,2026-06-05,Payment Issue,High,18,Yes
+T2056,Whitefield,2026-06-05,Rider Shortage,Critical,26,Yes
+T2057,Whitefield,2026-06-05,Rider No Show,Medium,43,No
+T2058,Whitefield,2026-06-05,Delivery Delay,Low,21,No
+T2059,Whitefield,2026-06-06,Delivery Delay,Medium,26,No
+T2060,Whitefield,2026-06-06,Rider No Show,Critical,19,Yes
+T2061,Whitefield,2026-06-06,Rider No Show,High,46,Yes
+T2062,Whitefield,2026-06-06,Payment Issue,Medium,88,No
+T2063,Whitefield,2026-06-06,Delivery Delay,Medium,57,No
+T2064,Whitefield,2026-06-06,App Issue,Critical,83,Yes
+T2065,Whitefield,2026-06-06,Rider Shortage,Critical,59,Yes
+T2066,Whitefield,2026-06-06,Rider Shortage,Critical,23,Yes
+T2067,Whitefield,2026-06-06,Rider Shortage,High,63,Yes
+T2068,Whitefield,2026-06-06,Payment Issue,Medium,47,No
+T2069,Whitefield,2026-06-06,Rider No Show,Critical,32,Yes
+T2070,Whitefield,2026-06-06,Delivery Delay,High,23,Yes
+T2071,Whitefield,2026-06-07,Rider Shortage,Low,43,No
+T2072,Whitefield,2026-06-07,Payment Issue,High,39,Yes
+T2073,Whitefield,2026-06-07,Delivery Delay,Low,29,No
+T2074,Whitefield,2026-06-07,Payment Issue,Medium,20,No
+T2075,Whitefield,2026-06-07,App Issue,Critical,56,Yes
+T2076,Whitefield,2026-06-07,App Issue,Critical,43,Yes
+T2077,Whitefield,2026-06-07,Rider Shortage,Medium,18,No
+T2078,Whitefield,2026-06-07,Delivery Delay,Low,71,No
+T2079,Whitefield,2026-06-07,Delivery Delay,High,63,Yes
+T2080,Whitefield,2026-06-07,Payment Issue,Critical,58,Yes
+T2081,Whitefield,2026-06-08,Delivery Delay,Low,17,No
+T2082,Whitefield,2026-06-08,App Issue,Critical,76,Yes
+T2083,Whitefield,2026-06-08,Payment Issue,Low,78,No
+T2084,Whitefield,2026-06-08,Payment Issue,Critical,59,Yes
+T2085,Whitefield,2026-06-08,Delivery Delay,Medium,72,No
+T2086,Whitefield,2026-06-08,App Issue,Medium,34,No
+T2087,Whitefield,2026-06-08,Rider No Show,Low,72,No
+T2088,Whitefield,2026-06-08,Delivery Delay,High,71,Yes
+T2089,Whitefield,2026-06-09,Rider No Show,Critical,82,Yes
+T2090,Whitefield,2026-06-09,Payment Issue,Low,66,No
+T2091,Whitefield,2026-06-09,Rider No Show,Critical,51,Yes
+T2092,Whitefield,2026-06-09,App Issue,Low,22,No
+T2093,Whitefield,2026-06-09,Rider No Show,Critical,58,Yes
+T2094,Whitefield,2026-06-09,App Issue,High,19,Yes
+T2095,Whitefield,2026-06-09,Rider Shortage,Low,83,No
+T2096,Whitefield,2026-06-09,Rider No Show,High,45,Yes
+T2097,Whitefield,2026-06-09,Payment Issue,Critical,59,Yes
+T2098,Whitefield,2026-06-09,Rider No Show,Critical,23,Yes
+T2099,Whitefield,2026-06-10,Payment Issue,Low,81,No
+T2100,Whitefield,2026-06-10,Payment Issue,Medium,44,No
+T2101,Whitefield,2026-06-10,Rider No Show,Medium,43,No
+T2102,Whitefield,2026-06-10,App Issue,Critical,17,Yes
+T2103,Whitefield,2026-06-10,Payment Issue,Low,71,No
+T2104,Whitefield,2026-06-10,Rider No Show,Low,44,No
+T2105,Whitefield,2026-06-11,Rider Shortage,Medium,16,No
+T2106,Whitefield,2026-06-11,Rider Shortage,High,76,Yes
+T2107,Whitefield,2026-06-11,Payment Issue,Medium,17,No
+T2108,Whitefield,2026-06-11,Rider No Show,Critical,60,Yes
+T2109,Whitefield,2026-06-11,App Issue,Low,82,No
+T2110,Whitefield,2026-06-11,Payment Issue,High,39,Yes
+T2111,Whitefield,2026-06-12,Rider Shortage,Medium,58,No
+T2112,Whitefield,2026-06-12,Rider Shortage,High,49,Yes
+T2113,Whitefield,2026-06-12,Payment Issue,Low,69,No
+T2114,Whitefield,2026-06-12,Rider Shortage,High,23,Yes
+T2115,Whitefield,2026-06-12,Rider No Show,Medium,16,No
+T2116,Whitefield,2026-06-12,Payment Issue,Low,75,No
+T2117,Whitefield,2026-06-12,Delivery Delay,Critical,55,Yes
+T2118,Whitefield,2026-06-13,App Issue,Low,61,No
+T2119,Whitefield,2026-06-13,Payment Issue,Low,16,No
+T2120,Whitefield,2026-06-13,Rider No Show,Medium,83,No
+T2121,Whitefield,2026-06-13,Rider Shortage,High,72,Yes
+T2122,Whitefield,2026-06-13,Rider Shortage,High,58,Yes
+T2123,Whitefield,2026-06-13,Rider No Show,Critical,88,Yes
+T2124,Whitefield,2026-06-13,App Issue,Low,70,No
+T2125,Whitefield,2026-06-13,Rider No Show,High,57,Yes
+T2126,Whitefield,2026-06-13,Rider Shortage,Critical,48,Yes
+T2127,Whitefield,2026-06-13,App Issue,Low,44,No
+T2128,Whitefield,2026-06-14,Payment Issue,Medium,69,No
+T2129,Whitefield,2026-06-14,Rider Shortage,Medium,81,No
+T2130,Whitefield,2026-06-14,Rider No Show,Medium,27,No
+T2131,Whitefield,2026-06-14,Payment Issue,Critical,17,Yes
+T2132,Whitefield,2026-06-14,Rider Shortage,Medium,40,No
+T2133,Whitefield,2026-06-14,Rider Shortage,Medium,71,No
+T2134,Whitefield,2026-06-14,Payment Issue,Low,38,No
+T2135,Whitefield,2026-06-14,Payment Issue,Medium,67,No
+T2136,Whitefield,2026-06-14,Rider Shortage,High,84,Yes
+T2137,Whitefield,2026-06-14,App Issue,Low,57,No
+T2138,Whitefield,2026-06-14,Rider Shortage,High,74,Yes
+T2139,Whitefield,2026-06-15,App Issue,Critical,56,Yes
+T2140,Whitefield,2026-06-15,Payment Issue,Critical,80,Yes
+T2141,Whitefield,2026-06-15,Delivery Delay,High,25,Yes
+T2142,Whitefield,2026-06-15,App Issue,High,32,Yes
+T2143,Whitefield,2026-06-15,App Issue,High,66,Yes
+T2144,Whitefield,2026-06-15,Payment Issue,High,60,Yes
+T2145,Whitefield,2026-06-16,App Issue,Medium,67,No
+T2146,Whitefield,2026-06-16,Rider No Show,Medium,73,No
+T2147,Whitefield,2026-06-16,Delivery Delay,Medium,44,No
+T2148,Whitefield,2026-06-16,App Issue,High,22,Yes
+T2149,Whitefield,2026-06-16,Rider No Show,Medium,71,No
+T2150,Whitefield,2026-06-16,Payment Issue,Critical,87,Yes
+T2151,Whitefield,2026-06-16,Rider No Show,Low,34,No
+T2152,Whitefield,2026-06-16,Rider Shortage,Critical,39,Yes
+T2153,Whitefield,2026-06-16,Rider No Show,High,33,Yes
+T2154,Whitefield,2026-06-17,App Issue,Critical,86,Yes
+T2155,Whitefield,2026-06-17,App Issue,High,41,Yes
+T2156,Whitefield,2026-06-17,App Issue,Critical,54,Yes
+T2157,Whitefield,2026-06-17,Payment Issue,Critical,40,Yes
+T2158,Whitefield,2026-06-17,Payment Issue,Medium,41,No
+T2159,Whitefield,2026-06-17,Delivery Delay,Medium,76,No
+T2160,Whitefield,2026-06-17,Payment Issue,Low,64,No
+T2161,Whitefield,2026-06-17,Payment Issue,Critical,56,Yes
+T2162,Whitefield,2026-06-17,App Issue,High,43,Yes
+T2163,Whitefield,2026-06-17,Delivery Delay,High,53,Yes
+T2164,Whitefield,2026-06-17,Rider No Show,Low,74,No
+T2165,Whitefield,2026-06-18,App Issue,Critical,30,Yes
+T2166,Whitefield,2026-06-18,Payment Issue,Critical,37,Yes
+T2167,Whitefield,2026-06-18,Rider Shortage,High,21,Yes
+T2168,Whitefield,2026-06-18,Delivery Delay,Low,40,No
+T2169,Whitefield,2026-06-18,Delivery Delay,Low,26,No
+T2170,Whitefield,2026-06-19,App Issue,Critical,83,Yes
+T2171,Whitefield,2026-06-19,App Issue,High,63,Yes
+T2172,Whitefield,2026-06-19,Payment Issue,Critical,40,Yes
+T2173,Whitefield,2026-06-19,App Issue,Low,19,No
+T2174,Whitefield,2026-06-19,Rider Shortage,Critical,36,Yes
+T2175,Whitefield,2026-06-19,Payment Issue,Critical,27,Yes
+T2176,Whitefield,2026-06-19,App Issue,Critical,42,Yes
+T2177,Whitefield,2026-06-19,Delivery Delay,High,47,Yes
+T2178,Whitefield,2026-06-19,App Issue,High,37,Yes
+T2179,Whitefield,2026-06-19,Rider No Show,Medium,32,No
+T2180,Whitefield,2026-06-20,Delivery Delay,Medium,44,No
+T2181,Whitefield,2026-06-20,Rider Shortage,Low,40,No
+T2182,Whitefield,2026-06-20,Rider No Show,Medium,30,No
+T2183,Whitefield,2026-06-20,Rider Shortage,High,53,Yes
+T2184,Whitefield,2026-06-20,App Issue,Medium,47,No
+T2185,Whitefield,2026-06-20,App Issue,High,40,Yes
+T2186,Whitefield,2026-06-21,Rider Shortage,Critical,52,Yes
+T2187,Whitefield,2026-06-21,Rider Shortage,High,16,Yes
+T2188,Whitefield,2026-06-21,App Issue,Medium,20,No
+T2189,Whitefield,2026-06-21,App Issue,Critical,60,Yes
+T2190,Whitefield,2026-06-21,App Issue,Medium,64,No
+T2191,Whitefield,2026-06-22,Delivery Delay,Medium,32,No
+T2192,Whitefield,2026-06-22,App Issue,High,41,Yes
+T2193,Whitefield,2026-06-22,App Issue,High,55,Yes
+T2194,Whitefield,2026-06-22,Payment Issue,Low,86,No
+T2195,Whitefield,2026-06-22,Rider No Show,High,88,Yes
+T2196,Whitefield,2026-06-22,Rider No Show,Critical,31,Yes
+T2197,Whitefield,2026-06-22,Payment Issue,Critical,76,Yes
+T2198,Whitefield,2026-06-22,App Issue,Critical,43,Yes
+T2199,Whitefield,2026-06-22,App Issue,High,72,Yes
+T2200,Whitefield,2026-06-22,App Issue,Critical,84,Yes
+T2201,Whitefield,2026-06-22,Rider Shortage,High,36,Yes
+T2202,Whitefield,2026-06-23,Rider No Show,High,40,Yes
+T2203,Whitefield,2026-06-23,Rider Shortage,High,53,Yes
+T2204,Whitefield,2026-06-23,Delivery Delay,High,26,Yes
+T2205,Whitefield,2026-06-23,Delivery Delay,Critical,28,Yes
+T2206,Whitefield,2026-06-23,Payment Issue,Critical,36,Yes
+T2207,Whitefield,2026-06-23,App Issue,Critical,65,Yes
+T2208,Whitefield,2026-06-23,Rider Shortage,Low,37,No
+T2209,Whitefield,2026-06-23,Rider No Show,Medium,62,No
+T2210,Whitefield,2026-06-23,Rider No Show,Critical,85,Yes
+T2211,Whitefield,2026-06-23,Rider Shortage,Low,64,No
+T2212,Whitefield,2026-06-23,Rider No Show,Medium,27,No
+T2213,Whitefield,2026-06-24,Rider Shortage,Medium,24,No
+T2214,Whitefield,2026-06-24,Delivery Delay,Critical,69,Yes
+T2215,Whitefield,2026-06-24,Rider Shortage,Low,23,No
+T2216,Whitefield,2026-06-24,Payment Issue,Low,66,No
+T2217,Whitefield,2026-06-24,Payment Issue,Low,16,No
+T2218,Whitefield,2026-06-24,Rider No Show,Medium,39,No
+T2219,Whitefield,2026-06-24,App Issue,Critical,27,Yes
+T2220,Whitefield,2026-06-24,Delivery Delay,Critical,65,Yes
+T2221,Whitefield,2026-06-24,Rider Shortage,Medium,72,No
+T2222,Whitefield,2026-06-25,Rider No Show,Low,17,No
+T2223,Whitefield,2026-06-25,Rider No Show,Medium,73,No
+T2224,Whitefield,2026-06-25,Delivery Delay,Low,84,No
+T2225,Whitefield,2026-06-25,Delivery Delay,Low,62,No
+T2226,Whitefield,2026-06-25,Rider Shortage,Critical,78,Yes
+T2227,Whitefield,2026-06-25,Rider Shortage,Medium,33,No
+T2228,Whitefield,2026-06-25,Delivery Delay,Medium,81,No
+T2229,Whitefield,2026-06-25,Rider Shortage,Critical,87,Yes
+T2230,Whitefield,2026-06-26,App Issue,Medium,81,No
+T2231,Whitefield,2026-06-26,Rider Shortage,Critical,25,Yes
+T2232,Whitefield,2026-06-26,Delivery Delay,Low,82,No
+T2233,Whitefield,2026-06-26,App Issue,Critical,83,Yes
+T2234,Whitefield,2026-06-26,Rider No Show,Low,15,No
+T2235,Whitefield,2026-06-26,Rider No Show,High,77,Yes
+T2236,Whitefield,2026-06-26,Rider No Show,Critical,43,Yes
+T2237,Whitefield,2026-06-26,Rider Shortage,Critical,26,Yes
+T2238,Whitefield,2026-06-27,Rider Shortage,Medium,16,No
+T2239,Whitefield,2026-06-27,Rider No Show,High,51,Yes
+T2240,Whitefield,2026-06-27,Delivery Delay,Low,59,No
+T2241,Whitefield,2026-06-27,Delivery Delay,High,62,Yes
+T2242,Whitefield,2026-06-27,Payment Issue,Low,38,No
+T2243,Whitefield,2026-06-27,Rider No Show,Critical,36,Yes
+T2244,Whitefield,2026-06-27,App Issue,High,25,Yes
+T2245,Whitefield,2026-06-27,App Issue,Critical,72,Yes
+T2246,Whitefield,2026-06-27,Payment Issue,Low,60,No
+T2247,Whitefield,2026-06-28,App Issue,Low,29,No
+T2248,Whitefield,2026-06-28,Delivery Delay,Medium,74,No
+T2249,Whitefield,2026-06-28,Delivery Delay,High,56,Yes
+T2250,Whitefield,2026-06-28,App Issue,Critical,57,Yes
+T2251,Whitefield,2026-06-28,App Issue,High,88,Yes
+T2252,Whitefield,2026-06-28,App Issue,High,63,Yes
+T2253,Whitefield,2026-06-28,Delivery Delay,Medium,78,No
+T2254,Whitefield,2026-06-28,App Issue,Critical,46,Yes
+T2255,Whitefield,2026-06-28,App Issue,Low,78,No
+T2256,Whitefield,2026-06-28,Rider Shortage,High,16,Yes
+T2257,Whitefield,2026-06-28,Rider Shortage,Low,38,No
+T2258,Whitefield,2026-06-29,Payment Issue,High,45,Yes
+T2259,Whitefield,2026-06-29,Rider No Show,High,40,Yes
+T2260,Whitefield,2026-06-29,Payment Issue,High,43,Yes
+T2261,Whitefield,2026-06-29,Payment Issue,Medium,81,No
+T2262,Whitefield,2026-06-29,App Issue,Critical,39,Yes
+T2263,Whitefield,2026-06-29,Rider No Show,Medium,62,No
+T2264,Whitefield,2026-06-29,Payment Issue,High,79,Yes
+T2265,Whitefield,2026-06-30,Delivery Delay,High,32,Yes
+T2266,Whitefield,2026-06-30,Payment Issue,Medium,23,No
+T2267,Whitefield,2026-06-30,Rider No Show,Medium,52,No
+T2268,Whitefield,2026-06-30,Rider No Show,Low,35,No
+T2269,Whitefield,2026-06-30,Rider No Show,Low,79,No
+T2270,Whitefield,2026-06-30,Rider No Show,High,35,Yes
+T2271,Whitefield,2026-06-30,App Issue,Critical,41,Yes
+T2272,Whitefield,2026-06-30,Payment Issue,Low,84,No
+T2273,Whitefield,2026-06-30,App Issue,Critical,58,Yes
+T2274,Whitefield,2026-06-30,Payment Issue,Critical,42,Yes
+T2275,Whitefield,2026-06-30,Payment Issue,High,59,Yes
+T2276,Indiranagar,2026-01-01,App Issue,High,54,Yes
+T2277,Indiranagar,2026-01-01,Delivery Delay,Medium,17,No
+T2278,Indiranagar,2026-01-02,Delivery Delay,Medium,80,No
+T2279,Indiranagar,2026-01-02,Delivery Delay,Critical,60,Yes
+T2280,Indiranagar,2026-01-02,Rider No Show,Low,44,No
+T2281,Indiranagar,2026-01-02,Rider No Show,Critical,83,Yes
+T2282,Indiranagar,2026-01-02,Rider No Show,Medium,23,No
+T2283,Indiranagar,2026-01-03,Payment Issue,Medium,25,No
+T2284,Indiranagar,2026-01-03,App Issue,Critical,83,Yes
+T2285,Indiranagar,2026-01-03,Rider No Show,Medium,80,No
+T2286,Indiranagar,2026-01-03,Delivery Delay,High,45,Yes
+T2287,Indiranagar,2026-01-03,Payment Issue,Critical,47,Yes
+T2288,Indiranagar,2026-01-03,App Issue,Low,53,No
+T2289,Indiranagar,2026-01-04,Delivery Delay,Low,60,No
+T2290,Indiranagar,2026-01-04,Payment Issue,Medium,51,No
+T2291,Indiranagar,2026-01-04,App Issue,Medium,74,No
+T2292,Indiranagar,2026-01-04,Delivery Delay,Critical,45,Yes
+T2293,Indiranagar,2026-01-04,Delivery Delay,High,25,Yes
+T2294,Indiranagar,2026-01-04,Delivery Delay,Low,16,No
+T2295,Indiranagar,2026-01-04,Rider No Show,Low,41,No
+T2296,Indiranagar,2026-01-05,Rider Shortage,High,16,Yes
+T2297,Indiranagar,2026-01-05,Rider No Show,High,35,Yes
+T2298,Indiranagar,2026-01-05,App Issue,High,72,Yes
+T2299,Indiranagar,2026-01-05,Rider No Show,Medium,19,No
+T2300,Indiranagar,2026-01-06,Rider Shortage,Medium,59,No
+T2301,Indiranagar,2026-01-06,Delivery Delay,Critical,34,Yes
+T2302,Indiranagar,2026-01-06,Rider No Show,High,75,Yes
+T2303,Indiranagar,2026-01-06,App Issue,High,52,Yes
+T2304,Indiranagar,2026-01-06,Rider No Show,High,34,Yes
+T2305,Indiranagar,2026-01-07,Rider No Show,Medium,39,No
+T2306,Indiranagar,2026-01-07,Rider Shortage,Critical,16,Yes
+T2307,Indiranagar,2026-01-07,Payment Issue,Critical,46,Yes
+T2308,Indiranagar,2026-01-08,Rider Shortage,Low,84,No
+T2309,Indiranagar,2026-01-08,Rider No Show,Low,55,No
+T2310,Indiranagar,2026-01-08,Delivery Delay,High,81,Yes
+T2311,Indiranagar,2026-01-09,Rider No Show,Critical,15,Yes
+T2312,Indiranagar,2026-01-09,App Issue,High,65,Yes
+T2313,Indiranagar,2026-01-10,Payment Issue,Medium,27,No
+T2314,Indiranagar,2026-01-10,Rider No Show,Medium,33,No
+T2315,Indiranagar,2026-01-10,Payment Issue,Medium,26,No
+T2316,Indiranagar,2026-01-10,Payment Issue,High,62,Yes
+T2317,Indiranagar,2026-01-10,Rider No Show,High,39,Yes
+T2318,Indiranagar,2026-01-10,Delivery Delay,Medium,71,No
+T2319,Indiranagar,2026-01-11,Rider Shortage,High,49,Yes
+T2320,Indiranagar,2026-01-11,Payment Issue,Medium,19,No
+T2321,Indiranagar,2026-01-11,Rider Shortage,Low,36,No
+T2322,Indiranagar,2026-01-11,Rider No Show,Medium,71,No
+T2323,Indiranagar,2026-01-12,Rider Shortage,High,17,Yes
+T2324,Indiranagar,2026-01-12,Rider No Show,Critical,67,Yes
+T2325,Indiranagar,2026-01-12,Delivery Delay,Low,45,No
+T2326,Indiranagar,2026-01-12,Rider Shortage,High,83,Yes
+T2327,Indiranagar,2026-01-12,Delivery Delay,Low,47,No
+T2328,Indiranagar,2026-01-12,App Issue,High,86,Yes
+T2329,Indiranagar,2026-01-12,Delivery Delay,Critical,64,Yes
+T2330,Indiranagar,2026-01-13,Rider No Show,Critical,30,Yes
+T2331,Indiranagar,2026-01-13,Payment Issue,Critical,53,Yes
+T2332,Indiranagar,2026-01-13,Payment Issue,Medium,60,No
+T2333,Indiranagar,2026-01-13,Rider Shortage,Low,61,No
+T2334,Indiranagar,2026-01-13,Rider No Show,Medium,58,No
+T2335,Indiranagar,2026-01-14,Delivery Delay,High,64,Yes
+T2336,Indiranagar,2026-01-14,Rider Shortage,Medium,74,No
+T2337,Indiranagar,2026-01-15,App Issue,Medium,29,No
+T2338,Indiranagar,2026-01-15,Payment Issue,Medium,50,No
+T2339,Indiranagar,2026-01-15,Rider Shortage,Medium,77,No
+T2340,Indiranagar,2026-01-15,Rider Shortage,Low,83,No
+T2341,Indiranagar,2026-01-16,Rider Shortage,Critical,55,Yes
+T2342,Indiranagar,2026-01-16,Payment Issue,Medium,88,No
+T2343,Indiranagar,2026-01-16,Delivery Delay,Critical,38,Yes
+T2344,Indiranagar,2026-01-16,Rider Shortage,Critical,63,Yes
+T2345,Indiranagar,2026-01-16,Delivery Delay,Critical,32,Yes
+T2346,Indiranagar,2026-01-16,Delivery Delay,High,21,Yes
+T2347,Indiranagar,2026-01-16,Rider No Show,Medium,18,No
+T2348,Indiranagar,2026-01-17,Rider Shortage,Medium,83,No
+T2349,Indiranagar,2026-01-17,Rider No Show,Critical,74,Yes
+T2350,Indiranagar,2026-01-17,Delivery Delay,High,69,Yes
+T2351,Indiranagar,2026-01-18,Delivery Delay,High,43,Yes
+T2352,Indiranagar,2026-01-18,Rider No Show,Medium,37,No
+T2353,Indiranagar,2026-01-18,Delivery Delay,Low,28,No
+T2354,Indiranagar,2026-01-18,Payment Issue,Low,63,No
+T2355,Indiranagar,2026-01-19,Payment Issue,Low,39,No
+T2356,Indiranagar,2026-01-19,App Issue,High,35,Yes
+T2357,Indiranagar,2026-01-20,Payment Issue,Medium,37,No
+T2358,Indiranagar,2026-01-20,Rider No Show,Critical,71,Yes
+T2359,Indiranagar,2026-01-21,Delivery Delay,Low,72,No
+T2360,Indiranagar,2026-01-21,App Issue,Medium,28,No
+T2361,Indiranagar,2026-01-21,Rider Shortage,Low,34,No
+T2362,Indiranagar,2026-01-21,Rider Shortage,Low,44,No
+T2363,Indiranagar,2026-01-22,Payment Issue,Medium,67,No
+T2364,Indiranagar,2026-01-22,Rider No Show,Medium,70,No
+T2365,Indiranagar,2026-01-22,Payment Issue,High,37,Yes
+T2366,Indiranagar,2026-01-22,Payment Issue,Low,76,No
+T2367,Indiranagar,2026-01-23,App Issue,Medium,47,No
+T2368,Indiranagar,2026-01-23,Payment Issue,Critical,32,Yes
+T2369,Indiranagar,2026-01-23,Rider Shortage,Low,87,No
+T2370,Indiranagar,2026-01-23,Rider Shortage,Medium,47,No
+T2371,Indiranagar,2026-01-23,Rider Shortage,High,46,Yes
+T2372,Indiranagar,2026-01-23,Payment Issue,Medium,75,No
+T2373,Indiranagar,2026-01-23,Delivery Delay,Low,68,No
+T2374,Indiranagar,2026-01-24,Payment Issue,Critical,33,Yes
+T2375,Indiranagar,2026-01-24,Payment Issue,Critical,84,Yes
+T2376,Indiranagar,2026-01-25,Delivery Delay,Critical,48,Yes
+T2377,Indiranagar,2026-01-25,App Issue,Low,39,No
+T2378,Indiranagar,2026-01-25,Payment Issue,High,82,Yes
+T2379,Indiranagar,2026-01-25,App Issue,Low,88,No
+T2380,Indiranagar,2026-01-26,Delivery Delay,High,25,Yes
+T2381,Indiranagar,2026-01-26,Delivery Delay,Medium,30,No
+T2382,Indiranagar,2026-01-26,Payment Issue,Critical,75,Yes
+T2383,Indiranagar,2026-01-27,Payment Issue,High,21,Yes
+T2384,Indiranagar,2026-01-27,Rider Shortage,Medium,30,No
+T2385,Indiranagar,2026-01-27,App Issue,Low,30,No
+T2386,Indiranagar,2026-01-27,Payment Issue,High,54,Yes
+T2387,Indiranagar,2026-01-27,Rider Shortage,High,26,Yes
+T2388,Indiranagar,2026-01-27,Rider No Show,High,49,Yes
+T2389,Indiranagar,2026-01-28,Delivery Delay,Critical,35,Yes
+T2390,Indiranagar,2026-01-28,Delivery Delay,Critical,64,Yes
+T2391,Indiranagar,2026-01-29,Rider No Show,Low,31,No
+T2392,Indiranagar,2026-01-29,Rider No Show,Critical,46,Yes
+T2393,Indiranagar,2026-01-29,Rider No Show,Low,55,No
+T2394,Indiranagar,2026-01-29,App Issue,Low,20,No
+T2395,Indiranagar,2026-01-30,Rider Shortage,Medium,34,No
+T2396,Indiranagar,2026-01-30,Rider Shortage,Low,39,No
+T2397,Indiranagar,2026-01-30,App Issue,High,80,Yes
+T2398,Indiranagar,2026-01-30,Rider Shortage,Medium,23,No
+T2399,Indiranagar,2026-01-31,Rider No Show,Medium,67,No
+T2400,Indiranagar,2026-01-31,App Issue,Critical,75,Yes
+T2401,Indiranagar,2026-01-31,App Issue,High,52,Yes
+T2402,Indiranagar,2026-01-31,Rider No Show,High,17,Yes
+T2403,Indiranagar,2026-01-31,Rider Shortage,Critical,84,Yes
+T2404,Indiranagar,2026-02-01,Delivery Delay,Critical,69,Yes
+T2405,Indiranagar,2026-02-01,App Issue,High,15,Yes
+T2406,Indiranagar,2026-02-02,App Issue,Medium,84,No
+T2407,Indiranagar,2026-02-02,Rider Shortage,High,59,Yes
+T2408,Indiranagar,2026-02-02,Rider No Show,High,61,Yes
+T2409,Indiranagar,2026-02-02,Payment Issue,Medium,40,No
+T2410,Indiranagar,2026-02-02,Rider Shortage,Medium,28,No
+T2411,Indiranagar,2026-02-02,Delivery Delay,Low,68,No
+T2412,Indiranagar,2026-02-03,Delivery Delay,Low,45,No
+T2413,Indiranagar,2026-02-03,Delivery Delay,Critical,73,Yes
+T2414,Indiranagar,2026-02-03,Rider Shortage,Critical,43,Yes
+T2415,Indiranagar,2026-02-03,Payment Issue,Critical,31,Yes
+T2416,Indiranagar,2026-02-03,App Issue,Low,28,No
+T2417,Indiranagar,2026-02-03,Payment Issue,Medium,50,No
+T2418,Indiranagar,2026-02-03,Rider No Show,Low,72,No
+T2419,Indiranagar,2026-02-04,Rider No Show,Medium,77,No
+T2420,Indiranagar,2026-02-04,App Issue,Medium,39,No
+T2421,Indiranagar,2026-02-04,App Issue,High,73,Yes
+T2422,Indiranagar,2026-02-04,Payment Issue,High,46,Yes
+T2423,Indiranagar,2026-02-04,Rider Shortage,Low,32,No
+T2424,Indiranagar,2026-02-04,Payment Issue,Medium,51,No
+T2425,Indiranagar,2026-02-05,Rider No Show,Low,23,No
+T2426,Indiranagar,2026-02-05,Delivery Delay,High,78,Yes
+T2427,Indiranagar,2026-02-05,App Issue,Medium,86,No
+T2428,Indiranagar,2026-02-06,Payment Issue,Critical,68,Yes
+T2429,Indiranagar,2026-02-06,Rider No Show,Medium,44,No
+T2430,Indiranagar,2026-02-06,Delivery Delay,High,67,Yes
+T2431,Indiranagar,2026-02-06,Payment Issue,High,77,Yes
+T2432,Indiranagar,2026-02-06,Rider No Show,Medium,25,No
+T2433,Indiranagar,2026-02-07,Delivery Delay,Medium,33,No
+T2434,Indiranagar,2026-02-07,Rider Shortage,High,26,Yes
+T2435,Indiranagar,2026-02-08,Payment Issue,Medium,51,No
+T2436,Indiranagar,2026-02-08,Payment Issue,Medium,43,No
+T2437,Indiranagar,2026-02-08,Delivery Delay,Low,40,No
+T2438,Indiranagar,2026-02-08,App Issue,Medium,16,No
+T2439,Indiranagar,2026-02-09,Payment Issue,High,29,Yes
+T2440,Indiranagar,2026-02-09,Rider Shortage,Critical,18,Yes
+T2441,Indiranagar,2026-02-09,Rider No Show,Low,64,No
+T2442,Indiranagar,2026-02-09,Rider Shortage,Medium,52,No
+T2443,Indiranagar,2026-02-09,Payment Issue,Low,37,No
+T2444,Indiranagar,2026-02-10,Delivery Delay,Critical,89,Yes
+T2445,Indiranagar,2026-02-10,Payment Issue,High,42,Yes
+T2446,Indiranagar,2026-02-10,Rider No Show,High,80,Yes
+T2447,Indiranagar,2026-02-10,App Issue,Low,22,No
+T2448,Indiranagar,2026-02-11,Rider No Show,Critical,25,Yes
+T2449,Indiranagar,2026-02-11,App Issue,Medium,32,No
+T2450,Indiranagar,2026-02-11,Rider No Show,High,69,Yes
+T2451,Indiranagar,2026-02-11,App Issue,Low,64,No
+T2452,Indiranagar,2026-02-11,Rider No Show,Critical,28,Yes
+T2453,Indiranagar,2026-02-11,Rider Shortage,High,88,Yes
+T2454,Indiranagar,2026-02-12,Rider Shortage,Critical,23,Yes
+T2455,Indiranagar,2026-02-12,Delivery Delay,Critical,25,Yes
+T2456,Indiranagar,2026-02-12,Rider Shortage,Critical,77,Yes
+T2457,Indiranagar,2026-02-12,App Issue,Medium,81,No
+T2458,Indiranagar,2026-02-13,App Issue,High,53,Yes
+T2459,Indiranagar,2026-02-13,Rider Shortage,High,70,Yes
+T2460,Indiranagar,2026-02-13,Payment Issue,Medium,42,No
+T2461,Indiranagar,2026-02-13,Rider Shortage,Critical,89,Yes
+T2462,Indiranagar,2026-02-13,App Issue,Critical,53,Yes
+T2463,Indiranagar,2026-02-13,Payment Issue,Low,39,No
+T2464,Indiranagar,2026-02-14,Rider No Show,Medium,24,No
+T2465,Indiranagar,2026-02-14,Rider Shortage,Medium,57,No
+T2466,Indiranagar,2026-02-14,Delivery Delay,Low,29,No
+T2467,Indiranagar,2026-02-14,Rider Shortage,High,62,Yes
+T2468,Indiranagar,2026-02-14,Rider No Show,Low,35,No
+T2469,Indiranagar,2026-02-14,App Issue,Critical,74,Yes
+T2470,Indiranagar,2026-02-15,Payment Issue,High,64,Yes
+T2471,Indiranagar,2026-02-15,Payment Issue,Medium,37,No
+T2472,Indiranagar,2026-02-15,Rider No Show,Low,27,No
+T2473,Indiranagar,2026-02-15,Delivery Delay,High,83,Yes
+T2474,Indiranagar,2026-02-15,Rider No Show,Critical,18,Yes
+T2475,Indiranagar,2026-02-16,App Issue,High,86,Yes
+T2476,Indiranagar,2026-02-16,Delivery Delay,Medium,23,No
+T2477,Indiranagar,2026-02-16,Delivery Delay,Low,49,No
+T2478,Indiranagar,2026-02-16,Rider No Show,Medium,35,No
+T2479,Indiranagar,2026-02-16,Rider Shortage,Medium,72,No
+T2480,Indiranagar,2026-02-17,Rider No Show,High,86,Yes
+T2481,Indiranagar,2026-02-17,Rider No Show,Critical,57,Yes
+T2482,Indiranagar,2026-02-17,Payment Issue,Critical,20,Yes
+T2483,Indiranagar,2026-02-18,Rider No Show,Medium,81,No
+T2484,Indiranagar,2026-02-18,Rider No Show,Medium,26,No
+T2485,Indiranagar,2026-02-18,App Issue,Medium,26,No
+T2486,Indiranagar,2026-02-18,Rider No Show,Low,80,No
+T2487,Indiranagar,2026-02-18,Rider No Show,Low,16,No
+T2488,Indiranagar,2026-02-18,Rider Shortage,Critical,29,Yes
+T2489,Indiranagar,2026-02-18,Delivery Delay,High,37,Yes
+T2490,Indiranagar,2026-02-19,Delivery Delay,Low,21,No
+T2491,Indiranagar,2026-02-19,Rider No Show,Low,42,No
+T2492,Indiranagar,2026-02-19,Payment Issue,Low,28,No
+T2493,Indiranagar,2026-02-19,Rider No Show,Critical,58,Yes
+T2494,Indiranagar,2026-02-19,Delivery Delay,Critical,44,Yes
+T2495,Indiranagar,2026-02-19,Delivery Delay,Critical,46,Yes
+T2496,Indiranagar,2026-02-20,Rider No Show,Medium,84,No
+T2497,Indiranagar,2026-02-20,App Issue,Critical,20,Yes
+T2498,Indiranagar,2026-02-20,Delivery Delay,Critical,41,Yes
+T2499,Indiranagar,2026-02-20,Rider Shortage,Medium,38,No
+T2500,Indiranagar,2026-02-20,Delivery Delay,High,48,Yes
+T2501,Indiranagar,2026-02-20,Rider No Show,Medium,54,No
+T2502,Indiranagar,2026-02-20,Delivery Delay,Critical,61,Yes
+T2503,Indiranagar,2026-02-21,Rider No Show,Medium,38,No
+T2504,Indiranagar,2026-02-21,Rider No Show,High,79,Yes
+T2505,Indiranagar,2026-02-21,Delivery Delay,High,32,Yes
+T2506,Indiranagar,2026-02-21,Payment Issue,Medium,58,No
+T2507,Indiranagar,2026-02-22,Delivery Delay,Low,71,No
+T2508,Indiranagar,2026-02-22,Rider No Show,Low,42,No
+T2509,Indiranagar,2026-02-22,App Issue,Medium,85,No
+T2510,Indiranagar,2026-02-22,Delivery Delay,Low,37,No
+T2511,Indiranagar,2026-02-22,Rider Shortage,Medium,48,No
+T2512,Indiranagar,2026-02-23,Rider Shortage,High,49,Yes
+T2513,Indiranagar,2026-02-23,Payment Issue,Medium,56,No
+T2514,Indiranagar,2026-02-23,Rider No Show,Medium,42,No
+T2515,Indiranagar,2026-02-23,Delivery Delay,Critical,38,Yes
+T2516,Indiranagar,2026-02-24,App Issue,Critical,67,Yes
+T2517,Indiranagar,2026-02-24,Delivery Delay,High,86,Yes
+T2518,Indiranagar,2026-02-24,Rider No Show,Low,18,No
+T2519,Indiranagar,2026-02-25,Rider No Show,Medium,19,No
+T2520,Indiranagar,2026-02-25,App Issue,Critical,63,Yes
+T2521,Indiranagar,2026-02-25,App Issue,Critical,44,Yes
+T2522,Indiranagar,2026-02-25,Rider Shortage,High,86,Yes
+T2523,Indiranagar,2026-02-26,Payment Issue,Critical,71,Yes
+T2524,Indiranagar,2026-02-26,Rider Shortage,High,51,Yes
+T2525,Indiranagar,2026-02-26,App Issue,Medium,21,No
+T2526,Indiranagar,2026-02-27,Rider No Show,Critical,53,Yes
+T2527,Indiranagar,2026-02-27,Payment Issue,Critical,76,Yes
+T2528,Indiranagar,2026-02-27,App Issue,Medium,67,No
+T2529,Indiranagar,2026-02-27,Payment Issue,Medium,18,No
+T2530,Indiranagar,2026-02-27,Rider Shortage,Low,39,No
+T2531,Indiranagar,2026-02-28,Delivery Delay,Low,42,No
+T2532,Indiranagar,2026-02-28,Rider Shortage,Critical,83,Yes
+T2533,Indiranagar,2026-02-28,Delivery Delay,High,81,Yes
+T2534,Indiranagar,2026-02-28,Delivery Delay,High,34,Yes
+T2535,Indiranagar,2026-02-28,App Issue,High,25,Yes
+T2536,Indiranagar,2026-02-28,App Issue,Critical,81,Yes
+T2537,Indiranagar,2026-02-28,Rider Shortage,Medium,21,No
+T2538,Indiranagar,2026-03-01,Rider No Show,Critical,85,Yes
+T2539,Indiranagar,2026-03-01,Payment Issue,High,48,Yes
+T2540,Indiranagar,2026-03-01,Rider No Show,Critical,33,Yes
+T2541,Indiranagar,2026-03-01,Rider No Show,High,72,Yes
+T2542,Indiranagar,2026-03-01,App Issue,Critical,23,Yes
+T2543,Indiranagar,2026-03-01,App Issue,Medium,62,No
+T2544,Indiranagar,2026-03-02,Delivery Delay,Critical,55,Yes
+T2545,Indiranagar,2026-03-02,Delivery Delay,High,62,Yes
+T2546,Indiranagar,2026-03-02,Rider No Show,Low,59,No
+T2547,Indiranagar,2026-03-02,Delivery Delay,Medium,39,No
+T2548,Indiranagar,2026-03-03,Payment Issue,Critical,39,Yes
+T2549,Indiranagar,2026-03-03,Delivery Delay,High,33,Yes
+T2550,Indiranagar,2026-03-03,Rider Shortage,Low,53,No
+T2551,Indiranagar,2026-03-03,Rider Shortage,High,41,Yes
+T2552,Indiranagar,2026-03-03,Rider Shortage,Critical,88,Yes
+T2553,Indiranagar,2026-03-04,Rider Shortage,Critical,33,Yes
+T2554,Indiranagar,2026-03-04,Payment Issue,Medium,42,No
+T2555,Indiranagar,2026-03-04,Payment Issue,Critical,47,Yes
+T2556,Indiranagar,2026-03-04,Delivery Delay,Critical,24,Yes
+T2557,Indiranagar,2026-03-04,Rider No Show,Medium,44,No
+T2558,Indiranagar,2026-03-05,Payment Issue,Low,17,No
+T2559,Indiranagar,2026-03-05,Rider No Show,Critical,89,Yes
+T2560,Indiranagar,2026-03-05,Payment Issue,High,62,Yes
+T2561,Indiranagar,2026-03-05,Rider Shortage,Low,16,No
+T2562,Indiranagar,2026-03-05,Rider No Show,Low,68,No
+T2563,Indiranagar,2026-03-05,Rider Shortage,Low,20,No
+T2564,Indiranagar,2026-03-05,Delivery Delay,High,54,Yes
+T2565,Indiranagar,2026-03-06,Delivery Delay,High,16,Yes
+T2566,Indiranagar,2026-03-06,Payment Issue,Low,87,No
+T2567,Indiranagar,2026-03-06,Rider No Show,Medium,16,No
+T2568,Indiranagar,2026-03-06,Payment Issue,Medium,88,No
+T2569,Indiranagar,2026-03-06,Payment Issue,Critical,69,Yes
+T2570,Indiranagar,2026-03-07,Delivery Delay,High,74,Yes
+T2571,Indiranagar,2026-03-07,Payment Issue,Low,20,No
+T2572,Indiranagar,2026-03-07,App Issue,Medium,33,No
+T2573,Indiranagar,2026-03-07,Rider Shortage,Medium,41,No
+T2574,Indiranagar,2026-03-07,Payment Issue,Low,15,No
+T2575,Indiranagar,2026-03-07,Rider No Show,Critical,47,Yes
+T2576,Indiranagar,2026-03-08,App Issue,High,54,Yes
+T2577,Indiranagar,2026-03-08,Rider Shortage,Medium,46,No
+T2578,Indiranagar,2026-03-08,Payment Issue,High,83,Yes
+T2579,Indiranagar,2026-03-08,App Issue,High,31,Yes
+T2580,Indiranagar,2026-03-08,App Issue,Medium,22,No
+T2581,Indiranagar,2026-03-08,Rider No Show,High,71,Yes
+T2582,Indiranagar,2026-03-08,Rider No Show,Critical,56,Yes
+T2583,Indiranagar,2026-03-09,Delivery Delay,High,23,Yes
+T2584,Indiranagar,2026-03-09,Rider No Show,Low,49,No
+T2585,Indiranagar,2026-03-09,Rider Shortage,Critical,85,Yes
+T2586,Indiranagar,2026-03-10,Delivery Delay,Medium,68,No
+T2587,Indiranagar,2026-03-10,Rider No Show,High,39,Yes
+T2588,Indiranagar,2026-03-10,Rider No Show,Critical,81,Yes
+T2589,Indiranagar,2026-03-10,App Issue,Low,76,No
+T2590,Indiranagar,2026-03-10,Rider Shortage,Critical,69,Yes
+T2591,Indiranagar,2026-03-10,Rider Shortage,Low,60,No
+T2592,Indiranagar,2026-03-11,Payment Issue,Critical,60,Yes
+T2593,Indiranagar,2026-03-11,Rider Shortage,Low,36,No
+T2594,Indiranagar,2026-03-11,Delivery Delay,Critical,25,Yes
+T2595,Indiranagar,2026-03-12,Rider Shortage,Low,49,No
+T2596,Indiranagar,2026-03-12,App Issue,Low,63,No
+T2597,Indiranagar,2026-03-12,Delivery Delay,High,60,Yes
+T2598,Indiranagar,2026-03-12,App Issue,Medium,52,No
+T2599,Indiranagar,2026-03-13,Rider Shortage,High,51,Yes
+T2600,Indiranagar,2026-03-13,Payment Issue,High,54,Yes
+T2601,Indiranagar,2026-03-13,Payment Issue,Critical,48,Yes
+T2602,Indiranagar,2026-03-13,Delivery Delay,Critical,31,Yes
+T2603,Indiranagar,2026-03-13,Delivery Delay,High,47,Yes
+T2604,Indiranagar,2026-03-13,Rider No Show,Medium,61,No
+T2605,Indiranagar,2026-03-13,Delivery Delay,Low,66,No
+T2606,Indiranagar,2026-03-14,Delivery Delay,High,23,Yes
+T2607,Indiranagar,2026-03-14,App Issue,Low,47,No
+T2608,Indiranagar,2026-03-14,Rider No Show,Low,74,No
+T2609,Indiranagar,2026-03-14,Payment Issue,Critical,35,Yes
+T2610,Indiranagar,2026-03-14,Payment Issue,Critical,72,Yes
+T2611,Indiranagar,2026-03-14,App Issue,Medium,83,No
+T2612,Indiranagar,2026-03-14,Rider No Show,Low,24,No
+T2613,Indiranagar,2026-03-15,Delivery Delay,High,27,Yes
+T2614,Indiranagar,2026-03-15,Rider No Show,Critical,79,Yes
+T2615,Indiranagar,2026-03-15,Delivery Delay,Low,34,No
+T2616,Indiranagar,2026-03-15,App Issue,High,71,Yes
+T2617,Indiranagar,2026-03-15,Rider Shortage,High,60,Yes
+T2618,Indiranagar,2026-03-15,Rider No Show,High,22,Yes
+T2619,Indiranagar,2026-03-15,App Issue,Medium,24,No
+T2620,Indiranagar,2026-03-16,App Issue,High,81,Yes
+T2621,Indiranagar,2026-03-16,Payment Issue,Critical,25,Yes
+T2622,Indiranagar,2026-03-17,Payment Issue,High,24,Yes
+T2623,Indiranagar,2026-03-17,App Issue,Critical,39,Yes
+T2624,Indiranagar,2026-03-17,Payment Issue,Critical,63,Yes
+T2625,Indiranagar,2026-03-17,App Issue,High,63,Yes
+T2626,Indiranagar,2026-03-17,App Issue,Critical,25,Yes
+T2627,Indiranagar,2026-03-18,Payment Issue,Critical,50,Yes
+T2628,Indiranagar,2026-03-18,Payment Issue,Medium,53,No
+T2629,Indiranagar,2026-03-18,Rider Shortage,Low,67,No
+T2630,Indiranagar,2026-03-18,Rider No Show,Low,70,No
+T2631,Indiranagar,2026-03-18,Payment Issue,High,15,Yes
+T2632,Indiranagar,2026-03-18,Payment Issue,Low,70,No
+T2633,Indiranagar,2026-03-18,Delivery Delay,Medium,18,No
+T2634,Indiranagar,2026-03-19,Rider Shortage,High,44,Yes
+T2635,Indiranagar,2026-03-19,Rider Shortage,Medium,26,No
+T2636,Indiranagar,2026-03-19,Rider No Show,Critical,49,Yes
+T2637,Indiranagar,2026-03-19,Payment Issue,Medium,66,No
+T2638,Indiranagar,2026-03-19,Payment Issue,Medium,45,No
+T2639,Indiranagar,2026-03-19,Payment Issue,Low,82,No
+T2640,Indiranagar,2026-03-20,App Issue,Critical,21,Yes
+T2641,Indiranagar,2026-03-20,Rider Shortage,Critical,36,Yes
+T2642,Indiranagar,2026-03-20,Payment Issue,Critical,89,Yes
+T2643,Indiranagar,2026-03-20,Payment Issue,High,70,Yes
+T2644,Indiranagar,2026-03-20,App Issue,Critical,72,Yes
+T2645,Indiranagar,2026-03-21,Payment Issue,Medium,78,No
+T2646,Indiranagar,2026-03-21,App Issue,Critical,26,Yes
+T2647,Indiranagar,2026-03-21,Rider No Show,Low,21,No
+T2648,Indiranagar,2026-03-21,Rider No Show,Critical,69,Yes
+T2649,Indiranagar,2026-03-21,Rider Shortage,High,76,Yes
+T2650,Indiranagar,2026-03-21,Rider Shortage,Low,87,No
+T2651,Indiranagar,2026-03-22,Rider No Show,Medium,69,No
+T2652,Indiranagar,2026-03-22,Rider Shortage,Medium,50,No
+T2653,Indiranagar,2026-03-23,Rider Shortage,Low,38,No
+T2654,Indiranagar,2026-03-23,App Issue,Medium,58,No
+T2655,Indiranagar,2026-03-24,Delivery Delay,Medium,16,No
+T2656,Indiranagar,2026-03-24,Rider No Show,Critical,27,Yes
+T2657,Indiranagar,2026-03-25,Payment Issue,Low,42,No
+T2658,Indiranagar,2026-03-25,App Issue,High,74,Yes
+T2659,Indiranagar,2026-03-25,Rider Shortage,Medium,41,No
+T2660,Indiranagar,2026-03-25,Rider No Show,Critical,29,Yes
+T2661,Indiranagar,2026-03-25,Delivery Delay,Critical,47,Yes
+T2662,Indiranagar,2026-03-25,Payment Issue,Low,34,No
+T2663,Indiranagar,2026-03-26,App Issue,High,26,Yes
+T2664,Indiranagar,2026-03-26,Rider Shortage,High,87,Yes
+T2665,Indiranagar,2026-03-26,App Issue,Critical,37,Yes
+T2666,Indiranagar,2026-03-27,Delivery Delay,High,39,Yes
+T2667,Indiranagar,2026-03-27,App Issue,Low,45,No
+T2668,Indiranagar,2026-03-27,App Issue,Medium,68,No
+T2669,Indiranagar,2026-03-27,Rider No Show,High,19,Yes
+T2670,Indiranagar,2026-03-27,Payment Issue,Critical,27,Yes
+T2671,Indiranagar,2026-03-27,Rider No Show,High,42,Yes
+T2672,Indiranagar,2026-03-27,App Issue,High,57,Yes
+T2673,Indiranagar,2026-03-28,Delivery Delay,Low,61,No
+T2674,Indiranagar,2026-03-28,Rider Shortage,Low,85,No
+T2675,Indiranagar,2026-03-29,App Issue,Critical,81,Yes
+T2676,Indiranagar,2026-03-29,Rider No Show,High,76,Yes
+T2677,Indiranagar,2026-03-29,Rider Shortage,High,53,Yes
+T2678,Indiranagar,2026-03-29,Rider No Show,Medium,51,No
+T2679,Indiranagar,2026-03-29,Delivery Delay,Medium,22,No
+T2680,Indiranagar,2026-03-29,Delivery Delay,High,66,Yes
+T2681,Indiranagar,2026-03-29,Delivery Delay,Critical,47,Yes
+T2682,Indiranagar,2026-03-30,Payment Issue,Low,56,No
+T2683,Indiranagar,2026-03-30,Payment Issue,Critical,41,Yes
+T2684,Indiranagar,2026-03-30,Rider Shortage,Critical,22,Yes
+T2685,Indiranagar,2026-03-30,App Issue,Low,37,No
+T2686,Indiranagar,2026-03-30,App Issue,Medium,78,No
+T2687,Indiranagar,2026-03-30,Payment Issue,Low,34,No
+T2688,Indiranagar,2026-03-30,Payment Issue,Critical,30,Yes
+T2689,Indiranagar,2026-03-31,Delivery Delay,High,33,Yes
+T2690,Indiranagar,2026-03-31,App Issue,Critical,22,Yes
+T2691,Indiranagar,2026-04-01,Rider No Show,Low,52,No
+T2692,Indiranagar,2026-04-01,Delivery Delay,Critical,67,Yes
+T2693,Indiranagar,2026-04-01,Rider No Show,Critical,45,Yes
+T2694,Indiranagar,2026-04-01,App Issue,Critical,58,Yes
+T2695,Indiranagar,2026-04-01,Payment Issue,Low,74,No
+T2696,Indiranagar,2026-04-01,App Issue,Critical,31,Yes
+T2697,Indiranagar,2026-04-01,Rider No Show,Critical,87,Yes
+T2698,Indiranagar,2026-04-02,App Issue,Low,62,No
+T2699,Indiranagar,2026-04-02,Delivery Delay,Critical,26,Yes
+T2700,Indiranagar,2026-04-02,App Issue,High,32,Yes
+T2701,Indiranagar,2026-04-03,App Issue,Medium,57,No
+T2702,Indiranagar,2026-04-03,Delivery Delay,Low,49,No
+T2703,Indiranagar,2026-04-03,App Issue,Low,68,No
+T2704,Indiranagar,2026-04-03,Rider No Show,High,76,Yes
+T2705,Indiranagar,2026-04-03,App Issue,Critical,83,Yes
+T2706,Indiranagar,2026-04-03,Delivery Delay,Critical,30,Yes
+T2707,Indiranagar,2026-04-03,Delivery Delay,Low,22,No
+T2708,Indiranagar,2026-04-04,App Issue,Critical,45,Yes
+T2709,Indiranagar,2026-04-04,Payment Issue,High,24,Yes
+T2710,Indiranagar,2026-04-05,Delivery Delay,High,84,Yes
+T2711,Indiranagar,2026-04-05,Delivery Delay,High,34,Yes
+T2712,Indiranagar,2026-04-06,Rider No Show,Critical,37,Yes
+T2713,Indiranagar,2026-04-06,App Issue,Low,23,No
+T2714,Indiranagar,2026-04-06,Rider No Show,Critical,72,Yes
+T2715,Indiranagar,2026-04-06,Payment Issue,Critical,73,Yes
+T2716,Indiranagar,2026-04-06,App Issue,Low,68,No
+T2717,Indiranagar,2026-04-06,Delivery Delay,Critical,60,Yes
+T2718,Indiranagar,2026-04-07,App Issue,Critical,78,Yes
+T2719,Indiranagar,2026-04-07,Rider Shortage,Low,22,No
+T2720,Indiranagar,2026-04-07,App Issue,Critical,34,Yes
+T2721,Indiranagar,2026-04-07,Delivery Delay,Low,65,No
+T2722,Indiranagar,2026-04-07,App Issue,Critical,53,Yes
+T2723,Indiranagar,2026-04-07,Delivery Delay,Medium,51,No
+T2724,Indiranagar,2026-04-07,Rider No Show,Medium,64,No
+T2725,Indiranagar,2026-04-08,Delivery Delay,Medium,89,No
+T2726,Indiranagar,2026-04-08,Payment Issue,High,47,Yes
+T2727,Indiranagar,2026-04-08,Rider Shortage,High,45,Yes
+T2728,Indiranagar,2026-04-09,Rider No Show,High,68,Yes
+T2729,Indiranagar,2026-04-09,Rider No Show,Medium,58,No
+T2730,Indiranagar,2026-04-09,Delivery Delay,Critical,48,Yes
+T2731,Indiranagar,2026-04-09,Payment Issue,Medium,85,No
+T2732,Indiranagar,2026-04-10,App Issue,Medium,76,No
+T2733,Indiranagar,2026-04-10,Rider Shortage,Critical,37,Yes
+T2734,Indiranagar,2026-04-10,Rider No Show,High,60,Yes
+T2735,Indiranagar,2026-04-11,Rider No Show,Low,75,No
+T2736,Indiranagar,2026-04-11,Delivery Delay,Medium,17,No
+T2737,Indiranagar,2026-04-11,App Issue,Critical,52,Yes
+T2738,Indiranagar,2026-04-11,Rider Shortage,Medium,48,No
+T2739,Indiranagar,2026-04-11,Payment Issue,Critical,58,Yes
+T2740,Indiranagar,2026-04-11,App Issue,Low,44,No
+T2741,Indiranagar,2026-04-11,Payment Issue,Critical,31,Yes
+T2742,Indiranagar,2026-04-12,Rider No Show,Critical,24,Yes
+T2743,Indiranagar,2026-04-12,App Issue,Critical,32,Yes
+T2744,Indiranagar,2026-04-12,Delivery Delay,Medium,59,No
+T2745,Indiranagar,2026-04-12,App Issue,Critical,73,Yes
+T2746,Indiranagar,2026-04-13,Payment Issue,Medium,73,No
+T2747,Indiranagar,2026-04-13,App Issue,Critical,63,Yes
+T2748,Indiranagar,2026-04-13,Payment Issue,High,77,Yes
+T2749,Indiranagar,2026-04-13,Rider No Show,Critical,46,Yes
+T2750,Indiranagar,2026-04-13,Rider No Show,Critical,24,Yes
+T2751,Indiranagar,2026-04-13,App Issue,Critical,25,Yes
+T2752,Indiranagar,2026-04-13,Payment Issue,Low,84,No
+T2753,Indiranagar,2026-04-14,Rider No Show,High,76,Yes
+T2754,Indiranagar,2026-04-14,App Issue,High,61,Yes
+T2755,Indiranagar,2026-04-14,Rider Shortage,Medium,48,No
+T2756,Indiranagar,2026-04-14,Delivery Delay,Critical,31,Yes
+T2757,Indiranagar,2026-04-15,Rider No Show,Low,54,No
+T2758,Indiranagar,2026-04-15,Delivery Delay,Medium,33,No
+T2759,Indiranagar,2026-04-15,Payment Issue,Critical,81,Yes
+T2760,Indiranagar,2026-04-15,Rider Shortage,Critical,67,Yes
+T2761,Indiranagar,2026-04-15,App Issue,Low,78,No
+T2762,Indiranagar,2026-04-15,App Issue,Critical,61,Yes
+T2763,Indiranagar,2026-04-15,App Issue,Critical,20,Yes
+T2764,Indiranagar,2026-04-16,Rider Shortage,Low,66,No
+T2765,Indiranagar,2026-04-16,Rider No Show,High,62,Yes
+T2766,Indiranagar,2026-04-16,Rider Shortage,High,57,Yes
+T2767,Indiranagar,2026-04-17,App Issue,Low,26,No
+T2768,Indiranagar,2026-04-17,Delivery Delay,High,24,Yes
+T2769,Indiranagar,2026-04-18,App Issue,Medium,69,No
+T2770,Indiranagar,2026-04-18,Rider Shortage,Low,15,No
+T2771,Indiranagar,2026-04-18,Rider No Show,Medium,63,No
+T2772,Indiranagar,2026-04-18,Delivery Delay,High,50,Yes
+T2773,Indiranagar,2026-04-18,App Issue,Medium,35,No
+T2774,Indiranagar,2026-04-18,Rider Shortage,Low,51,No
+T2775,Indiranagar,2026-04-18,App Issue,Critical,38,Yes
+T2776,Indiranagar,2026-04-19,Rider Shortage,Low,21,No
+T2777,Indiranagar,2026-04-19,Rider No Show,Critical,85,Yes
+T2778,Indiranagar,2026-04-20,Rider No Show,Medium,85,No
+T2779,Indiranagar,2026-04-20,Rider No Show,High,38,Yes
+T2780,Indiranagar,2026-04-21,Rider No Show,Critical,87,Yes
+T2781,Indiranagar,2026-04-21,App Issue,Critical,26,Yes
+T2782,Indiranagar,2026-04-21,Rider Shortage,Low,49,No
+T2783,Indiranagar,2026-04-21,Delivery Delay,High,77,Yes
+T2784,Indiranagar,2026-04-22,Payment Issue,High,71,Yes
+T2785,Indiranagar,2026-04-22,Payment Issue,High,27,Yes
+T2786,Indiranagar,2026-04-22,Payment Issue,High,37,Yes
+T2787,Indiranagar,2026-04-22,Delivery Delay,Medium,53,No
+T2788,Indiranagar,2026-04-22,App Issue,Critical,26,Yes
+T2789,Indiranagar,2026-04-23,Delivery Delay,High,85,Yes
+T2790,Indiranagar,2026-04-23,Payment Issue,Critical,89,Yes
+T2791,Indiranagar,2026-04-23,Payment Issue,Low,45,No
+T2792,Indiranagar,2026-04-24,Delivery Delay,High,76,Yes
+T2793,Indiranagar,2026-04-24,Payment Issue,High,27,Yes
+T2794,Indiranagar,2026-04-24,Rider Shortage,Low,45,No
+T2795,Indiranagar,2026-04-24,App Issue,High,16,Yes
+T2796,Indiranagar,2026-04-24,Rider No Show,Low,29,No
+T2797,Indiranagar,2026-04-24,Rider No Show,High,71,Yes
+T2798,Indiranagar,2026-04-25,Rider No Show,Low,48,No
+T2799,Indiranagar,2026-04-25,Delivery Delay,Low,82,No
+T2800,Indiranagar,2026-04-25,Delivery Delay,Critical,89,Yes
+T2801,Indiranagar,2026-04-25,Rider Shortage,Low,43,No
+T2802,Indiranagar,2026-04-26,Rider Shortage,Low,30,No
+T2803,Indiranagar,2026-04-26,Delivery Delay,High,53,Yes
+T2804,Indiranagar,2026-04-26,App Issue,High,51,Yes
+T2805,Indiranagar,2026-04-27,Rider No Show,High,35,Yes
+T2806,Indiranagar,2026-04-27,App Issue,Low,58,No
+T2807,Indiranagar,2026-04-28,Payment Issue,Medium,33,No
+T2808,Indiranagar,2026-04-28,Rider No Show,Low,85,No
+T2809,Indiranagar,2026-04-28,Rider No Show,Critical,22,Yes
+T2810,Indiranagar,2026-04-28,Payment Issue,Medium,80,No
+T2811,Indiranagar,2026-04-28,Delivery Delay,Low,55,No
+T2812,Indiranagar,2026-04-29,Rider No Show,Medium,89,No
+T2813,Indiranagar,2026-04-29,Delivery Delay,High,84,Yes
+T2814,Indiranagar,2026-04-29,Delivery Delay,Medium,75,No
+T2815,Indiranagar,2026-04-29,Delivery Delay,High,40,Yes
+T2816,Indiranagar,2026-04-29,App Issue,Critical,85,Yes
+T2817,Indiranagar,2026-04-29,Delivery Delay,High,84,Yes
+T2818,Indiranagar,2026-04-29,Delivery Delay,Medium,43,No
+T2819,Indiranagar,2026-04-30,App Issue,High,80,Yes
+T2820,Indiranagar,2026-04-30,Rider No Show,High,33,Yes
+T2821,Indiranagar,2026-04-30,App Issue,Medium,82,No
+T2822,Indiranagar,2026-04-30,App Issue,Critical,72,Yes
+T2823,Indiranagar,2026-05-01,App Issue,Low,71,No
+T2824,Indiranagar,2026-05-01,Rider Shortage,Low,51,No
+T2825,Indiranagar,2026-05-01,Payment Issue,Medium,75,No
+T2826,Indiranagar,2026-05-01,Payment Issue,Critical,44,Yes
+T2827,Indiranagar,2026-05-01,App Issue,Medium,85,No
+T2828,Indiranagar,2026-05-01,Payment Issue,Critical,87,Yes
+T2829,Indiranagar,2026-05-01,Payment Issue,High,39,Yes
+T2830,Indiranagar,2026-05-02,Delivery Delay,Critical,79,Yes
+T2831,Indiranagar,2026-05-02,Payment Issue,Medium,20,No
+T2832,Indiranagar,2026-05-03,Payment Issue,High,24,Yes
+T2833,Indiranagar,2026-05-03,Rider No Show,High,25,Yes
+T2834,Indiranagar,2026-05-03,Payment Issue,Medium,79,No
+T2835,Indiranagar,2026-05-04,App Issue,Critical,79,Yes
+T2836,Indiranagar,2026-05-04,App Issue,Critical,66,Yes
+T2837,Indiranagar,2026-05-04,App Issue,Low,81,No
+T2838,Indiranagar,2026-05-04,Rider No Show,Medium,45,No
+T2839,Indiranagar,2026-05-04,Rider Shortage,High,31,Yes
+T2840,Indiranagar,2026-05-04,Delivery Delay,High,69,Yes
+T2841,Indiranagar,2026-05-05,App Issue,High,50,Yes
+T2842,Indiranagar,2026-05-05,Rider No Show,Medium,40,No
+T2843,Indiranagar,2026-05-05,Payment Issue,Critical,67,Yes
+T2844,Indiranagar,2026-05-05,Rider Shortage,High,31,Yes
+T2845,Indiranagar,2026-05-05,Rider Shortage,Medium,39,No
+T2846,Indiranagar,2026-05-05,Delivery Delay,Low,16,No
+T2847,Indiranagar,2026-05-05,Rider Shortage,Critical,19,Yes
+T2848,Indiranagar,2026-05-06,App Issue,High,50,Yes
+T2849,Indiranagar,2026-05-06,Delivery Delay,Critical,20,Yes
+T2850,Indiranagar,2026-05-06,Payment Issue,Low,35,No
+T2851,Indiranagar,2026-05-06,App Issue,High,40,Yes
+T2852,Indiranagar,2026-05-06,Rider Shortage,Low,69,No
+T2853,Indiranagar,2026-05-07,Rider Shortage,High,47,Yes
+T2854,Indiranagar,2026-05-07,App Issue,Medium,28,No
+T2855,Indiranagar,2026-05-07,Delivery Delay,Low,70,No
+T2856,Indiranagar,2026-05-07,Rider Shortage,Medium,35,No
+T2857,Indiranagar,2026-05-07,Payment Issue,High,60,Yes
+T2858,Indiranagar,2026-05-08,Payment Issue,Medium,30,No
+T2859,Indiranagar,2026-05-08,Payment Issue,Low,43,No
+T2860,Indiranagar,2026-05-08,Rider No Show,Critical,22,Yes
+T2861,Indiranagar,2026-05-08,Rider Shortage,Critical,17,Yes
+T2862,Indiranagar,2026-05-08,Rider No Show,Critical,33,Yes
+T2863,Indiranagar,2026-05-08,Rider Shortage,Medium,80,No
+T2864,Indiranagar,2026-05-08,Payment Issue,High,88,Yes
+T2865,Indiranagar,2026-05-09,App Issue,High,36,Yes
+T2866,Indiranagar,2026-05-09,App Issue,Low,60,No
+T2867,Indiranagar,2026-05-09,Delivery Delay,Low,27,No
+T2868,Indiranagar,2026-05-10,Rider Shortage,Critical,19,Yes
+T2869,Indiranagar,2026-05-10,Payment Issue,Medium,41,No
+T2870,Indiranagar,2026-05-11,Delivery Delay,High,38,Yes
+T2871,Indiranagar,2026-05-11,Delivery Delay,High,81,Yes
+T2872,Indiranagar,2026-05-12,App Issue,High,77,Yes
+T2873,Indiranagar,2026-05-12,Payment Issue,Low,62,No
+T2874,Indiranagar,2026-05-12,Rider Shortage,Low,77,No
+T2875,Indiranagar,2026-05-12,Payment Issue,High,26,Yes
+T2876,Indiranagar,2026-05-13,Rider Shortage,Low,58,No
+T2877,Indiranagar,2026-05-13,Rider No Show,High,57,Yes
+T2878,Indiranagar,2026-05-13,Delivery Delay,High,31,Yes
+T2879,Indiranagar,2026-05-13,Delivery Delay,Critical,54,Yes
+T2880,Indiranagar,2026-05-13,Payment Issue,Critical,63,Yes
+T2881,Indiranagar,2026-05-14,Rider Shortage,High,71,Yes
+T2882,Indiranagar,2026-05-14,Rider Shortage,Critical,78,Yes
+T2883,Indiranagar,2026-05-14,App Issue,Low,89,No
+T2884,Indiranagar,2026-05-14,Rider No Show,High,71,Yes
+T2885,Indiranagar,2026-05-14,Rider Shortage,Critical,88,Yes
+T2886,Indiranagar,2026-05-14,App Issue,High,88,Yes
+T2887,Indiranagar,2026-05-15,App Issue,Medium,84,No
+T2888,Indiranagar,2026-05-15,App Issue,Low,57,No
+T2889,Indiranagar,2026-05-15,Rider No Show,Low,37,No
+T2890,Indiranagar,2026-05-15,App Issue,High,41,Yes
+T2891,Indiranagar,2026-05-16,Payment Issue,Critical,51,Yes
+T2892,Indiranagar,2026-05-16,Rider Shortage,Medium,20,No
+T2893,Indiranagar,2026-05-16,Delivery Delay,Low,79,No
+T2894,Indiranagar,2026-05-17,Payment Issue,Critical,64,Yes
+T2895,Indiranagar,2026-05-17,Rider Shortage,Critical,36,Yes
+T2896,Indiranagar,2026-05-17,Rider Shortage,High,39,Yes
+T2897,Indiranagar,2026-05-17,Rider No Show,High,86,Yes
+T2898,Indiranagar,2026-05-17,Delivery Delay,Medium,65,No
+T2899,Indiranagar,2026-05-17,Delivery Delay,High,62,Yes
+T2900,Indiranagar,2026-05-17,Payment Issue,Low,84,No
+T2901,Indiranagar,2026-05-18,App Issue,Critical,79,Yes
+T2902,Indiranagar,2026-05-18,App Issue,Critical,74,Yes
+T2903,Indiranagar,2026-05-18,Rider Shortage,Critical,60,Yes
+T2904,Indiranagar,2026-05-18,Delivery Delay,Critical,50,Yes
+T2905,Indiranagar,2026-05-18,Rider Shortage,Critical,72,Yes
+T2906,Indiranagar,2026-05-18,Delivery Delay,Critical,52,Yes
+T2907,Indiranagar,2026-05-18,Rider Shortage,Low,25,No
+T2908,Indiranagar,2026-05-19,App Issue,Medium,56,No
+T2909,Indiranagar,2026-05-19,Rider Shortage,High,53,Yes
+T2910,Indiranagar,2026-05-19,Rider No Show,Low,85,No
+T2911,Indiranagar,2026-05-19,Payment Issue,High,25,Yes
+T2912,Indiranagar,2026-05-19,Rider No Show,High,50,Yes
+T2913,Indiranagar,2026-05-20,Delivery Delay,High,45,Yes
+T2914,Indiranagar,2026-05-20,Payment Issue,Low,47,No
+T2915,Indiranagar,2026-05-20,App Issue,Low,27,No
+T2916,Indiranagar,2026-05-20,Payment Issue,Critical,32,Yes
+T2917,Indiranagar,2026-05-20,Rider Shortage,High,55,Yes
+T2918,Indiranagar,2026-05-21,Delivery Delay,High,70,Yes
+T2919,Indiranagar,2026-05-21,Payment Issue,Low,38,No
+T2920,Indiranagar,2026-05-21,Rider No Show,Medium,87,No
+T2921,Indiranagar,2026-05-22,Rider No Show,High,24,Yes
+T2922,Indiranagar,2026-05-22,Payment Issue,High,74,Yes
+T2923,Indiranagar,2026-05-22,Delivery Delay,Low,16,No
+T2924,Indiranagar,2026-05-22,Payment Issue,High,29,Yes
+T2925,Indiranagar,2026-05-22,Rider Shortage,Medium,17,No
+T2926,Indiranagar,2026-05-22,Rider Shortage,Critical,57,Yes
+T2927,Indiranagar,2026-05-23,App Issue,Low,81,No
+T2928,Indiranagar,2026-05-23,Delivery Delay,High,70,Yes
+T2929,Indiranagar,2026-05-23,Rider No Show,Critical,77,Yes
+T2930,Indiranagar,2026-05-23,App Issue,Critical,89,Yes
+T2931,Indiranagar,2026-05-23,Payment Issue,Medium,29,No
+T2932,Indiranagar,2026-05-23,Payment Issue,Low,24,No
+T2933,Indiranagar,2026-05-23,Rider Shortage,Low,52,No
+T2934,Indiranagar,2026-05-24,Rider Shortage,Medium,64,No
+T2935,Indiranagar,2026-05-24,Rider Shortage,Medium,85,No
+T2936,Indiranagar,2026-05-25,Rider No Show,Medium,16,No
+T2937,Indiranagar,2026-05-25,App Issue,Low,57,No
+T2938,Indiranagar,2026-05-25,Delivery Delay,Critical,40,Yes
+T2939,Indiranagar,2026-05-26,App Issue,Low,56,No
+T2940,Indiranagar,2026-05-26,App Issue,High,19,Yes
+T2941,Indiranagar,2026-05-26,Rider Shortage,Low,25,No
+T2942,Indiranagar,2026-05-26,Rider Shortage,Low,79,No
+T2943,Indiranagar,2026-05-26,Rider No Show,High,48,Yes
+T2944,Indiranagar,2026-05-26,Rider Shortage,Medium,15,No
+T2945,Indiranagar,2026-05-26,Rider Shortage,High,16,Yes
+T2946,Indiranagar,2026-05-27,Delivery Delay,Medium,34,No
+T2947,Indiranagar,2026-05-27,Rider No Show,High,75,Yes
+T2948,Indiranagar,2026-05-27,App Issue,Critical,35,Yes
+T2949,Indiranagar,2026-05-27,Rider No Show,Medium,82,No
+T2950,Indiranagar,2026-05-27,Rider No Show,High,26,Yes
+T2951,Indiranagar,2026-05-27,Delivery Delay,Critical,36,Yes
+T2952,Indiranagar,2026-05-28,Delivery Delay,Critical,15,Yes
+T2953,Indiranagar,2026-05-28,App Issue,Low,44,No
+T2954,Indiranagar,2026-05-28,Payment Issue,High,38,Yes
+T2955,Indiranagar,2026-05-28,Rider No Show,Critical,28,Yes
+T2956,Indiranagar,2026-05-28,Delivery Delay,Medium,50,No
+T2957,Indiranagar,2026-05-29,Rider Shortage,Low,89,No
+T2958,Indiranagar,2026-05-29,Delivery Delay,Medium,38,No
+T2959,Indiranagar,2026-05-29,Rider Shortage,Critical,74,Yes
+T2960,Indiranagar,2026-05-29,Payment Issue,High,69,Yes
+T2961,Indiranagar,2026-05-29,App Issue,Medium,38,No
+T2962,Indiranagar,2026-05-29,Delivery Delay,Medium,38,No
+T2963,Indiranagar,2026-05-30,Payment Issue,Medium,40,No
+T2964,Indiranagar,2026-05-30,Rider Shortage,Low,80,No
+T2965,Indiranagar,2026-05-30,Payment Issue,Critical,52,Yes
+T2966,Indiranagar,2026-05-30,Payment Issue,Medium,79,No
+T2967,Indiranagar,2026-05-30,App Issue,Critical,89,Yes
+T2968,Indiranagar,2026-05-30,Delivery Delay,Critical,65,Yes
+T2969,Indiranagar,2026-05-30,Payment Issue,High,49,Yes
+T2970,Indiranagar,2026-05-31,App Issue,High,43,Yes
+T2971,Indiranagar,2026-05-31,Delivery Delay,Medium,51,No
+T2972,Indiranagar,2026-05-31,Delivery Delay,High,72,Yes
+T2973,Indiranagar,2026-05-31,Rider No Show,Medium,68,No
+T2974,Indiranagar,2026-06-01,Delivery Delay,High,42,Yes
+T2975,Indiranagar,2026-06-01,Rider No Show,Critical,43,Yes
+T2976,Indiranagar,2026-06-01,App Issue,High,57,Yes
+T2977,Indiranagar,2026-06-02,Rider Shortage,Low,24,No
+T2978,Indiranagar,2026-06-02,Rider No Show,Critical,73,Yes
+T2979,Indiranagar,2026-06-02,App Issue,Critical,28,Yes
+T2980,Indiranagar,2026-06-02,Payment Issue,Critical,61,Yes
+T2981,Indiranagar,2026-06-03,Rider No Show,Low,46,No
+T2982,Indiranagar,2026-06-03,Rider Shortage,Medium,46,No
+T2983,Indiranagar,2026-06-03,Rider Shortage,High,56,Yes
+T2984,Indiranagar,2026-06-04,Rider No Show,Medium,15,No
+T2985,Indiranagar,2026-06-04,App Issue,High,70,Yes
+T2986,Indiranagar,2026-06-04,Rider No Show,Critical,16,Yes
+T2987,Indiranagar,2026-06-05,Rider No Show,High,44,Yes
+T2988,Indiranagar,2026-06-05,Payment Issue,Critical,85,Yes
+T2989,Indiranagar,2026-06-06,App Issue,Low,23,No
+T2990,Indiranagar,2026-06-06,App Issue,Medium,36,No
+T2991,Indiranagar,2026-06-06,App Issue,Critical,48,Yes
+T2992,Indiranagar,2026-06-06,Rider No Show,Critical,63,Yes
+T2993,Indiranagar,2026-06-06,Delivery Delay,Low,15,No
+T2994,Indiranagar,2026-06-07,Payment Issue,Critical,67,Yes
+T2995,Indiranagar,2026-06-07,App Issue,Low,54,No
+T2996,Indiranagar,2026-06-08,Payment Issue,Medium,82,No
+T2997,Indiranagar,2026-06-08,Delivery Delay,Critical,23,Yes
+T2998,Indiranagar,2026-06-08,App Issue,Low,36,No
+T2999,Indiranagar,2026-06-08,Delivery Delay,Critical,32,Yes
+T3000,Indiranagar,2026-06-08,Rider Shortage,High,57,Yes
+T3001,Indiranagar,2026-06-08,Payment Issue,Medium,53,No
+T3002,Indiranagar,2026-06-09,Delivery Delay,Medium,20,No
+T3003,Indiranagar,2026-06-09,Delivery Delay,High,62,Yes
+T3004,Indiranagar,2026-06-10,Payment Issue,Low,21,No
+T3005,Indiranagar,2026-06-10,App Issue,Low,83,No
+T3006,Indiranagar,2026-06-10,Payment Issue,Critical,30,Yes
+T3007,Indiranagar,2026-06-10,Rider No Show,Critical,15,Yes
+T3008,Indiranagar,2026-06-10,Delivery Delay,Low,51,No
+T3009,Indiranagar,2026-06-10,Delivery Delay,High,51,Yes
+T3010,Indiranagar,2026-06-10,App Issue,Medium,78,No
+T3011,Indiranagar,2026-06-11,App Issue,Critical,76,Yes
+T3012,Indiranagar,2026-06-11,Payment Issue,Critical,86,Yes
+T3013,Indiranagar,2026-06-11,Payment Issue,Low,75,No
+T3014,Indiranagar,2026-06-12,Rider Shortage,Low,47,No
+T3015,Indiranagar,2026-06-12,Rider No Show,Medium,80,No
+T3016,Indiranagar,2026-06-12,Rider Shortage,Critical,44,Yes
+T3017,Indiranagar,2026-06-12,Rider Shortage,Medium,34,No
+T3018,Indiranagar,2026-06-12,Delivery Delay,Medium,74,No
+T3019,Indiranagar,2026-06-12,App Issue,Critical,88,Yes
+T3020,Indiranagar,2026-06-13,Rider Shortage,High,51,Yes
+T3021,Indiranagar,2026-06-13,Delivery Delay,Critical,18,Yes
+T3022,Indiranagar,2026-06-13,Rider Shortage,Low,32,No
+T3023,Indiranagar,2026-06-13,Payment Issue,Medium,80,No
+T3024,Indiranagar,2026-06-13,Rider Shortage,Medium,62,No
+T3025,Indiranagar,2026-06-14,Payment Issue,High,72,Yes
+T3026,Indiranagar,2026-06-14,Delivery Delay,Critical,87,Yes
+T3027,Indiranagar,2026-06-15,Delivery Delay,Medium,49,No
+T3028,Indiranagar,2026-06-15,Rider Shortage,Medium,24,No
+T3029,Indiranagar,2026-06-15,Payment Issue,High,79,Yes
+T3030,Indiranagar,2026-06-15,Payment Issue,High,56,Yes
+T3031,Indiranagar,2026-06-15,Rider Shortage,Critical,23,Yes
+T3032,Indiranagar,2026-06-16,App Issue,Critical,29,Yes
+T3033,Indiranagar,2026-06-16,Rider No Show,Medium,71,No
+T3034,Indiranagar,2026-06-16,Rider Shortage,Low,83,No
+T3035,Indiranagar,2026-06-16,Payment Issue,Critical,36,Yes
+T3036,Indiranagar,2026-06-16,App Issue,Medium,78,No
+T3037,Indiranagar,2026-06-17,Delivery Delay,Medium,85,No
+T3038,Indiranagar,2026-06-17,Payment Issue,High,70,Yes
+T3039,Indiranagar,2026-06-18,Payment Issue,Low,39,No
+T3040,Indiranagar,2026-06-18,Rider No Show,Critical,20,Yes
+T3041,Indiranagar,2026-06-18,Rider No Show,High,48,Yes
+T3042,Indiranagar,2026-06-18,Rider Shortage,Low,77,No
+T3043,Indiranagar,2026-06-18,Payment Issue,Critical,23,Yes
+T3044,Indiranagar,2026-06-19,App Issue,Medium,63,No
+T3045,Indiranagar,2026-06-19,App Issue,High,65,Yes
+T3046,Indiranagar,2026-06-19,Rider No Show,Critical,74,Yes
+T3047,Indiranagar,2026-06-19,Delivery Delay,Critical,84,Yes
+T3048,Indiranagar,2026-06-19,Rider Shortage,High,51,Yes
+T3049,Indiranagar,2026-06-20,App Issue,High,55,Yes
+T3050,Indiranagar,2026-06-20,Delivery Delay,Medium,76,No
+T3051,Indiranagar,2026-06-20,Delivery Delay,Critical,72,Yes
+T3052,Indiranagar,2026-06-21,Payment Issue,Critical,50,Yes
+T3053,Indiranagar,2026-06-21,Rider Shortage,Medium,50,No
+T3054,Indiranagar,2026-06-21,Rider Shortage,High,22,Yes
+T3055,Indiranagar,2026-06-21,Payment Issue,Low,40,No
+T3056,Indiranagar,2026-06-21,App Issue,High,50,Yes
+T3057,Indiranagar,2026-06-21,Rider No Show,Low,62,No
+T3058,Indiranagar,2026-06-21,Rider Shortage,Medium,42,No
+T3059,Indiranagar,2026-06-22,Payment Issue,Medium,76,No
+T3060,Indiranagar,2026-06-22,Rider Shortage,Critical,65,Yes
+T3061,Indiranagar,2026-06-22,Rider No Show,High,56,Yes
+T3062,Indiranagar,2026-06-22,App Issue,Medium,43,No
+T3063,Indiranagar,2026-06-22,App Issue,Low,24,No
+T3064,Indiranagar,2026-06-23,Rider No Show,Critical,53,Yes
+T3065,Indiranagar,2026-06-23,Payment Issue,High,15,Yes
+T3066,Indiranagar,2026-06-23,App Issue,Low,53,No
+T3067,Indiranagar,2026-06-24,Delivery Delay,Medium,79,No
+T3068,Indiranagar,2026-06-24,Rider No Show,Medium,29,No
+T3069,Indiranagar,2026-06-24,Delivery Delay,Medium,18,No
+T3070,Indiranagar,2026-06-24,Payment Issue,High,74,Yes
+T3071,Indiranagar,2026-06-24,App Issue,Medium,75,No
+T3072,Indiranagar,2026-06-24,Rider No Show,High,34,Yes
+T3073,Indiranagar,2026-06-25,Delivery Delay,Medium,48,No
+T3074,Indiranagar,2026-06-25,Rider Shortage,Medium,62,No
+T3075,Indiranagar,2026-06-25,App Issue,Medium,47,No
+T3076,Indiranagar,2026-06-26,Delivery Delay,Critical,75,Yes
+T3077,Indiranagar,2026-06-26,Rider No Show,Medium,24,No
+T3078,Indiranagar,2026-06-26,Payment Issue,High,68,Yes
+T3079,Indiranagar,2026-06-27,Delivery Delay,Low,79,No
+T3080,Indiranagar,2026-06-27,Rider Shortage,Medium,15,No
+T3081,Indiranagar,2026-06-27,Payment Issue,Medium,19,No
+T3082,Indiranagar,2026-06-27,Rider Shortage,Critical,29,Yes
+T3083,Indiranagar,2026-06-27,Rider Shortage,Medium,42,No
+T3084,Indiranagar,2026-06-28,Rider Shortage,High,31,Yes
+T3085,Indiranagar,2026-06-28,Rider Shortage,High,27,Yes
+T3086,Indiranagar,2026-06-28,Rider Shortage,Low,28,No
+T3087,Indiranagar,2026-06-28,Rider Shortage,High,25,Yes
+T3088,Indiranagar,2026-06-28,Rider Shortage,Low,42,No
+T3089,Indiranagar,2026-06-28,Rider No Show,Low,56,No
+T3090,Indiranagar,2026-06-29,Rider No Show,Low,75,No
+T3091,Indiranagar,2026-06-29,App Issue,Critical,78,Yes
+T3092,Indiranagar,2026-06-29,Payment Issue,Critical,45,Yes
+T3093,Indiranagar,2026-06-29,Rider Shortage,Medium,87,No
+T3094,Indiranagar,2026-06-30,Payment Issue,Critical,22,Yes
+T3095,Indiranagar,2026-06-30,Rider No Show,Critical,35,Yes
+T3096,Indiranagar,2026-06-30,App Issue,Low,73,No
+T3097,Koramangala,2026-01-01,Rider Shortage,High,83,Yes
+T3098,Koramangala,2026-01-01,App Issue,Low,84,No
+T3099,Koramangala,2026-01-01,Rider No Show,High,44,Yes
+T3100,Koramangala,2026-01-02,App Issue,High,89,Yes
+T3101,Koramangala,2026-01-02,Rider No Show,Critical,34,Yes
+T3102,Koramangala,2026-01-03,Rider Shortage,Low,16,No
+T3103,Koramangala,2026-01-03,App Issue,Medium,51,No
+T3104,Koramangala,2026-01-04,Rider Shortage,Critical,18,Yes
+T3105,Koramangala,2026-01-04,Payment Issue,Critical,68,Yes
+T3106,Koramangala,2026-01-05,Delivery Delay,Low,39,No
+T3107,Koramangala,2026-01-05,Rider No Show,Medium,17,No
+T3108,Koramangala,2026-01-05,Rider No Show,Medium,23,No
+T3109,Koramangala,2026-01-06,Delivery Delay,High,88,Yes
+T3110,Koramangala,2026-01-06,Rider Shortage,Medium,48,No
+T3111,Koramangala,2026-01-06,App Issue,High,57,Yes
+T3112,Koramangala,2026-01-06,Delivery Delay,Critical,88,Yes
+T3113,Koramangala,2026-01-06,Payment Issue,Low,36,No
+T3114,Koramangala,2026-01-06,Rider No Show,Critical,84,Yes
+T3115,Koramangala,2026-01-06,App Issue,Critical,16,Yes
+T3116,Koramangala,2026-01-07,Payment Issue,Medium,80,No
+T3117,Koramangala,2026-01-07,Rider Shortage,Low,46,No
+T3118,Koramangala,2026-01-07,App Issue,Low,30,No
+T3119,Koramangala,2026-01-07,App Issue,High,15,Yes
+T3120,Koramangala,2026-01-07,App Issue,Low,86,No
+T3121,Koramangala,2026-01-07,Payment Issue,Medium,62,No
+T3122,Koramangala,2026-01-07,App Issue,High,64,Yes
+T3123,Koramangala,2026-01-08,Payment Issue,Critical,29,Yes
+T3124,Koramangala,2026-01-08,App Issue,Low,67,No
+T3125,Koramangala,2026-01-08,App Issue,High,58,Yes
+T3126,Koramangala,2026-01-08,Rider No Show,Critical,22,Yes
+T3127,Koramangala,2026-01-08,Delivery Delay,High,88,Yes
+T3128,Koramangala,2026-01-08,App Issue,Medium,60,No
+T3129,Koramangala,2026-01-09,Payment Issue,Medium,33,No
+T3130,Koramangala,2026-01-09,Payment Issue,High,52,Yes
+T3131,Koramangala,2026-01-09,Rider Shortage,Low,25,No
+T3132,Koramangala,2026-01-09,Payment Issue,Low,57,No
+T3133,Koramangala,2026-01-09,Delivery Delay,Critical,34,Yes
+T3134,Koramangala,2026-01-09,Rider No Show,Low,34,No
+T3135,Koramangala,2026-01-10,App Issue,High,71,Yes
+T3136,Koramangala,2026-01-10,Rider Shortage,Medium,64,No
+T3137,Koramangala,2026-01-10,App Issue,High,88,Yes
+T3138,Koramangala,2026-01-10,App Issue,Critical,40,Yes
+T3139,Koramangala,2026-01-10,Rider No Show,Low,44,No
+T3140,Koramangala,2026-01-10,App Issue,High,87,Yes
+T3141,Koramangala,2026-01-11,Rider No Show,Critical,45,Yes
+T3142,Koramangala,2026-01-11,Rider No Show,Critical,56,Yes
+T3143,Koramangala,2026-01-11,Rider No Show,High,82,Yes
+T3144,Koramangala,2026-01-11,App Issue,Medium,75,No
+T3145,Koramangala,2026-01-11,Rider No Show,Critical,75,Yes
+T3146,Koramangala,2026-01-11,Payment Issue,Medium,84,No
+T3147,Koramangala,2026-01-11,Rider Shortage,Medium,82,No
+T3148,Koramangala,2026-01-12,Delivery Delay,Medium,31,No
+T3149,Koramangala,2026-01-12,Rider Shortage,Medium,33,No
+T3150,Koramangala,2026-01-12,Rider Shortage,Medium,65,No
+T3151,Koramangala,2026-01-13,Payment Issue,Medium,84,No
+T3152,Koramangala,2026-01-13,Payment Issue,High,77,Yes
+T3153,Koramangala,2026-01-14,Rider No Show,High,89,Yes
+T3154,Koramangala,2026-01-14,Delivery Delay,High,44,Yes
+T3155,Koramangala,2026-01-14,Rider No Show,High,39,Yes
+T3156,Koramangala,2026-01-14,App Issue,Low,89,No
+T3157,Koramangala,2026-01-14,Rider Shortage,Low,85,No
+T3158,Koramangala,2026-01-14,Delivery Delay,High,40,Yes
+T3159,Koramangala,2026-01-15,Payment Issue,Medium,33,No
+T3160,Koramangala,2026-01-15,App Issue,Medium,45,No
+T3161,Koramangala,2026-01-15,Delivery Delay,Critical,40,Yes
+T3162,Koramangala,2026-01-15,App Issue,High,56,Yes
+T3163,Koramangala,2026-01-15,App Issue,High,55,Yes
+T3164,Koramangala,2026-01-15,Delivery Delay,Medium,37,No
+T3165,Koramangala,2026-01-15,Rider Shortage,High,61,Yes
+T3166,Koramangala,2026-01-16,Delivery Delay,Medium,80,No
+T3167,Koramangala,2026-01-16,App Issue,Low,80,No
+T3168,Koramangala,2026-01-16,Rider Shortage,Medium,30,No
+T3169,Koramangala,2026-01-16,Rider No Show,Low,87,No
+T3170,Koramangala,2026-01-16,Rider Shortage,Critical,42,Yes
+T3171,Koramangala,2026-01-16,Delivery Delay,Medium,49,No
+T3172,Koramangala,2026-01-17,Payment Issue,High,45,Yes
+T3173,Koramangala,2026-01-17,Payment Issue,High,46,Yes
+T3174,Koramangala,2026-01-18,Rider Shortage,High,86,Yes
+T3175,Koramangala,2026-01-18,Payment Issue,High,73,Yes
+T3176,Koramangala,2026-01-18,Payment Issue,Critical,55,Yes
+T3177,Koramangala,2026-01-18,Rider Shortage,Critical,80,Yes
+T3178,Koramangala,2026-01-18,App Issue,Low,68,No
+T3179,Koramangala,2026-01-18,Rider No Show,High,54,Yes
+T3180,Koramangala,2026-01-18,Rider No Show,Critical,42,Yes
+T3181,Koramangala,2026-01-19,Payment Issue,Medium,79,No
+T3182,Koramangala,2026-01-19,Delivery Delay,Critical,88,Yes
+T3183,Koramangala,2026-01-19,Rider Shortage,High,69,Yes
+T3184,Koramangala,2026-01-19,Rider Shortage,Medium,18,No
+T3185,Koramangala,2026-01-19,Payment Issue,Medium,24,No
+T3186,Koramangala,2026-01-19,Rider No Show,Critical,61,Yes
+T3187,Koramangala,2026-01-20,Rider No Show,Critical,28,Yes
+T3188,Koramangala,2026-01-20,Rider Shortage,High,52,Yes
+T3189,Koramangala,2026-01-20,Rider Shortage,Critical,26,Yes
+T3190,Koramangala,2026-01-20,Rider No Show,Critical,59,Yes
+T3191,Koramangala,2026-01-21,Rider Shortage,Critical,49,Yes
+T3192,Koramangala,2026-01-21,Rider Shortage,Low,80,No
+T3193,Koramangala,2026-01-22,Delivery Delay,Low,55,No
+T3194,Koramangala,2026-01-22,Delivery Delay,Low,81,No
+T3195,Koramangala,2026-01-22,Delivery Delay,Low,43,No
+T3196,Koramangala,2026-01-22,App Issue,Low,32,No
+T3197,Koramangala,2026-01-23,Rider Shortage,Critical,28,Yes
+T3198,Koramangala,2026-01-23,Rider Shortage,Medium,48,No
+T3199,Koramangala,2026-01-23,App Issue,Medium,63,No
+T3200,Koramangala,2026-01-23,Payment Issue,Medium,68,No
+T3201,Koramangala,2026-01-23,Rider Shortage,Critical,45,Yes
+T3202,Koramangala,2026-01-24,Rider No Show,Medium,56,No
+T3203,Koramangala,2026-01-24,Rider Shortage,Low,72,No
+T3204,Koramangala,2026-01-24,Delivery Delay,Critical,44,Yes
+T3205,Koramangala,2026-01-25,Delivery Delay,Medium,77,No
+T3206,Koramangala,2026-01-25,Delivery Delay,Critical,33,Yes
+T3207,Koramangala,2026-01-26,Payment Issue,High,22,Yes
+T3208,Koramangala,2026-01-26,Rider Shortage,Low,17,No
+T3209,Koramangala,2026-01-26,Delivery Delay,High,81,Yes
+T3210,Koramangala,2026-01-26,Rider Shortage,Medium,31,No
+T3211,Koramangala,2026-01-26,Delivery Delay,High,28,Yes
+T3212,Koramangala,2026-01-27,Delivery Delay,High,23,Yes
+T3213,Koramangala,2026-01-27,Rider No Show,Medium,76,No
+T3214,Koramangala,2026-01-27,Payment Issue,Medium,35,No
+T3215,Koramangala,2026-01-27,Rider No Show,High,51,Yes
+T3216,Koramangala,2026-01-28,Payment Issue,Low,34,No
+T3217,Koramangala,2026-01-28,App Issue,High,49,Yes
+T3218,Koramangala,2026-01-28,Rider Shortage,Critical,67,Yes
+T3219,Koramangala,2026-01-28,Rider No Show,Critical,61,Yes
+T3220,Koramangala,2026-01-29,Rider No Show,Critical,89,Yes
+T3221,Koramangala,2026-01-29,Delivery Delay,High,66,Yes
+T3222,Koramangala,2026-01-29,Delivery Delay,Critical,22,Yes
+T3223,Koramangala,2026-01-29,Rider No Show,Low,18,No
+T3224,Koramangala,2026-01-29,Rider No Show,Medium,41,No
+T3225,Koramangala,2026-01-29,App Issue,Critical,58,Yes
+T3226,Koramangala,2026-01-29,Rider Shortage,Critical,54,Yes
+T3227,Koramangala,2026-01-30,Payment Issue,Medium,61,No
+T3228,Koramangala,2026-01-30,App Issue,High,58,Yes
+T3229,Koramangala,2026-01-30,Rider No Show,Low,62,No
+T3230,Koramangala,2026-01-30,Rider Shortage,Low,66,No
+T3231,Koramangala,2026-01-30,Payment Issue,Low,82,No
+T3232,Koramangala,2026-01-30,Delivery Delay,Critical,25,Yes
+T3233,Koramangala,2026-01-30,Rider No Show,Critical,87,Yes
+T3234,Koramangala,2026-01-31,Rider Shortage,Critical,87,Yes
+T3235,Koramangala,2026-01-31,Rider Shortage,Critical,62,Yes
+T3236,Koramangala,2026-01-31,Rider Shortage,Medium,40,No
+T3237,Koramangala,2026-01-31,Rider Shortage,High,53,Yes
+T3238,Koramangala,2026-01-31,Payment Issue,High,72,Yes
+T3239,Koramangala,2026-02-01,App Issue,Low,72,No
+T3240,Koramangala,2026-02-01,Payment Issue,Medium,42,No
+T3241,Koramangala,2026-02-01,App Issue,Low,80,No
+T3242,Koramangala,2026-02-01,Payment Issue,High,24,Yes
+T3243,Koramangala,2026-02-02,Rider Shortage,High,72,Yes
+T3244,Koramangala,2026-02-02,Rider Shortage,Critical,87,Yes
+T3245,Koramangala,2026-02-02,App Issue,Medium,28,No
+T3246,Koramangala,2026-02-02,App Issue,Critical,29,Yes
+T3247,Koramangala,2026-02-02,Payment Issue,High,47,Yes
+T3248,Koramangala,2026-02-02,App Issue,High,31,Yes
+T3249,Koramangala,2026-02-02,App Issue,Low,38,No
+T3250,Koramangala,2026-02-03,Rider Shortage,High,76,Yes
+T3251,Koramangala,2026-02-03,Rider Shortage,Low,27,No
+T3252,Koramangala,2026-02-03,Rider Shortage,Low,76,No
+T3253,Koramangala,2026-02-03,Delivery Delay,High,61,Yes
+T3254,Koramangala,2026-02-03,Rider No Show,High,30,Yes
+T3255,Koramangala,2026-02-03,App Issue,Medium,80,No
+T3256,Koramangala,2026-02-03,Delivery Delay,Low,57,No
+T3257,Koramangala,2026-02-04,Payment Issue,Critical,17,Yes
+T3258,Koramangala,2026-02-04,Rider Shortage,Medium,26,No
+T3259,Koramangala,2026-02-04,Payment Issue,High,30,Yes
+T3260,Koramangala,2026-02-04,Rider Shortage,Medium,73,No
+T3261,Koramangala,2026-02-04,Rider No Show,Low,63,No
+T3262,Koramangala,2026-02-05,Rider No Show,Critical,63,Yes
+T3263,Koramangala,2026-02-05,Delivery Delay,Low,65,No
+T3264,Koramangala,2026-02-05,Payment Issue,High,47,Yes
+T3265,Koramangala,2026-02-05,App Issue,Low,44,No
+T3266,Koramangala,2026-02-05,Delivery Delay,High,73,Yes
+T3267,Koramangala,2026-02-05,Payment Issue,High,29,Yes
+T3268,Koramangala,2026-02-05,App Issue,Medium,37,No
+T3269,Koramangala,2026-02-06,App Issue,Critical,59,Yes
+T3270,Koramangala,2026-02-06,Rider Shortage,Medium,76,No
+T3271,Koramangala,2026-02-06,App Issue,Low,85,No
+T3272,Koramangala,2026-02-06,Rider No Show,Critical,29,Yes
+T3273,Koramangala,2026-02-06,Payment Issue,Medium,60,No
+T3274,Koramangala,2026-02-06,Rider No Show,Medium,78,No
+T3275,Koramangala,2026-02-06,Delivery Delay,Low,60,No
+T3276,Koramangala,2026-02-07,Rider No Show,Low,58,No
+T3277,Koramangala,2026-02-07,Delivery Delay,Critical,89,Yes
+T3278,Koramangala,2026-02-08,App Issue,Low,76,No
+T3279,Koramangala,2026-02-08,Rider No Show,High,66,Yes
+T3280,Koramangala,2026-02-08,Rider Shortage,High,68,Yes
+T3281,Koramangala,2026-02-08,Delivery Delay,Critical,71,Yes
+T3282,Koramangala,2026-02-08,Rider No Show,Critical,80,Yes
+T3283,Koramangala,2026-02-08,Delivery Delay,Low,36,No
+T3284,Koramangala,2026-02-09,App Issue,High,47,Yes
+T3285,Koramangala,2026-02-09,Rider No Show,Medium,86,No
+T3286,Koramangala,2026-02-09,App Issue,Low,39,No
+T3287,Koramangala,2026-02-09,Rider Shortage,Critical,60,Yes
+T3288,Koramangala,2026-02-09,Rider Shortage,Medium,87,No
+T3289,Koramangala,2026-02-10,Delivery Delay,Medium,71,No
+T3290,Koramangala,2026-02-10,App Issue,Critical,19,Yes
+T3291,Koramangala,2026-02-10,Rider Shortage,Medium,69,No
+T3292,Koramangala,2026-02-11,App Issue,Critical,22,Yes
+T3293,Koramangala,2026-02-11,Rider Shortage,Medium,30,No
+T3294,Koramangala,2026-02-11,Rider Shortage,Low,62,No
+T3295,Koramangala,2026-02-11,App Issue,Medium,75,No
+T3296,Koramangala,2026-02-11,Payment Issue,Medium,29,No
+T3297,Koramangala,2026-02-11,Payment Issue,Critical,79,Yes
+T3298,Koramangala,2026-02-12,Delivery Delay,Low,17,No
+T3299,Koramangala,2026-02-12,Payment Issue,High,68,Yes
+T3300,Koramangala,2026-02-12,Rider No Show,Low,28,No
+T3301,Koramangala,2026-02-12,Delivery Delay,Critical,50,Yes
+T3302,Koramangala,2026-02-12,App Issue,High,81,Yes
+T3303,Koramangala,2026-02-12,Delivery Delay,Low,24,No
+T3304,Koramangala,2026-02-12,Delivery Delay,Medium,63,No
+T3305,Koramangala,2026-02-13,App Issue,Medium,71,No
+T3306,Koramangala,2026-02-13,Rider Shortage,Low,41,No
+T3307,Koramangala,2026-02-14,Payment Issue,Low,19,No
+T3308,Koramangala,2026-02-14,Rider Shortage,Medium,85,No
+T3309,Koramangala,2026-02-14,App Issue,High,71,Yes
+T3310,Koramangala,2026-02-14,Delivery Delay,Low,29,No
+T3311,Koramangala,2026-02-15,Rider No Show,Critical,44,Yes
+T3312,Koramangala,2026-02-15,Payment Issue,Low,34,No
+T3313,Koramangala,2026-02-15,App Issue,Low,51,No
+T3314,Koramangala,2026-02-15,Rider No Show,Critical,17,Yes
+T3315,Koramangala,2026-02-16,App Issue,High,55,Yes
+T3316,Koramangala,2026-02-16,Payment Issue,High,53,Yes
+T3317,Koramangala,2026-02-17,App Issue,Critical,16,Yes
+T3318,Koramangala,2026-02-17,Rider Shortage,High,37,Yes
+T3319,Koramangala,2026-02-17,Rider No Show,High,37,Yes
+T3320,Koramangala,2026-02-18,Delivery Delay,Critical,30,Yes
+T3321,Koramangala,2026-02-18,App Issue,Medium,23,No
+T3322,Koramangala,2026-02-18,App Issue,High,27,Yes
+T3323,Koramangala,2026-02-18,Rider Shortage,Low,42,No
+T3324,Koramangala,2026-02-19,Rider No Show,High,65,Yes
+T3325,Koramangala,2026-02-19,Payment Issue,Medium,78,No
+T3326,Koramangala,2026-02-19,Rider Shortage,Low,66,No
+T3327,Koramangala,2026-02-19,App Issue,Low,52,No
+T3328,Koramangala,2026-02-20,Payment Issue,Low,79,No
+T3329,Koramangala,2026-02-20,Rider No Show,Medium,32,No
+T3330,Koramangala,2026-02-20,App Issue,Low,77,No
+T3331,Koramangala,2026-02-20,Delivery Delay,Critical,65,Yes
+T3332,Koramangala,2026-02-20,Delivery Delay,High,23,Yes
+T3333,Koramangala,2026-02-21,App Issue,Medium,54,No
+T3334,Koramangala,2026-02-21,Rider Shortage,Medium,69,No
+T3335,Koramangala,2026-02-21,Delivery Delay,Critical,57,Yes
+T3336,Koramangala,2026-02-21,App Issue,High,58,Yes
+T3337,Koramangala,2026-02-21,Rider Shortage,Critical,82,Yes
+T3338,Koramangala,2026-02-21,Delivery Delay,Medium,47,No
+T3339,Koramangala,2026-02-22,Rider Shortage,Critical,24,Yes
+T3340,Koramangala,2026-02-22,App Issue,Critical,34,Yes
+T3341,Koramangala,2026-02-22,Rider Shortage,Low,89,No
+T3342,Koramangala,2026-02-22,App Issue,Medium,26,No
+T3343,Koramangala,2026-02-22,Rider Shortage,High,76,Yes
+T3344,Koramangala,2026-02-23,App Issue,Critical,77,Yes
+T3345,Koramangala,2026-02-23,Rider Shortage,Low,39,No
+T3346,Koramangala,2026-02-23,Payment Issue,Low,26,No
+T3347,Koramangala,2026-02-24,Rider Shortage,High,39,Yes
+T3348,Koramangala,2026-02-24,Payment Issue,High,25,Yes
+T3349,Koramangala,2026-02-24,Delivery Delay,High,78,Yes
+T3350,Koramangala,2026-02-24,Payment Issue,High,87,Yes
+T3351,Koramangala,2026-02-24,Delivery Delay,High,64,Yes
+T3352,Koramangala,2026-02-24,Delivery Delay,Critical,76,Yes
+T3353,Koramangala,2026-02-25,App Issue,High,63,Yes
+T3354,Koramangala,2026-02-25,Payment Issue,Low,28,No
+T3355,Koramangala,2026-02-26,Payment Issue,High,39,Yes
+T3356,Koramangala,2026-02-26,Rider No Show,Low,73,No
+T3357,Koramangala,2026-02-27,Rider Shortage,Medium,19,No
+T3358,Koramangala,2026-02-27,Rider Shortage,High,33,Yes
+T3359,Koramangala,2026-02-27,Payment Issue,Low,37,No
+T3360,Koramangala,2026-02-27,App Issue,Medium,23,No
+T3361,Koramangala,2026-02-27,Delivery Delay,Low,64,No
+T3362,Koramangala,2026-02-27,App Issue,High,30,Yes
+T3363,Koramangala,2026-02-28,Delivery Delay,Critical,16,Yes
+T3364,Koramangala,2026-02-28,Rider Shortage,Medium,28,No
+T3365,Koramangala,2026-03-01,Delivery Delay,Critical,15,Yes
+T3366,Koramangala,2026-03-01,Rider Shortage,Medium,72,No
+T3367,Koramangala,2026-03-01,Rider No Show,Critical,30,Yes
+T3368,Koramangala,2026-03-01,App Issue,High,61,Yes
+T3369,Koramangala,2026-03-01,Rider Shortage,Low,58,No
+T3370,Koramangala,2026-03-01,Rider Shortage,Medium,28,No
+T3371,Koramangala,2026-03-01,Delivery Delay,Medium,38,No
+T3372,Koramangala,2026-03-02,Payment Issue,Low,86,No
+T3373,Koramangala,2026-03-02,Delivery Delay,Critical,48,Yes
+T3374,Koramangala,2026-03-02,Delivery Delay,Critical,16,Yes
+T3375,Koramangala,2026-03-02,Rider No Show,Low,41,No
+T3376,Koramangala,2026-03-03,Rider Shortage,Low,86,No
+T3377,Koramangala,2026-03-03,Payment Issue,Medium,37,No
+T3378,Koramangala,2026-03-03,Payment Issue,Medium,82,No
+T3379,Koramangala,2026-03-04,Rider Shortage,Critical,77,Yes
+T3380,Koramangala,2026-03-04,App Issue,Medium,79,No
+T3381,Koramangala,2026-03-04,Delivery Delay,Medium,82,No
+T3382,Koramangala,2026-03-04,App Issue,Critical,77,Yes
+T3383,Koramangala,2026-03-04,Rider Shortage,Low,78,No
+T3384,Koramangala,2026-03-04,Rider Shortage,Low,46,No
+T3385,Koramangala,2026-03-04,Delivery Delay,High,27,Yes
+T3386,Koramangala,2026-03-05,Delivery Delay,Medium,80,No
+T3387,Koramangala,2026-03-05,App Issue,Low,33,No
+T3388,Koramangala,2026-03-05,App Issue,Low,38,No
+T3389,Koramangala,2026-03-05,Delivery Delay,Medium,25,No
+T3390,Koramangala,2026-03-05,App Issue,Critical,73,Yes
+T3391,Koramangala,2026-03-06,App Issue,Medium,29,No
+T3392,Koramangala,2026-03-06,Delivery Delay,Critical,24,Yes
+T3393,Koramangala,2026-03-06,Payment Issue,Low,55,No
+T3394,Koramangala,2026-03-06,App Issue,Critical,41,Yes
+T3395,Koramangala,2026-03-06,Rider Shortage,Low,74,No
+T3396,Koramangala,2026-03-06,Rider Shortage,High,87,Yes
+T3397,Koramangala,2026-03-06,Rider Shortage,Low,66,No
+T3398,Koramangala,2026-03-07,App Issue,High,79,Yes
+T3399,Koramangala,2026-03-07,Delivery Delay,Medium,31,No
+T3400,Koramangala,2026-03-07,Rider No Show,High,58,Yes
+T3401,Koramangala,2026-03-07,Delivery Delay,Medium,24,No
+T3402,Koramangala,2026-03-07,Delivery Delay,Low,77,No
+T3403,Koramangala,2026-03-08,Payment Issue,Medium,61,No
+T3404,Koramangala,2026-03-08,App Issue,High,52,Yes
+T3405,Koramangala,2026-03-08,Rider Shortage,High,84,Yes
+T3406,Koramangala,2026-03-08,Rider Shortage,Critical,67,Yes
+T3407,Koramangala,2026-03-08,Payment Issue,Critical,58,Yes
+T3408,Koramangala,2026-03-08,Rider No Show,High,88,Yes
+T3409,Koramangala,2026-03-09,Payment Issue,Low,34,No
+T3410,Koramangala,2026-03-09,App Issue,Critical,45,Yes
+T3411,Koramangala,2026-03-09,Delivery Delay,Low,21,No
+T3412,Koramangala,2026-03-09,Delivery Delay,Critical,72,Yes
+T3413,Koramangala,2026-03-09,Delivery Delay,Medium,24,No
+T3414,Koramangala,2026-03-09,Rider Shortage,High,24,Yes
+T3415,Koramangala,2026-03-09,Delivery Delay,Critical,53,Yes
+T3416,Koramangala,2026-03-10,Rider No Show,Critical,44,Yes
+T3417,Koramangala,2026-03-10,Delivery Delay,Low,51,No
+T3418,Koramangala,2026-03-10,Delivery Delay,High,81,Yes
+T3419,Koramangala,2026-03-10,Rider No Show,Critical,57,Yes
+T3420,Koramangala,2026-03-10,Payment Issue,Medium,66,No
+T3421,Koramangala,2026-03-11,Delivery Delay,Low,70,No
+T3422,Koramangala,2026-03-11,App Issue,Low,82,No
+T3423,Koramangala,2026-03-11,Rider Shortage,High,23,Yes
+T3424,Koramangala,2026-03-11,Rider No Show,High,37,Yes
+T3425,Koramangala,2026-03-11,Delivery Delay,High,77,Yes
+T3426,Koramangala,2026-03-11,Delivery Delay,Critical,75,Yes
+T3427,Koramangala,2026-03-12,Rider Shortage,Critical,38,Yes
+T3428,Koramangala,2026-03-12,Payment Issue,High,65,Yes
+T3429,Koramangala,2026-03-12,Rider Shortage,Critical,72,Yes
+T3430,Koramangala,2026-03-12,Rider Shortage,Critical,47,Yes
+T3431,Koramangala,2026-03-12,Payment Issue,Critical,30,Yes
+T3432,Koramangala,2026-03-13,Delivery Delay,Critical,71,Yes
+T3433,Koramangala,2026-03-13,Delivery Delay,Medium,76,No
+T3434,Koramangala,2026-03-13,App Issue,Critical,85,Yes
+T3435,Koramangala,2026-03-13,Rider No Show,Critical,86,Yes
+T3436,Koramangala,2026-03-13,Delivery Delay,Low,84,No
+T3437,Koramangala,2026-03-13,Delivery Delay,Low,44,No
+T3438,Koramangala,2026-03-13,Delivery Delay,Low,37,No
+T3439,Koramangala,2026-03-14,Rider Shortage,High,71,Yes
+T3440,Koramangala,2026-03-14,Delivery Delay,Critical,23,Yes
+T3441,Koramangala,2026-03-14,Rider Shortage,High,45,Yes
+T3442,Koramangala,2026-03-14,Delivery Delay,Critical,85,Yes
+T3443,Koramangala,2026-03-14,Delivery Delay,Low,23,No
+T3444,Koramangala,2026-03-14,App Issue,Critical,27,Yes
+T3445,Koramangala,2026-03-14,Delivery Delay,Medium,72,No
+T3446,Koramangala,2026-03-15,Rider No Show,Low,49,No
+T3447,Koramangala,2026-03-15,Delivery Delay,Medium,35,No
+T3448,Koramangala,2026-03-15,App Issue,High,78,Yes
+T3449,Koramangala,2026-03-15,App Issue,Critical,66,Yes
+T3450,Koramangala,2026-03-16,Delivery Delay,Critical,49,Yes
+T3451,Koramangala,2026-03-16,Rider Shortage,Low,29,No
+T3452,Koramangala,2026-03-16,Rider No Show,Critical,20,Yes
+T3453,Koramangala,2026-03-17,Rider Shortage,High,46,Yes
+T3454,Koramangala,2026-03-17,Payment Issue,Medium,66,No
+T3455,Koramangala,2026-03-17,Payment Issue,Medium,42,No
+T3456,Koramangala,2026-03-17,Rider Shortage,Critical,78,Yes
+T3457,Koramangala,2026-03-17,Rider No Show,High,33,Yes
+T3458,Koramangala,2026-03-17,Rider Shortage,Medium,29,No
+T3459,Koramangala,2026-03-17,Delivery Delay,High,20,Yes
+T3460,Koramangala,2026-03-18,App Issue,Critical,87,Yes
+T3461,Koramangala,2026-03-18,Payment Issue,High,52,Yes
+T3462,Koramangala,2026-03-18,Delivery Delay,Medium,40,No
+T3463,Koramangala,2026-03-18,Payment Issue,Medium,65,No
+T3464,Koramangala,2026-03-18,Payment Issue,Critical,87,Yes
+T3465,Koramangala,2026-03-19,Rider Shortage,Critical,67,Yes
+T3466,Koramangala,2026-03-19,Delivery Delay,Medium,70,No
+T3467,Koramangala,2026-03-19,Rider No Show,Low,73,No
+T3468,Koramangala,2026-03-19,Rider Shortage,Critical,84,Yes
+T3469,Koramangala,2026-03-20,App Issue,Medium,72,No
+T3470,Koramangala,2026-03-20,Rider Shortage,Medium,27,No
+T3471,Koramangala,2026-03-20,Rider No Show,Low,57,No
+T3472,Koramangala,2026-03-20,Delivery Delay,Low,65,No
+T3473,Koramangala,2026-03-20,App Issue,Critical,33,Yes
+T3474,Koramangala,2026-03-20,Payment Issue,High,35,Yes
+T3475,Koramangala,2026-03-20,Delivery Delay,Medium,38,No
+T3476,Koramangala,2026-03-21,Payment Issue,High,59,Yes
+T3477,Koramangala,2026-03-21,Rider No Show,Medium,42,No
+T3478,Koramangala,2026-03-21,Delivery Delay,Critical,43,Yes
+T3479,Koramangala,2026-03-22,Rider No Show,Low,82,No
+T3480,Koramangala,2026-03-22,Rider No Show,Medium,58,No
+T3481,Koramangala,2026-03-23,Delivery Delay,Medium,75,No
+T3482,Koramangala,2026-03-23,Payment Issue,Low,82,No
+T3483,Koramangala,2026-03-23,Rider Shortage,Low,88,No
+T3484,Koramangala,2026-03-23,App Issue,High,39,Yes
+T3485,Koramangala,2026-03-23,Delivery Delay,High,81,Yes
+T3486,Koramangala,2026-03-23,Payment Issue,Medium,16,No
+T3487,Koramangala,2026-03-24,Delivery Delay,High,63,Yes
+T3488,Koramangala,2026-03-24,Rider Shortage,High,84,Yes
+T3489,Koramangala,2026-03-25,Rider Shortage,Low,86,No
+T3490,Koramangala,2026-03-25,Delivery Delay,Critical,41,Yes
+T3491,Koramangala,2026-03-25,Payment Issue,High,32,Yes
+T3492,Koramangala,2026-03-26,Delivery Delay,High,15,Yes
+T3493,Koramangala,2026-03-26,Payment Issue,High,75,Yes
+T3494,Koramangala,2026-03-26,Rider Shortage,High,17,Yes
+T3495,Koramangala,2026-03-26,Delivery Delay,High,82,Yes
+T3496,Koramangala,2026-03-26,Delivery Delay,Medium,55,No
+T3497,Koramangala,2026-03-26,Rider No Show,Critical,51,Yes
+T3498,Koramangala,2026-03-26,Payment Issue,Medium,65,No
+T3499,Koramangala,2026-03-27,App Issue,High,70,Yes
+T3500,Koramangala,2026-03-27,Delivery Delay,High,61,Yes
+T3501,Koramangala,2026-03-27,Delivery Delay,Medium,24,No
+T3502,Koramangala,2026-03-27,Payment Issue,Medium,63,No
+T3503,Koramangala,2026-03-27,App Issue,Critical,55,Yes
+T3504,Koramangala,2026-03-27,Rider Shortage,Critical,44,Yes
+T3505,Koramangala,2026-03-27,Rider No Show,Critical,19,Yes
+T3506,Koramangala,2026-03-28,Rider Shortage,High,45,Yes
+T3507,Koramangala,2026-03-28,Rider No Show,Medium,66,No
+T3508,Koramangala,2026-03-28,Rider Shortage,Medium,37,No
+T3509,Koramangala,2026-03-28,Rider No Show,High,62,Yes
+T3510,Koramangala,2026-03-29,Delivery Delay,High,54,Yes
+T3511,Koramangala,2026-03-29,Rider Shortage,Medium,20,No
+T3512,Koramangala,2026-03-29,Delivery Delay,Low,52,No
+T3513,Koramangala,2026-03-29,Rider No Show,Low,55,No
+T3514,Koramangala,2026-03-29,Payment Issue,High,41,Yes
+T3515,Koramangala,2026-03-29,Delivery Delay,Medium,89,No
+T3516,Koramangala,2026-03-30,Rider No Show,High,71,Yes
+T3517,Koramangala,2026-03-30,Rider No Show,Critical,31,Yes
+T3518,Koramangala,2026-03-30,Rider Shortage,Medium,85,No
+T3519,Koramangala,2026-03-30,App Issue,High,61,Yes
+T3520,Koramangala,2026-03-30,Payment Issue,Low,27,No
+T3521,Koramangala,2026-03-30,Rider No Show,Low,25,No
+T3522,Koramangala,2026-03-31,Delivery Delay,Critical,38,Yes
+T3523,Koramangala,2026-03-31,App Issue,Low,87,No
+T3524,Koramangala,2026-03-31,Rider No Show,Low,18,No
+T3525,Koramangala,2026-03-31,Rider Shortage,Critical,60,Yes
+T3526,Koramangala,2026-03-31,Rider Shortage,Medium,32,No
+T3527,Koramangala,2026-04-01,App Issue,Low,47,No
+T3528,Koramangala,2026-04-01,Payment Issue,Medium,24,No
+T3529,Koramangala,2026-04-01,Rider Shortage,Low,87,No
+T3530,Koramangala,2026-04-01,App Issue,Critical,73,Yes
+T3531,Koramangala,2026-04-02,Rider No Show,Low,74,No
+T3532,Koramangala,2026-04-02,Payment Issue,High,17,Yes
+T3533,Koramangala,2026-04-02,Rider Shortage,High,69,Yes
+T3534,Koramangala,2026-04-02,Rider Shortage,Critical,28,Yes
+T3535,Koramangala,2026-04-02,Payment Issue,Critical,72,Yes
+T3536,Koramangala,2026-04-03,App Issue,Medium,29,No
+T3537,Koramangala,2026-04-03,Payment Issue,Medium,16,No
+T3538,Koramangala,2026-04-04,App Issue,Medium,78,No
+T3539,Koramangala,2026-04-04,Rider Shortage,Critical,85,Yes
+T3540,Koramangala,2026-04-04,Delivery Delay,High,38,Yes
+T3541,Koramangala,2026-04-04,Delivery Delay,Critical,41,Yes
+T3542,Koramangala,2026-04-04,Rider Shortage,Critical,51,Yes
+T3543,Koramangala,2026-04-04,Rider Shortage,High,53,Yes
+T3544,Koramangala,2026-04-04,Delivery Delay,Medium,77,No
+T3545,Koramangala,2026-04-05,App Issue,Low,79,No
+T3546,Koramangala,2026-04-05,Rider Shortage,Critical,18,Yes
+T3547,Koramangala,2026-04-05,Rider Shortage,Low,43,No
+T3548,Koramangala,2026-04-06,App Issue,Critical,15,Yes
+T3549,Koramangala,2026-04-06,Rider Shortage,High,64,Yes
+T3550,Koramangala,2026-04-07,Rider Shortage,Critical,25,Yes
+T3551,Koramangala,2026-04-07,Rider No Show,Low,88,No
+T3552,Koramangala,2026-04-07,Payment Issue,Low,73,No
+T3553,Koramangala,2026-04-07,Rider Shortage,Low,76,No
+T3554,Koramangala,2026-04-07,Payment Issue,Critical,50,Yes
+T3555,Koramangala,2026-04-07,Payment Issue,Critical,70,Yes
+T3556,Koramangala,2026-04-07,Rider Shortage,Medium,35,No
+T3557,Koramangala,2026-04-08,App Issue,Critical,23,Yes
+T3558,Koramangala,2026-04-08,Payment Issue,Critical,25,Yes
+T3559,Koramangala,2026-04-08,Payment Issue,Low,89,No
+T3560,Koramangala,2026-04-08,App Issue,High,84,Yes
+T3561,Koramangala,2026-04-08,Rider No Show,Critical,15,Yes
+T3562,Koramangala,2026-04-08,Payment Issue,Critical,84,Yes
+T3563,Koramangala,2026-04-09,Payment Issue,Critical,70,Yes
+T3564,Koramangala,2026-04-09,Delivery Delay,Low,45,No
+T3565,Koramangala,2026-04-09,Rider Shortage,High,51,Yes
+T3566,Koramangala,2026-04-09,Delivery Delay,Medium,61,No
+T3567,Koramangala,2026-04-09,Delivery Delay,Critical,61,Yes
+T3568,Koramangala,2026-04-09,Payment Issue,High,83,Yes
+T3569,Koramangala,2026-04-10,Delivery Delay,Critical,50,Yes
+T3570,Koramangala,2026-04-10,Rider Shortage,High,46,Yes
+T3571,Koramangala,2026-04-10,Rider Shortage,Medium,78,No
+T3572,Koramangala,2026-04-11,App Issue,Low,62,No
+T3573,Koramangala,2026-04-11,Rider No Show,Medium,88,No
+T3574,Koramangala,2026-04-11,Payment Issue,Low,44,No
+T3575,Koramangala,2026-04-12,App Issue,Critical,74,Yes
+T3576,Koramangala,2026-04-12,Rider Shortage,High,27,Yes
+T3577,Koramangala,2026-04-12,Delivery Delay,Medium,15,No
+T3578,Koramangala,2026-04-12,App Issue,Low,79,No
+T3579,Koramangala,2026-04-12,Rider No Show,Critical,47,Yes
+T3580,Koramangala,2026-04-12,Delivery Delay,Critical,52,Yes
+T3581,Koramangala,2026-04-13,Rider No Show,High,40,Yes
+T3582,Koramangala,2026-04-13,Rider No Show,Low,73,No
+T3583,Koramangala,2026-04-14,Delivery Delay,Critical,47,Yes
+T3584,Koramangala,2026-04-14,Rider Shortage,High,55,Yes
+T3585,Koramangala,2026-04-14,Rider No Show,Low,44,No
+T3586,Koramangala,2026-04-14,Delivery Delay,Medium,71,No
+T3587,Koramangala,2026-04-14,App Issue,Low,63,No
+T3588,Koramangala,2026-04-15,Delivery Delay,Medium,61,No
+T3589,Koramangala,2026-04-15,Payment Issue,Low,70,No
+T3590,Koramangala,2026-04-16,Delivery Delay,Medium,26,No
+T3591,Koramangala,2026-04-16,Rider No Show,Critical,83,Yes
+T3592,Koramangala,2026-04-17,Rider No Show,Medium,79,No
+T3593,Koramangala,2026-04-17,Payment Issue,High,39,Yes
+T3594,Koramangala,2026-04-17,Rider Shortage,Medium,15,No
+T3595,Koramangala,2026-04-17,Rider Shortage,Medium,46,No
+T3596,Koramangala,2026-04-17,Rider No Show,Critical,17,Yes
+T3597,Koramangala,2026-04-17,App Issue,Critical,63,Yes
+T3598,Koramangala,2026-04-17,Rider No Show,High,33,Yes
+T3599,Koramangala,2026-04-18,Delivery Delay,Low,43,No
+T3600,Koramangala,2026-04-18,Rider No Show,Critical,64,Yes
+T3601,Koramangala,2026-04-18,Rider Shortage,High,16,Yes
+T3602,Koramangala,2026-04-18,Rider Shortage,Critical,87,Yes
+T3603,Koramangala,2026-04-18,App Issue,High,70,Yes
+T3604,Koramangala,2026-04-19,Rider Shortage,High,74,Yes
+T3605,Koramangala,2026-04-19,Rider Shortage,Critical,50,Yes
+T3606,Koramangala,2026-04-20,Rider No Show,Critical,31,Yes
+T3607,Koramangala,2026-04-20,Delivery Delay,Medium,63,No
+T3608,Koramangala,2026-04-20,App Issue,Medium,74,No
+T3609,Koramangala,2026-04-20,Delivery Delay,Critical,34,Yes
+T3610,Koramangala,2026-04-20,Payment Issue,Medium,64,No
+T3611,Koramangala,2026-04-20,App Issue,Low,17,No
+T3612,Koramangala,2026-04-21,Rider Shortage,Critical,71,Yes
+T3613,Koramangala,2026-04-21,Payment Issue,High,64,Yes
+T3614,Koramangala,2026-04-21,Rider Shortage,Critical,82,Yes
+T3615,Koramangala,2026-04-21,Rider Shortage,High,64,Yes
+T3616,Koramangala,2026-04-22,Rider No Show,Medium,60,No
+T3617,Koramangala,2026-04-22,Rider No Show,Critical,56,Yes
+T3618,Koramangala,2026-04-22,App Issue,High,29,Yes
+T3619,Koramangala,2026-04-22,Delivery Delay,High,47,Yes
+T3620,Koramangala,2026-04-22,Payment Issue,Medium,25,No
+T3621,Koramangala,2026-04-22,Delivery Delay,Medium,34,No
+T3622,Koramangala,2026-04-23,Rider No Show,High,38,Yes
+T3623,Koramangala,2026-04-23,Payment Issue,High,78,Yes
+T3624,Koramangala,2026-04-23,Delivery Delay,High,79,Yes
+T3625,Koramangala,2026-04-23,Rider Shortage,High,87,Yes
+T3626,Koramangala,2026-04-23,Rider Shortage,Low,31,No
+T3627,Koramangala,2026-04-23,Payment Issue,Medium,75,No
+T3628,Koramangala,2026-04-23,Rider Shortage,High,29,Yes
+T3629,Koramangala,2026-04-24,App Issue,Medium,65,No
+T3630,Koramangala,2026-04-24,Delivery Delay,Medium,41,No
+T3631,Koramangala,2026-04-24,Payment Issue,Low,88,No
+T3632,Koramangala,2026-04-24,Rider Shortage,High,75,Yes
+T3633,Koramangala,2026-04-24,Delivery Delay,Critical,72,Yes
+T3634,Koramangala,2026-04-24,Rider Shortage,Critical,45,Yes
+T3635,Koramangala,2026-04-24,App Issue,Low,26,No
+T3636,Koramangala,2026-04-25,App Issue,Critical,45,Yes
+T3637,Koramangala,2026-04-25,Rider Shortage,Critical,46,Yes
+T3638,Koramangala,2026-04-25,App Issue,Critical,46,Yes
+T3639,Koramangala,2026-04-25,Rider No Show,Medium,67,No
+T3640,Koramangala,2026-04-25,Delivery Delay,Medium,75,No
+T3641,Koramangala,2026-04-25,Rider Shortage,High,60,Yes
+T3642,Koramangala,2026-04-25,App Issue,Critical,88,Yes
+T3643,Koramangala,2026-04-26,App Issue,Low,66,No
+T3644,Koramangala,2026-04-26,Rider No Show,Critical,45,Yes
+T3645,Koramangala,2026-04-26,Payment Issue,Critical,89,Yes
+T3646,Koramangala,2026-04-26,App Issue,Low,50,No
+T3647,Koramangala,2026-04-26,Rider No Show,Low,68,No
+T3648,Koramangala,2026-04-27,Payment Issue,Critical,31,Yes
+T3649,Koramangala,2026-04-27,Payment Issue,Medium,89,No
+T3650,Koramangala,2026-04-27,App Issue,Medium,44,No
+T3651,Koramangala,2026-04-27,Rider Shortage,Medium,36,No
+T3652,Koramangala,2026-04-27,Rider No Show,Low,57,No
+T3653,Koramangala,2026-04-27,App Issue,High,41,Yes
+T3654,Koramangala,2026-04-27,Rider No Show,Medium,51,No
+T3655,Koramangala,2026-04-28,Rider Shortage,High,49,Yes
+T3656,Koramangala,2026-04-28,Delivery Delay,Medium,18,No
+T3657,Koramangala,2026-04-28,Payment Issue,Medium,40,No
+T3658,Koramangala,2026-04-28,Rider No Show,Critical,33,Yes
+T3659,Koramangala,2026-04-28,Rider Shortage,High,59,Yes
+T3660,Koramangala,2026-04-28,Delivery Delay,High,40,Yes
+T3661,Koramangala,2026-04-28,App Issue,High,36,Yes
+T3662,Koramangala,2026-04-29,App Issue,High,77,Yes
+T3663,Koramangala,2026-04-29,Delivery Delay,Low,42,No
+T3664,Koramangala,2026-04-29,Delivery Delay,Low,79,No
+T3665,Koramangala,2026-04-30,Delivery Delay,Critical,57,Yes
+T3666,Koramangala,2026-04-30,Delivery Delay,Critical,51,Yes
+T3667,Koramangala,2026-04-30,Delivery Delay,Low,80,No
+T3668,Koramangala,2026-04-30,Delivery Delay,Medium,31,No
+T3669,Koramangala,2026-04-30,Rider No Show,Medium,54,No
+T3670,Koramangala,2026-05-01,Rider Shortage,Critical,75,Yes
+T3671,Koramangala,2026-05-01,Rider No Show,Medium,23,No
+T3672,Koramangala,2026-05-01,App Issue,Critical,89,Yes
+T3673,Koramangala,2026-05-01,Payment Issue,Medium,75,No
+T3674,Koramangala,2026-05-01,Delivery Delay,Critical,30,Yes
+T3675,Koramangala,2026-05-01,Delivery Delay,Critical,16,Yes
+T3676,Koramangala,2026-05-01,Payment Issue,Critical,86,Yes
+T3677,Koramangala,2026-05-02,Delivery Delay,Low,56,No
+T3678,Koramangala,2026-05-02,App Issue,High,71,Yes
+T3679,Koramangala,2026-05-02,Payment Issue,High,81,Yes
+T3680,Koramangala,2026-05-02,Payment Issue,Low,44,No
+T3681,Koramangala,2026-05-03,Rider No Show,Critical,27,Yes
+T3682,Koramangala,2026-05-03,Rider Shortage,Medium,33,No
+T3683,Koramangala,2026-05-03,App Issue,Medium,21,No
+T3684,Koramangala,2026-05-03,Rider No Show,Medium,23,No
+T3685,Koramangala,2026-05-03,Payment Issue,Medium,68,No
+T3686,Koramangala,2026-05-04,Payment Issue,Medium,75,No
+T3687,Koramangala,2026-05-04,Payment Issue,Low,16,No
+T3688,Koramangala,2026-05-04,Delivery Delay,Low,64,No
+T3689,Koramangala,2026-05-04,Payment Issue,High,89,Yes
+T3690,Koramangala,2026-05-04,Rider No Show,Medium,45,No
+T3691,Koramangala,2026-05-04,Rider No Show,Medium,47,No
+T3692,Koramangala,2026-05-04,App Issue,Critical,25,Yes
+T3693,Koramangala,2026-05-05,Rider Shortage,Critical,21,Yes
+T3694,Koramangala,2026-05-05,Rider No Show,High,45,Yes
+T3695,Koramangala,2026-05-06,Rider No Show,Low,62,No
+T3696,Koramangala,2026-05-06,Payment Issue,Low,61,No
+T3697,Koramangala,2026-05-06,Payment Issue,Medium,67,No
+T3698,Koramangala,2026-05-06,Payment Issue,Medium,33,No
+T3699,Koramangala,2026-05-06,Payment Issue,High,20,Yes
+T3700,Koramangala,2026-05-06,App Issue,Low,63,No
+T3701,Koramangala,2026-05-07,Rider Shortage,Critical,64,Yes
+T3702,Koramangala,2026-05-07,Payment Issue,Low,26,No
+T3703,Koramangala,2026-05-08,Delivery Delay,Low,83,No
+T3704,Koramangala,2026-05-08,Payment Issue,Critical,73,Yes
+T3705,Koramangala,2026-05-08,App Issue,Low,50,No
+T3706,Koramangala,2026-05-08,Delivery Delay,High,17,Yes
+T3707,Koramangala,2026-05-08,Delivery Delay,Critical,72,Yes
+T3708,Koramangala,2026-05-08,Delivery Delay,Medium,69,No
+T3709,Koramangala,2026-05-08,Rider Shortage,High,71,Yes
+T3710,Koramangala,2026-05-09,Delivery Delay,Critical,53,Yes
+T3711,Koramangala,2026-05-09,App Issue,Medium,82,No
+T3712,Koramangala,2026-05-10,App Issue,Critical,15,Yes
+T3713,Koramangala,2026-05-10,Delivery Delay,High,35,Yes
+T3714,Koramangala,2026-05-10,App Issue,High,35,Yes
+T3715,Koramangala,2026-05-10,Payment Issue,High,66,Yes
+T3716,Koramangala,2026-05-10,Payment Issue,Critical,57,Yes
+T3717,Koramangala,2026-05-10,Rider Shortage,Critical,66,Yes
+T3718,Koramangala,2026-05-11,Payment Issue,Critical,58,Yes
+T3719,Koramangala,2026-05-11,Rider No Show,Low,46,No
+T3720,Koramangala,2026-05-11,Payment Issue,Medium,24,No
+T3721,Koramangala,2026-05-11,App Issue,Low,78,No
+T3722,Koramangala,2026-05-12,App Issue,Medium,82,No
+T3723,Koramangala,2026-05-12,Delivery Delay,Critical,42,Yes
+T3724,Koramangala,2026-05-12,Rider No Show,Medium,67,No
+T3725,Koramangala,2026-05-12,Payment Issue,Low,65,No
+T3726,Koramangala,2026-05-12,Rider No Show,Low,67,No
+T3727,Koramangala,2026-05-12,Rider No Show,Medium,18,No
+T3728,Koramangala,2026-05-13,Payment Issue,Medium,81,No
+T3729,Koramangala,2026-05-13,Payment Issue,Low,88,No
+T3730,Koramangala,2026-05-14,Delivery Delay,Low,70,No
+T3731,Koramangala,2026-05-14,Delivery Delay,Critical,37,Yes
+T3732,Koramangala,2026-05-14,Payment Issue,High,32,Yes
+T3733,Koramangala,2026-05-15,Delivery Delay,High,49,Yes
+T3734,Koramangala,2026-05-15,Rider No Show,Medium,78,No
+T3735,Koramangala,2026-05-16,Rider Shortage,Critical,72,Yes
+T3736,Koramangala,2026-05-16,Rider Shortage,Critical,73,Yes
+T3737,Koramangala,2026-05-16,Rider No Show,Low,15,No
+T3738,Koramangala,2026-05-16,App Issue,High,17,Yes
+T3739,Koramangala,2026-05-16,Delivery Delay,Critical,81,Yes
+T3740,Koramangala,2026-05-16,Rider Shortage,High,51,Yes
+T3741,Koramangala,2026-05-17,Rider Shortage,Medium,43,No
+T3742,Koramangala,2026-05-17,App Issue,High,47,Yes
+T3743,Koramangala,2026-05-17,Rider No Show,Critical,75,Yes
+T3744,Koramangala,2026-05-17,Rider Shortage,Low,18,No
+T3745,Koramangala,2026-05-18,Rider No Show,High,28,Yes
+T3746,Koramangala,2026-05-18,Rider Shortage,High,47,Yes
+T3747,Koramangala,2026-05-19,Payment Issue,High,62,Yes
+T3748,Koramangala,2026-05-19,Rider No Show,Medium,17,No
+T3749,Koramangala,2026-05-19,Delivery Delay,Low,37,No
+T3750,Koramangala,2026-05-19,Delivery Delay,High,82,Yes
+T3751,Koramangala,2026-05-19,Payment Issue,Low,35,No
+T3752,Koramangala,2026-05-19,App Issue,Medium,57,No
+T3753,Koramangala,2026-05-19,Rider Shortage,High,40,Yes
+T3754,Koramangala,2026-05-20,Rider No Show,High,52,Yes
+T3755,Koramangala,2026-05-20,Delivery Delay,Low,25,No
+T3756,Koramangala,2026-05-21,Payment Issue,Critical,43,Yes
+T3757,Koramangala,2026-05-21,Delivery Delay,High,74,Yes
+T3758,Koramangala,2026-05-22,Rider Shortage,Low,79,No
+T3759,Koramangala,2026-05-22,App Issue,Medium,75,No
+T3760,Koramangala,2026-05-22,Rider No Show,High,33,Yes
+T3761,Koramangala,2026-05-22,Delivery Delay,Critical,60,Yes
+T3762,Koramangala,2026-05-23,Payment Issue,Medium,36,No
+T3763,Koramangala,2026-05-23,Payment Issue,High,71,Yes
+T3764,Koramangala,2026-05-24,Rider Shortage,Low,28,No
+T3765,Koramangala,2026-05-24,Delivery Delay,Medium,58,No
+T3766,Koramangala,2026-05-24,Rider Shortage,Low,30,No
+T3767,Koramangala,2026-05-24,Rider No Show,Critical,26,Yes
+T3768,Koramangala,2026-05-25,Rider Shortage,Critical,53,Yes
+T3769,Koramangala,2026-05-25,Delivery Delay,Critical,47,Yes
+T3770,Koramangala,2026-05-25,Delivery Delay,Medium,47,No
+T3771,Koramangala,2026-05-25,Delivery Delay,High,43,Yes
+T3772,Koramangala,2026-05-26,App Issue,Medium,84,No
+T3773,Koramangala,2026-05-26,Delivery Delay,Critical,45,Yes
+T3774,Koramangala,2026-05-26,App Issue,Low,45,No
+T3775,Koramangala,2026-05-26,Rider Shortage,Low,60,No
+T3776,Koramangala,2026-05-26,Rider Shortage,High,66,Yes
+T3777,Koramangala,2026-05-26,Delivery Delay,Critical,24,Yes
+T3778,Koramangala,2026-05-27,Rider No Show,Medium,55,No
+T3779,Koramangala,2026-05-27,Delivery Delay,High,17,Yes
+T3780,Koramangala,2026-05-27,Delivery Delay,Low,73,No
+T3781,Koramangala,2026-05-28,App Issue,High,66,Yes
+T3782,Koramangala,2026-05-28,Payment Issue,Low,48,No
+T3783,Koramangala,2026-05-28,Rider Shortage,Medium,63,No
+T3784,Koramangala,2026-05-29,Payment Issue,Critical,27,Yes
+T3785,Koramangala,2026-05-29,Payment Issue,Medium,83,No
+T3786,Koramangala,2026-05-29,Rider No Show,Low,81,No
+T3787,Koramangala,2026-05-29,Rider Shortage,High,75,Yes
+T3788,Koramangala,2026-05-29,App Issue,High,74,Yes
+T3789,Koramangala,2026-05-30,App Issue,High,75,Yes
+T3790,Koramangala,2026-05-30,Delivery Delay,High,37,Yes
+T3791,Koramangala,2026-05-30,Payment Issue,Low,44,No
+T3792,Koramangala,2026-05-30,Delivery Delay,Low,74,No
+T3793,Koramangala,2026-05-30,App Issue,Medium,32,No
+T3794,Koramangala,2026-05-30,Delivery Delay,Low,70,No
+T3795,Koramangala,2026-05-30,App Issue,Critical,67,Yes
+T3796,Koramangala,2026-05-31,App Issue,Medium,83,No
+T3797,Koramangala,2026-05-31,Rider No Show,Low,86,No
+T3798,Koramangala,2026-06-01,Payment Issue,Critical,18,Yes
+T3799,Koramangala,2026-06-01,Rider No Show,Critical,48,Yes
+T3800,Koramangala,2026-06-01,Delivery Delay,High,83,Yes
+T3801,Koramangala,2026-06-01,Rider No Show,Critical,47,Yes
+T3802,Koramangala,2026-06-01,Rider Shortage,High,83,Yes
+T3803,Koramangala,2026-06-02,Rider No Show,High,40,Yes
+T3804,Koramangala,2026-06-02,Rider No Show,Medium,15,No
+T3805,Koramangala,2026-06-02,Delivery Delay,Low,18,No
+T3806,Koramangala,2026-06-02,App Issue,Low,53,No
+T3807,Koramangala,2026-06-02,Rider No Show,Medium,68,No
+T3808,Koramangala,2026-06-02,Rider No Show,Critical,47,Yes
+T3809,Koramangala,2026-06-02,App Issue,Medium,47,No
+T3810,Koramangala,2026-06-03,Delivery Delay,High,30,Yes
+T3811,Koramangala,2026-06-03,Delivery Delay,Low,35,No
+T3812,Koramangala,2026-06-03,Rider No Show,Medium,59,No
+T3813,Koramangala,2026-06-03,Rider No Show,High,76,Yes
+T3814,Koramangala,2026-06-03,Payment Issue,Low,45,No
+T3815,Koramangala,2026-06-04,Rider Shortage,Medium,56,No
+T3816,Koramangala,2026-06-04,Rider No Show,Critical,26,Yes
+T3817,Koramangala,2026-06-04,Delivery Delay,Medium,79,No
+T3818,Koramangala,2026-06-04,Rider Shortage,Medium,87,No
+T3819,Koramangala,2026-06-04,App Issue,Medium,17,No
+T3820,Koramangala,2026-06-05,Delivery Delay,High,23,Yes
+T3821,Koramangala,2026-06-05,Payment Issue,Critical,65,Yes
+T3822,Koramangala,2026-06-05,App Issue,Low,30,No
+T3823,Koramangala,2026-06-05,Payment Issue,Low,17,No
+T3824,Koramangala,2026-06-05,Delivery Delay,High,38,Yes
+T3825,Koramangala,2026-06-06,Rider Shortage,High,27,Yes
+T3826,Koramangala,2026-06-06,Delivery Delay,Low,16,No
+T3827,Koramangala,2026-06-07,Payment Issue,Critical,33,Yes
+T3828,Koramangala,2026-06-07,Delivery Delay,High,61,Yes
+T3829,Koramangala,2026-06-07,App Issue,Low,36,No
+T3830,Koramangala,2026-06-07,App Issue,Critical,89,Yes
+T3831,Koramangala,2026-06-07,App Issue,High,47,Yes
+T3832,Koramangala,2026-06-07,App Issue,Low,46,No
+T3833,Koramangala,2026-06-08,App Issue,Critical,53,Yes
+T3834,Koramangala,2026-06-08,Rider Shortage,Critical,86,Yes
+T3835,Koramangala,2026-06-08,Rider Shortage,Medium,56,No
+T3836,Koramangala,2026-06-08,Rider No Show,Medium,23,No
+T3837,Koramangala,2026-06-08,Rider No Show,Critical,39,Yes
+T3838,Koramangala,2026-06-08,Payment Issue,High,16,Yes
+T3839,Koramangala,2026-06-09,Payment Issue,Critical,34,Yes
+T3840,Koramangala,2026-06-09,Delivery Delay,Critical,84,Yes
+T3841,Koramangala,2026-06-09,Delivery Delay,Low,31,No
+T3842,Koramangala,2026-06-09,Delivery Delay,Low,82,No
+T3843,Koramangala,2026-06-10,Rider Shortage,Low,17,No
+T3844,Koramangala,2026-06-10,Rider Shortage,High,65,Yes
+T3845,Koramangala,2026-06-10,App Issue,Critical,40,Yes
+T3846,Koramangala,2026-06-10,Delivery Delay,Low,70,No
+T3847,Koramangala,2026-06-10,Delivery Delay,High,78,Yes
+T3848,Koramangala,2026-06-10,Rider Shortage,Critical,22,Yes
+T3849,Koramangala,2026-06-10,App Issue,Medium,51,No
+T3850,Koramangala,2026-06-11,Delivery Delay,High,41,Yes
+T3851,Koramangala,2026-06-11,Payment Issue,Medium,59,No
+T3852,Koramangala,2026-06-11,Payment Issue,Low,18,No
+T3853,Koramangala,2026-06-11,App Issue,High,51,Yes
+T3854,Koramangala,2026-06-11,Rider Shortage,High,85,Yes
+T3855,Koramangala,2026-06-11,App Issue,Critical,47,Yes
+T3856,Koramangala,2026-06-12,App Issue,Medium,26,No
+T3857,Koramangala,2026-06-12,Rider Shortage,High,25,Yes
+T3858,Koramangala,2026-06-12,Payment Issue,Low,86,No
+T3859,Koramangala,2026-06-12,Payment Issue,Medium,46,No
+T3860,Koramangala,2026-06-12,Payment Issue,Medium,71,No
+T3861,Koramangala,2026-06-12,Rider No Show,High,52,Yes
+T3862,Koramangala,2026-06-13,Rider Shortage,Low,33,No
+T3863,Koramangala,2026-06-13,Payment Issue,Low,70,No
+T3864,Koramangala,2026-06-13,Payment Issue,Medium,28,No
+T3865,Koramangala,2026-06-13,Rider No Show,Low,47,No
+T3866,Koramangala,2026-06-13,App Issue,Medium,24,No
+T3867,Koramangala,2026-06-14,Rider No Show,Low,82,No
+T3868,Koramangala,2026-06-14,Rider Shortage,Medium,57,No
+T3869,Koramangala,2026-06-14,App Issue,Medium,73,No
+T3870,Koramangala,2026-06-14,Rider Shortage,Critical,66,Yes
+T3871,Koramangala,2026-06-14,App Issue,Low,33,No
+T3872,Koramangala,2026-06-14,Rider No Show,Critical,35,Yes
+T3873,Koramangala,2026-06-14,App Issue,High,36,Yes
+T3874,Koramangala,2026-06-15,Payment Issue,Critical,23,Yes
+T3875,Koramangala,2026-06-15,Rider Shortage,Critical,87,Yes
+T3876,Koramangala,2026-06-16,Rider Shortage,Critical,31,Yes
+T3877,Koramangala,2026-06-16,Rider Shortage,Medium,58,No
+T3878,Koramangala,2026-06-16,Payment Issue,Low,59,No
+T3879,Koramangala,2026-06-16,Rider Shortage,Critical,22,Yes
+T3880,Koramangala,2026-06-17,Rider No Show,Critical,47,Yes
+T3881,Koramangala,2026-06-17,Delivery Delay,Medium,15,No
+T3882,Koramangala,2026-06-17,Rider Shortage,Low,20,No
+T3883,Koramangala,2026-06-18,Delivery Delay,Medium,69,No
+T3884,Koramangala,2026-06-18,Payment Issue,High,19,Yes
+T3885,Koramangala,2026-06-19,Rider Shortage,High,32,Yes
+T3886,Koramangala,2026-06-19,Rider Shortage,Low,63,No
+T3887,Koramangala,2026-06-19,Delivery Delay,High,79,Yes
+T3888,Koramangala,2026-06-19,Delivery Delay,Medium,68,No
+T3889,Koramangala,2026-06-20,Delivery Delay,Critical,22,Yes
+T3890,Koramangala,2026-06-20,App Issue,Critical,17,Yes
+T3891,Koramangala,2026-06-20,Rider No Show,Low,39,No
+T3892,Koramangala,2026-06-20,Payment Issue,Critical,83,Yes
+T3893,Koramangala,2026-06-20,Rider No Show,High,69,Yes
+T3894,Koramangala,2026-06-20,Payment Issue,High,54,Yes
+T3895,Koramangala,2026-06-21,Rider Shortage,High,64,Yes
+T3896,Koramangala,2026-06-21,Rider No Show,Low,47,No
+T3897,Koramangala,2026-06-21,Payment Issue,Critical,32,Yes
+T3898,Koramangala,2026-06-21,App Issue,High,71,Yes
+T3899,Koramangala,2026-06-22,Payment Issue,High,55,Yes
+T3900,Koramangala,2026-06-22,App Issue,Critical,21,Yes
+T3901,Koramangala,2026-06-22,Rider Shortage,Low,67,No
+T3902,Koramangala,2026-06-22,App Issue,Medium,77,No
+T3903,Koramangala,2026-06-22,Rider Shortage,Low,46,No
+T3904,Koramangala,2026-06-22,Payment Issue,Critical,52,Yes
+T3905,Koramangala,2026-06-22,Delivery Delay,Medium,36,No
+T3906,Koramangala,2026-06-23,Delivery Delay,Medium,30,No
+T3907,Koramangala,2026-06-23,Rider Shortage,Low,66,No
+T3908,Koramangala,2026-06-23,App Issue,Medium,43,No
+T3909,Koramangala,2026-06-23,App Issue,Critical,30,Yes
+T3910,Koramangala,2026-06-24,App Issue,Critical,31,Yes
+T3911,Koramangala,2026-06-24,App Issue,Critical,78,Yes
+T3912,Koramangala,2026-06-24,Payment Issue,High,27,Yes
+T3913,Koramangala,2026-06-24,Rider Shortage,Low,86,No
+T3914,Koramangala,2026-06-24,Delivery Delay,High,70,Yes
+T3915,Koramangala,2026-06-25,App Issue,High,26,Yes
+T3916,Koramangala,2026-06-25,Payment Issue,Low,55,No
+T3917,Koramangala,2026-06-25,Payment Issue,Low,17,No
+T3918,Koramangala,2026-06-25,App Issue,High,47,Yes
+T3919,Koramangala,2026-06-25,Rider Shortage,Critical,64,Yes
+T3920,Koramangala,2026-06-25,Delivery Delay,High,70,Yes
+T3921,Koramangala,2026-06-26,Rider No Show,High,23,Yes
+T3922,Koramangala,2026-06-26,App Issue,Critical,64,Yes
+T3923,Koramangala,2026-06-26,Rider Shortage,High,43,Yes
+T3924,Koramangala,2026-06-26,App Issue,Medium,53,No
+T3925,Koramangala,2026-06-26,Payment Issue,High,59,Yes
+T3926,Koramangala,2026-06-27,Delivery Delay,Medium,70,No
+T3927,Koramangala,2026-06-27,App Issue,Low,60,No
+T3928,Koramangala,2026-06-28,Rider Shortage,High,83,Yes
+T3929,Koramangala,2026-06-28,Rider No Show,Critical,28,Yes
+T3930,Koramangala,2026-06-28,Payment Issue,Medium,81,No
+T3931,Koramangala,2026-06-28,Rider No Show,High,37,Yes
+T3932,Koramangala,2026-06-29,Rider Shortage,Critical,75,Yes
+T3933,Koramangala,2026-06-29,Delivery Delay,Critical,37,Yes
+T3934,Koramangala,2026-06-29,Payment Issue,Low,41,No
+T3935,Koramangala,2026-06-29,Delivery Delay,High,68,Yes
+T3936,Koramangala,2026-06-29,App Issue,Medium,24,No
+T3937,Koramangala,2026-06-29,Rider Shortage,Low,30,No
+T3938,Koramangala,2026-06-29,Rider No Show,Low,55,No
+T3939,Koramangala,2026-06-30,Rider Shortage,Low,69,No
+T3940,Koramangala,2026-06-30,App Issue,High,75,Yes
+T3941,Koramangala,2026-06-30,Rider Shortage,High,63,Yes
