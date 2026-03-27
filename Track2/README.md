@@ -5,15 +5,10 @@ An intelligent data analysis agent powered by **Google ADK**, **Gemini 2.5 Flash
 
 
 ---
+<img width="1366" height="1848" alt="image" src="https://github.com/user-attachments/assets/26f0e2ea-03d1-4024-9869-2afd758d0bc0" />
 
-## 🚀 Live Demo
 
-| Service | URL |
-|--------|-----|
-| **Agent API** | https://bigquery-agent-v32-h2fgvrniba-uc.a.run.app |
-| **Toolbox API** | https://bigquery-toolbox-h2fgvrniba-uc.a.run.app |
 
----
 
 ## 📌 Project Overview
 
@@ -401,6 +396,15 @@ gcloud run deploy bigquery-agent \
   --allow-unauthenticated \
   --set-env-vars GOOGLE_CLOUD_PROJECT=$PROJECT_ID,GOOGLE_CLOUD_LOCATION=us-central1,GOOGLE_GENAI_USE_VERTEXAI=TRUE,TOOLBOX_URL=https://your-toolbox-url.run.app
 ```
+
+---
+
+## 🚀 Live Demo
+
+| Service | URL |
+|--------|-----|
+| **Agent API** | https://bigquery-agent-v32-h2fgvrniba-uc.a.run.app |
+| **Toolbox API** | https://bigquery-toolbox-h2fgvrniba-uc.a.run.app |
 
 ---
 
