@@ -295,6 +295,8 @@ adk run bq
 
 ## 🧪 Testing the Agent
 
+Navigate into cd bq folder and test.
+
 ### Step 1 — Create a Session
 
 ```bash
