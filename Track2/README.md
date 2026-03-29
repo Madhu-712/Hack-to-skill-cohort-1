@@ -265,6 +265,10 @@ chmod +x toolbox
 mkdir -p mcp-toolbox
 mv toolbox mcp-toolbox/
 cd mcp-toolbox
+#Create toolbox
+export VERSION=0.23.0
+curl -O https://storage.googleapis.com/genai-toolbox/v$VERSION/linux/amd64/toolbox
+chmod +x toolbox
 
 # Start the toolbox
 ./toolbox --prebuilt bigquery
