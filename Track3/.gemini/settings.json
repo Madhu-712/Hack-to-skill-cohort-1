@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "AlloyDBServer": {
+      "command": "/home/colab712/tax/mcp-toolbox/toolbox",
+      "args": [
+        "--tools-file",
+        "/home/colab712/tax/mcp-toolbox/tools.yaml",
+        "--stdio"
+      ]
+    }
+  }
+}
