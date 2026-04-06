@@ -175,9 +175,13 @@ The project is designed to be containerized using Docker, making it suitable for
 
 ## Live Demo
 
-A live demo is not hosted, but you can follow the "Getting Started" section to run the application locally and interact with the agents through the ADK web interface.
-link:
-https://socio-marketing-service-738033056694.us-central1.run.app
+
+🚀 Socio-Marketing Service Deployment
+
+Resource	Service Type	Live Demo URL
+
+Socio-Marketing	Cloud Run (Main Service)	https://socio-marketing-service-738033056694.us-central1.run.app
+
 
 ## Contribution
 
