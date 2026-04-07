@@ -8,6 +8,9 @@ This project provides an autonomous marketing analytics solution for SweetTreats
 Manually analyzing vast amounts of social media data and translating it into actionable marketing strategies is time-consuming and resource-intensive. This project addresses the need for an automated system that can swiftly generate data-backed insights, produce formal performance reports, and provide strategic recommendations to optimize marketing efforts.
 
 ## Architecture
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/5ec8d9f4-5768-4d23-8987-1aa032028521" />
+
+
 The system is built around an agent-based architecture using the Google ADK, comprising three main agents:
 
 *   **Orchestrator Agent (`root_agent`):** The primary agent responsible for managing the overall workflow. It delegates tasks to sub-agents, compiles their findings, and handles external communications (e.g., uploading reports to GCS, drafting emails). It also manages the workflow state and can reset it.
