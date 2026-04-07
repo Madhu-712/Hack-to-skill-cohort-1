@@ -21,9 +21,10 @@ These agents interact with each other and external services (like Google Cloud S
 *   **Programming Language:** Python 3.12
 
 *   **Cloud Services:**
-    *   Google Cloud Storage (GCS) for data persistence (social logs, reports)
+    *   Google Cloud Storage (GCS) for data persistence (social logs, reports) BUCKET
     *   Vertex AI (implied by `GOOGLE_GENAI_USE_VERTEXAI` and `GOOGLE_CLOUD_LOCATION`)
     *   Google Gemini Models (`gemini-2.5-flash`)
+    *   Deployment using CloudRun.
 *   **Dependency Management:** `pip` with `requirements.txt`
 *   **Containerization:** Docker
 
