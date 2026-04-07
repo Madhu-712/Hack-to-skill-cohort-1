@@ -114,20 +114,20 @@ CTR,22.2% ,44.4% ,37.5%
 ## Sample Questions
 
 Users can interact with the orchestrator agent by asking questions such as:
-*Based on current metrics, how do we bridge the gap between "interest" and "purchase"?
-*Which platform should we prioritize for brand awareness vs. direct sales?
-*"Evaluate our social media footprint across Instagram, Facebook, and Twitter. Generate a detailed performance report that highlights top-performing content and provides a metrics-based evaluation of each site."
-* "Analyze the current marketing campaign's performance by evaluating key engagement metrics across Instagram, Facebook, and Twitter. Provide a        comparative assessment of each platform’s effectiveness."
-* "Synthesize a comprehensive marketing performance report. Audit social media metrics for Instagram, Facebook, and Twitter, identifying trends in user interaction and platform-specific ROI."
-* "Which platform demonstrated the most significant growth across key performance indicators (KPIs), specifically CTR, engagement, reach, impressions, and conversions?"
-*   "Generate a marketing performance report."
-*   "Upload the marketing performance report."
-*   "What is the Facebook CTR?"
-*   "Draft an email for next quarter's campaign."
-*   "Reset the workflow state."
-*   "Identify the top-performing platform by analyzing the upward trends in reach and impressions alongside conversion and click-through rates."
-*   How should our content type differ between Instagram and Facebook?
-*   "Generate a strategic pivot for Q2 based on current Instagram reach." 
+* Based on current metrics, how do we bridge the gap between "interest" and "purchase"?
+* Which platform should we prioritize for brand awareness vs. direct sales?
+* Evaluate our social media footprint across Instagram, Facebook, and Twitter. Generate a detailed performance report that highlights top-performing content and provides a metrics-based evaluation of each site."
+* Analyze the current marketng campaign's performance by evaluating key engagement metrics across Instagram, Facebook, and Twitter. Provide a comparative assessment of each platform’s effectiveness.
+* Synthesize a comprehensive marketing performance report. Audit social media metrics for Instagram, Facebook, and Twitter, identifying trends in user interaction and platform-specific ROI.
+* Which platform demonstrated the most significant growth across key performance indicators (KPIs), specifically CTR, engagement, reach, impressions, and conversions?
+* Generate a marketing performance report.
+* Upload the marketing performance report.
+* What is the Facebook CTR?
+* Draft an email for next quarter's campaign.
+* Reset the workflow state.
+* Identify the top-performing platform by analyzing the upward trends in reach and impressions alongside conversion and click-through rates.
+* How should our content type differ between Instagram and Facebook?
+* Generate a strategic pivot for Q2 based on current Instagram reach. 
 
 ## Testing
 
