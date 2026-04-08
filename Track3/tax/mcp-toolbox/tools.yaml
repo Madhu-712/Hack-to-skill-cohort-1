@@ -1,1 +1,58 @@
 
+sources:
+  alloydb:
+    kind: "postgres"
+    host: "34.56.62.163"
+    port: 5432
+    database: "postgres"
+    user: "postgres"
+    password: "${DB_PASSWORD}"
+tools:
+  find_client_by_name:
+    kind: postgres-sql
+    source: alloydb
+    description: "Find a client's ID using semantic search on their name."
+    parameters:
+      - name: name_query
+        type: string
+        description: "The name of the client to search for."
+    statement: |
+      SELECT client_id, firstname, lastname 
+      FROM clients 
+      ORDER BY embedding <=> embedding('text-embedding-005', $1)::vector 
+      LIMIT 1;
+  get_financial_profile:
+    kind: postgres-sql
+    source: alloydb
+    description: "Get salary, LTCG, and STCG for a specific client ID."
+    parameters:
+      - name: client_id
+        type: integer
+        description: "The unique numeric ID of the client."
+    statement: |
+      SELECT client_id, salary, ltcg, stcg 
+      FROM clients 
+      WHERE client_id = $1;
+  update_tax_records:
+    kind: postgres-sql
+    source: alloydb
+    description: "Save calculated tax liability and harvesting strategy back to the database."
+    parameters:
+      - name: client_id
+        type: integer
+        description: "The unique numeric ID of the client."
+      - name: tax_liability
+        type: integer
+        description: "The calculated tax amount to be paid."
+      - name: tax_loss
+        type: integer
+        description: "The amount suggested for tax loss harvesting."
+      - name: tax_gain
+        type: integer
+        description: "The amount suggested for tax gain harvesting."
+    statement: |
+      UPDATE clients 
+      SET tax_liability = $2, 
+          tax_loss_suggested = $3, 
+          tax_gain_suggested = $4
+      WHERE client_id = $1;
