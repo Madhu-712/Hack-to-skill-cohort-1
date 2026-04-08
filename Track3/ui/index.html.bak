@@ -23,6 +23,8 @@
   --green-bg: rgba(42,107,60,0.08);
   --amber: #b5820a;
   --amber-bg: rgba(181,130,10,0.08);
+  --blue: #1a5fa8;
+  --blue-bg: rgba(26,95,168,0.08);
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
@@ -34,10 +36,7 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c4b99a' fill-opacity='0.15'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 .app { max-width: 1000px; margin: 0 auto; padding: 40px 24px 80px; }
-.header {
-  display: flex; align-items: center; justify-content: space-between;
-  margin-bottom: 48px; padding-bottom: 24px; border-bottom: 2px solid var(--ink);
-}
+.header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 48px; padding-bottom: 24px; border-bottom: 2px solid var(--ink); }
 .logo { font-family: 'Playfair Display', serif; font-size: 2.4rem; font-weight: 700; letter-spacing: -1px; line-height: 1; }
 .logo em { color: var(--accent); font-style: italic; }
 .logo-sub { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; color: var(--ink3); text-transform: uppercase; margin-top: 4px; }
@@ -51,28 +50,46 @@ body {
 .card-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 18px; background: var(--ink); color: var(--bg); }
 .card-title { font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; letter-spacing: 0.15em; text-transform: uppercase; }
 .card-body { padding: 20px; }
+
+/* Model Toggle */
+.model-toggle { display: flex; gap: 0; border: 1px solid var(--border); border-radius: 4px; overflow: hidden; margin-bottom: 16px; }
+.model-btn { flex: 1; padding: 8px 12px; border: none; background: var(--surface2); color: var(--ink3); font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; letter-spacing: 0.06em; cursor: pointer; transition: all 0.15s; text-align: center; }
+.model-btn.active.gemini { background: var(--blue); color: white; }
+.model-btn.active.claude { background: var(--accent); color: white; }
+.model-btn:not(.active):hover { background: var(--bg2); color: var(--ink); }
+.model-divider { width: 1px; background: var(--border); }
+
+/* API Keys */
+.key-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.key-field label { display: block; font-family: 'JetBrains Mono', monospace; font-size: 0.62rem; letter-spacing: 0.1em; color: var(--ink3); text-transform: uppercase; margin-bottom: 6px; }
+.key-input { width: 100%; background: var(--surface2); border: 1px solid var(--border); border-radius: 4px; padding: 8px 12px; color: var(--ink); font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; outline: none; transition: border-color 0.2s; }
+.key-input:focus { border-color: var(--accent); }
+.key-input.gemini-active:focus { border-color: var(--blue); }
+
 .query-textarea { width: 100%; background: var(--surface2); border: 1px solid var(--border); border-radius: 4px; padding: 14px; color: var(--ink); font-family: 'Outfit', sans-serif; font-size: 0.95rem; font-weight: 300; resize: none; outline: none; line-height: 1.6; min-height: 90px; transition: border-color 0.2s; }
 .query-textarea:focus { border-color: var(--accent); }
 .query-textarea::placeholder { color: var(--ink3); }
 .btn-row { display: flex; gap: 8px; margin-top: 12px; }
 .btn-primary { flex: 1; background: var(--accent); color: white; border: none; border-radius: 4px; padding: 12px 20px; font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; letter-spacing: 0.08em; font-weight: 500; cursor: pointer; transition: all 0.15s; text-transform: uppercase; }
-.btn-primary:hover:not(:disabled) { background: var(--accent2); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(181,70,42,0.3); }
-.btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-primary.gemini-mode { background: var(--blue); }
+.btn-primary:hover:not(:disabled) { opacity: 0.88; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+.btn-primary:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
 .btn-clear { background: transparent; color: var(--ink3); border: 1px solid var(--border); border-radius: 4px; padding: 12px 16px; font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; cursor: pointer; transition: all 0.15s; }
 .btn-clear:hover { border-color: var(--ink3); color: var(--ink); }
 .presets-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 4px; }
 .preset-chip { background: var(--surface2); border: 1px solid var(--border); border-radius: 4px; padding: 10px 12px; cursor: pointer; transition: all 0.15s; }
 .preset-chip:hover { border-color: var(--accent); background: var(--accent-bg); }
 .preset-name { font-size: 0.8rem; font-weight: 500; color: var(--ink); margin-bottom: 2px; }
-.preset-desc { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; color: var(--ink3); letter-spacing: 0.04em; }
+.preset-desc { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; color: var(--ink3); }
 .trace-list { display: flex; flex-direction: column; gap: 6px; }
 .trace-item { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-left: 3px solid var(--border2); background: var(--surface2); border-radius: 0 4px 4px 0; font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--ink3); animation: slideIn 0.25s ease; }
 .trace-item.active { border-left-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+.trace-item.active.gemini { border-left-color: var(--blue); color: var(--blue); background: var(--blue-bg); }
 .trace-item.done { border-left-color: var(--green); color: var(--green); }
 .trace-item.error { border-left-color: var(--accent); color: var(--accent); }
 @keyframes slideIn { from{opacity:0;transform:translateX(-6px)} to{opacity:1;transform:translateX(0)} }
 .trace-params { margin-left: auto; font-size: 0.6rem; color: var(--ink3); max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; opacity: 0.7; }
-.spinner { display: inline-block; width: 10px; height: 10px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.6s linear infinite; }
+.spinner { display: inline-block; width: 10px; height: 10px; border: 2px solid var(--border); border-top-color: currentColor; border-radius: 50%; animation: spin 0.6s linear infinite; }
 @keyframes spin { to{transform:rotate(360deg)} }
 .response-content { line-height: 1.75; font-size: 0.92rem; color: var(--ink2); }
 .response-content strong { color: var(--accent); font-weight: 600; }
@@ -97,10 +114,13 @@ hr.divider { border: none; border-top: 1px solid var(--border); margin: 16px 0; 
 .history-q { font-size: 0.8rem; color: var(--ink2); margin-bottom: 2px; }
 .history-ts { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; color: var(--ink3); }
 .empty-state { text-align: center; padding: 24px 16px; color: var(--ink3); font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; }
-.api-warning { background: var(--amber-bg); border: 1px solid var(--amber); border-radius: 4px; padding: 10px 14px; font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; color: var(--amber); margin-bottom: 12px; display: none; }
-.api-warning.show { display: block; }
 .section-micro { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; letter-spacing: 0.15em; color: var(--ink3); text-transform: uppercase; margin-bottom: 8px; }
-@media (max-width: 720px) { .layout { grid-template-columns: 1fr; } .presets-grid { grid-template-columns: 1fr; } }
+.model-badge { display: inline-flex; align-items: center; gap: 4px; font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; padding: 2px 8px; border-radius: 3px; }
+.model-badge.gemini { background: var(--blue-bg); color: var(--blue); border: 1px solid var(--blue); }
+.model-badge.claude { background: var(--accent-bg); color: var(--accent); border: 1px solid var(--accent); }
+.warning-box { background: var(--amber-bg); border: 1px solid var(--amber); border-radius: 4px; padding: 10px 14px; font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; color: var(--amber); margin-bottom: 12px; display: none; }
+.warning-box.show { display: block; }
+@media (max-width: 720px) { .layout { grid-template-columns: 1fr; } .presets-grid { grid-template-columns: 1fr; } .key-grid { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -112,7 +132,7 @@ hr.divider { border: none; border-top: 1px solid var(--border); margin: 16px 0; 
     </div>
     <div class="header-right">
       <div class="live-badge"><div class="live-dot"></div>ALLOYDB · LIVE</div>
-      <div class="endpoint-tag">taxco-agent-ui · us-central1.run.app</div>
+      <div class="endpoint-tag">mcp-toolbox · us-central1.run.app</div>
     </div>
   </div>
 
@@ -123,20 +143,39 @@ hr.divider { border: none; border-top: 1px solid var(--border); margin: 16px 0; 
       <div class="card">
         <div class="card-header">
           <span class="card-title">⚙ Configuration</span>
+          <span id="active-model-badge" class="model-badge gemini">● GEMINI 2.5 FLASH</span>
         </div>
         <div class="card-body">
-          <div class="api-warning" id="api-warning">⚠ Enter your Anthropic API key to enable the agent</div>
-          <div style="display:flex;gap:10px;align-items:flex-end">
-            <div style="flex:1">
-              <div class="section-micro">Anthropic API Key</div>
-              <input type="password" id="api-key" placeholder="sk-ant-..."
-                style="width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:4px;padding:8px 12px;color:var(--ink);font-family:'JetBrains Mono',monospace;font-size:0.8rem;outline:none;transition:border-color 0.2s"
-                onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'" />
-            </div>
-            <button onclick="saveKey()" style="background:var(--ink);color:var(--bg);border:none;border-radius:4px;padding:9px 16px;font-family:'JetBrains Mono',monospace;font-size:0.7rem;cursor:pointer;letter-spacing:0.06em">SAVE</button>
+
+          <!-- Model Toggle -->
+          <div class="section-micro">AI Model</div>
+          <div class="model-toggle" style="margin-bottom:16px">
+            <button class="model-btn active gemini" id="btn-gemini" onclick="setModel('gemini')">
+              ✦ Gemini 2.5 Flash
+            </button>
+            <div class="model-divider"></div>
+            <button class="model-btn claude" id="btn-claude" onclick="setModel('claude')">
+              ◆ Claude Sonnet
+            </button>
           </div>
-          <div style="margin-top:10px;font-family:'JetBrains Mono',monospace;font-size:0.6rem;color:var(--ink3)">
-            Toolbox → <span style="color:var(--green)">taxco-agent-ui-408405281092.us-central1.run.app</span>
+
+          <div class="warning-box" id="key-warning">⚠ Enter the API key for the selected model</div>
+
+          <!-- API Keys -->
+          <div class="key-grid">
+            <div class="key-field" id="gemini-key-field">
+              <label>Google AI API Key</label>
+              <input type="password" id="gemini-key" class="key-input" placeholder="AIza..." />
+            </div>
+            <div class="key-field" id="claude-key-field" style="opacity:0.4">
+              <label>Anthropic API Key</label>
+              <input type="password" id="claude-key" class="key-input" placeholder="sk-ant-..." />
+            </div>
+          </div>
+          <button onclick="saveKeys()" style="background:var(--ink);color:var(--bg);border:none;border-radius:4px;padding:8px 16px;font-family:'JetBrains Mono',monospace;font-size:0.7rem;cursor:pointer;letter-spacing:0.06em;margin-top:4px" id="save-btn">SAVE KEYS</button>
+
+          <div style="margin-top:12px;font-family:'JetBrains Mono',monospace;font-size:0.6rem;color:var(--ink3)">
+            Toolbox → <span style="color:var(--green)">mcp-toolbox-408405281092.us-central1.run.app</span>
           </div>
         </div>
       </div>
@@ -152,27 +191,23 @@ hr.divider { border: none; border-top: 1px solid var(--border); margin: 16px 0; 
             placeholder="e.g. Calculate tax liability for Zara Khan and update the records…"
             rows="3" onkeydown="handleKey(event)"></textarea>
           <div class="btn-row">
-            <button class="btn-primary" id="run-btn" onclick="runAgent()">▶ RUN AGENT</button>
+            <button class="btn-primary gemini-mode" id="run-btn" onclick="runAgent()">▶ RUN AGENT</button>
             <button class="btn-clear" onclick="clearAll()">CLEAR</button>
           </div>
           <div style="margin-top:16px">
             <div class="section-micro">Quick Queries</div>
             <div class="presets-grid">
               <div class="preset-chip" onclick="setQuery('Calculate tax liability for Zara Khan and update records')">
-                <div class="preset-name">Zara Khan</div>
-                <div class="preset-desc">Full tax calc + update</div>
+                <div class="preset-name">Zara Khan</div><div class="preset-desc">Full tax calc + update</div>
               </div>
               <div class="preset-chip" onclick="setQuery('What is the financial profile of Aarav Patel?')">
-                <div class="preset-name">Aarav Patel</div>
-                <div class="preset-desc">Profile lookup</div>
+                <div class="preset-name">Aarav Patel</div><div class="preset-desc">Profile lookup</div>
               </div>
               <div class="preset-chip" onclick="setQuery('Calculate taxes for Vihaan Sharma with harvesting strategy')">
-                <div class="preset-name">Vihaan Sharma</div>
-                <div class="preset-desc">Tax + harvesting</div>
+                <div class="preset-name">Vihaan Sharma</div><div class="preset-desc">Tax + harvesting</div>
               </div>
               <div class="preset-chip" onclick="setQuery('Find and calculate tax for Myra Joshi')">
-                <div class="preset-name">Myra Joshi</div>
-                <div class="preset-desc">Find + calculate</div>
+                <div class="preset-name">Myra Joshi</div><div class="preset-desc">Find + calculate</div>
               </div>
             </div>
           </div>
@@ -192,20 +227,19 @@ hr.divider { border: none; border-top: 1px solid var(--border); margin: 16px 0; 
       <div class="card" id="response-card" style="display:none">
         <div class="card-header">
           <span class="card-title">◆ Agent Response</span>
-          <span id="response-time" style="font-family:'JetBrains Mono',monospace;font-size:0.6rem;color:var(--bg2)"></span>
+          <span id="response-meta" style="font-family:'JetBrains Mono',monospace;font-size:0.6rem;color:var(--bg2)"></span>
         </div>
         <div class="card-body" id="response-body"></div>
       </div>
 
     </div>
 
+    <!-- Sidebar -->
     <div class="right-panel">
-
-      <!-- Clients -->
       <div class="card">
         <div class="card-header"><span class="card-title">👥 Clients</span></div>
         <div class="card-body" style="padding:12px">
-          <div class="clients-list" id="clients-list">
+          <div class="clients-list">
             <div class="client-item" onclick="setQuery('Calculate tax for Aarav Patel and update records')"><div class="client-name">Aarav Patel</div><div class="client-id">#001</div></div>
             <div class="client-item" onclick="setQuery('Calculate tax for Zara Khan and update records')"><div class="client-name">Zara Khan</div><div class="client-id">#002</div></div>
             <div class="client-item" onclick="setQuery('Calculate tax for Vihaan Sharma and update records')"><div class="client-name">Vihaan Sharma</div><div class="client-id">#003</div></div>
@@ -220,7 +254,6 @@ hr.divider { border: none; border-top: 1px solid var(--border); margin: 16px 0; 
         </div>
       </div>
 
-      <!-- Tax Rules -->
       <div class="card">
         <div class="card-header"><span class="card-title">📋 Tax Rules FY24-25</span></div>
         <div class="card-body" style="font-family:'JetBrains Mono',monospace;font-size:0.63rem;color:var(--ink3);line-height:1.9">
@@ -241,22 +274,21 @@ hr.divider { border: none; border-top: 1px solid var(--border); margin: 16px 0; 
         </div>
       </div>
 
-      <!-- History -->
       <div class="card">
         <div class="card-header"><span class="card-title">🕐 Session History</span></div>
         <div class="card-body" style="padding:12px">
           <div id="history-list"><div class="empty-state">No queries yet</div></div>
         </div>
       </div>
-
     </div>
   </div>
 </div>
 
 <script>
 const TOOLBOX_URL = 'https://taxco-ui-408405281092.us-central1.run.app';
+const GEMINI_MODEL = 'gemini-2.5-flash';
+const CLAUDE_MODEL = 'claude-sonnet-4-20250514';
 
-const MODEL = 'claude-sonnet-4-20250514';
 const SYSTEM_PROMPT = `You are TaxCo, an expert Indian tax compliance agent for FY 2024-25 connected to an AlloyDB database.
 
 TOOLS AVAILABLE:
@@ -272,7 +304,6 @@ Salary slabs (after ₹75,000 standard deduction):
 - 10L to 12L: 15% (max ₹30,000)
 - 12L to 15L: 20% (max ₹60,000)
 - Above 15L: 30%
-
 LTCG: 12.5% on gains exceeding ₹1,25,000 exemption
 STCG: 20% flat
 
@@ -283,28 +314,50 @@ TAX HARVESTING:
 WORKFLOW:
 1. find_client_by_name → get client_id
 2. get_financial_profile → get salary, ltcg, stcg
-3. Calculate: taxable_salary = salary - 75000, apply slabs, add LTCG tax, add STCG tax
+3. Calculate step by step, apply slabs progressively
 4. Determine harvesting strategy
 5. update_tax_records with all values
-6. Present clear breakdown with ₹ amounts in Indian number format (e.g. ₹12,50,000)`;
+6. Present clear breakdown with ₹ amounts in Indian format (e.g. ₹12,50,000)`;
 
-const TOOLS = [
+const CLAUDE_TOOLS = [
   { name: "find_client_by_name", description: "Find a client's ID using semantic search on their name.", input_schema: { type: "object", properties: { name_query: { type: "string" } }, required: ["name_query"] } },
   { name: "get_financial_profile", description: "Get salary, LTCG, and STCG for a specific client ID.", input_schema: { type: "object", properties: { client_id: { type: "integer" } }, required: ["client_id"] } },
   { name: "update_tax_records", description: "Save calculated tax liability and harvesting strategy back to the database.", input_schema: { type: "object", properties: { client_id: { type: "integer" }, tax_liability: { type: "integer" }, tax_loss: { type: "integer" }, tax_gain: { type: "integer" } }, required: ["client_id", "tax_liability", "tax_loss", "tax_gain"] } }
 ];
 
-let isRunning = false;
-let apiKey = localStorage.getItem('taxco_key') || '';
-if (apiKey) document.getElementById('api-key').value = apiKey;
+const GEMINI_TOOLS = [{
+  functionDeclarations: [
+    { name: "find_client_by_name", description: "Find a client's ID using semantic search on their name.", parameters: { type: "OBJECT", properties: { name_query: { type: "STRING", description: "The name of the client to search for." } }, required: ["name_query"] } },
+    { name: "get_financial_profile", description: "Get salary, LTCG, and STCG for a specific client ID.", parameters: { type: "OBJECT", properties: { client_id: { type: "INTEGER", description: "The unique numeric ID of the client." } }, required: ["client_id"] } },
+    { name: "update_tax_records", description: "Save calculated tax liability and harvesting strategy back to the database.", parameters: { type: "OBJECT", properties: { client_id: { type: "INTEGER" }, tax_liability: { type: "INTEGER" }, tax_loss: { type: "INTEGER" }, tax_gain: { type: "INTEGER" } }, required: ["client_id", "tax_liability", "tax_loss", "tax_gain"] } }
+  ]
+}];
 
-function saveKey() {
-  apiKey = document.getElementById('api-key').value.trim();
-  localStorage.setItem('taxco_key', apiKey);
-  document.getElementById('api-warning').classList.remove('show');
-  const btn = event.target;
+let currentModel = 'gemini';
+let isRunning = false;
+
+// Load saved keys
+document.getElementById('gemini-key').value = localStorage.getItem('taxco_gemini_key') || '';
+document.getElementById('claude-key').value = localStorage.getItem('taxco_claude_key') || '';
+
+function setModel(model) {
+  currentModel = model;
+  document.getElementById('btn-gemini').className = `model-btn ${model === 'gemini' ? 'active gemini' : ''}`;
+  document.getElementById('btn-claude').className = `model-btn ${model === 'claude' ? 'active claude' : ''}`;
+  document.getElementById('active-model-badge').className = `model-badge ${model}`;
+  document.getElementById('active-model-badge').textContent = model === 'gemini' ? '● GEMINI 2.5 FLASH' : '◆ CLAUDE SONNET';
+  document.getElementById('gemini-key-field').style.opacity = model === 'gemini' ? '1' : '0.4';
+  document.getElementById('claude-key-field').style.opacity = model === 'claude' ? '1' : '0.4';
+  const btn = document.getElementById('run-btn');
+  btn.className = model === 'gemini' ? 'btn-primary gemini-mode' : 'btn-primary';
+}
+
+function saveKeys() {
+  localStorage.setItem('taxco_gemini_key', document.getElementById('gemini-key').value.trim());
+  localStorage.setItem('taxco_claude_key', document.getElementById('claude-key').value.trim());
+  const btn = document.getElementById('save-btn');
   btn.textContent = '✓ SAVED';
-  setTimeout(() => btn.textContent = 'SAVE', 1500);
+  setTimeout(() => btn.textContent = 'SAVE KEYS', 1500);
 }
 
 function setQuery(q) { document.getElementById('query-input').value = q; document.getElementById('query-input').focus(); }
@@ -330,7 +383,7 @@ function addTrace(icon, label, params, state = 'active') {
   const list = document.getElementById('trace-list');
   const id = 'tr' + Date.now() + Math.random().toString(36).slice(2);
   const el = document.createElement('div');
-  el.className = `trace-item ${state}`;
+  el.className = `trace-item ${state}${state === 'active' && currentModel === 'gemini' ? ' gemini' : ''}`;
   el.id = id;
   el.innerHTML = `<span class="ti">${state === 'active' ? '<span class="spinner"></span>' : icon}</span><span>${label}</span><span class="trace-params">${params ? JSON.stringify(params).slice(0,50) : ''}</span>`;
   list.appendChild(el);
@@ -346,61 +399,31 @@ function updateTrace(id, icon, state) {
 
 async function runAgent() {
   if (isRunning) return;
-  apiKey = document.getElementById('api-key').value.trim();
-  if (!apiKey) { document.getElementById('api-warning').classList.add('show'); return; }
+  const key = currentModel === 'gemini'
+    ? document.getElementById('gemini-key').value.trim()
+    : document.getElementById('claude-key').value.trim();
+  if (!key) { document.getElementById('key-warning').classList.add('show'); return; }
+  document.getElementById('key-warning').classList.remove('show');
+
   const query = document.getElementById('query-input').value.trim();
   if (!query) return;
 
   isRunning = true;
   const btn = document.getElementById('run-btn');
   btn.disabled = true; btn.textContent = '⏳ RUNNING...';
-
   document.getElementById('trace-card').style.display = 'block';
   document.getElementById('response-card').style.display = 'none';
   document.getElementById('trace-list').innerHTML = '';
   document.getElementById('trace-status').textContent = 'executing...';
 
   const startTime = Date.now();
-  const messages = [{ role: 'user', content: query }];
   let collectedData = {}, finalText = '';
 
   try {
-    for (let loop = 0; loop < 8; loop++) {
-      const tid = addTrace('⚡', `Claude reasoning (turn ${loop + 1})`, null, 'active');
-      const res = await fetch('https://api.anthropic.com/v1/messages', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'anthropic-dangerous-direct-browser-calls': 'true' },
-        body: JSON.stringify({ model: MODEL, max_tokens: 2048, system: SYSTEM_PROMPT, tools: TOOLS, messages })
-      });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error?.message || 'Claude API error');
-      updateTrace(tid, '✓', 'done');
-      messages.push({ role: 'assistant', content: data.content });
-
-      if (data.stop_reason === 'end_turn') {
-        finalText = data.content.filter(b => b.type === 'text').map(b => b.text).join('\n');
-        break;
-      }
-      if (data.stop_reason !== 'tool_use') break;
-
-      const toolBlocks = data.content.filter(b => b.type === 'tool_use');
-      const toolResults = [];
-      for (const tb of toolBlocks) {
-        const ttid = addTrace('🔧', tb.name, tb.input, 'active');
-        let result;
-        try {
-          result = await callTool(tb.name, tb.input);
-          updateTrace(ttid, '✓', 'done');
-          if (tb.name === 'find_client_by_name') collectedData.client = Array.isArray(result) ? result[0] : result;
-          if (tb.name === 'get_financial_profile') collectedData.profile = Array.isArray(result) ? result[0] : result;
-          if (tb.name === 'update_tax_records') collectedData.updated = true;
-        } catch(e) {
-          result = { error: e.message };
-          updateTrace(ttid, '✗', 'error');
-        }
-        toolResults.push({ type: 'tool_result', tool_use_id: tb.id, content: JSON.stringify(result) });
-      }
-      messages.push({ role: 'user', content: toolResults });
+    if (currentModel === 'gemini') {
+      finalText = await runGemini(query, key, collectedData);
+    } else {
+      finalText = await runClaude(query, key, collectedData);
     }
 
     const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
@@ -418,11 +441,115 @@ async function runAgent() {
   btn.textContent = '▶ RUN AGENT';
 }
 
+// ── Gemini agentic loop ──
+async function runGemini(query, apiKey, collectedData) {
+  const contents = [{ role: 'user', parts: [{ text: query }] }];
+  let finalText = '';
+
+  for (let loop = 0; loop < 8; loop++) {
+    const tid = addTrace('✦', `Gemini reasoning (turn ${loop + 1})`, null, 'active');
+    const res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${apiKey}`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          system_instruction: { parts: [{ text: SYSTEM_PROMPT }] },
+          contents,
+          tools: GEMINI_TOOLS,
+          generationConfig: { maxOutputTokens: 2048 }
+        })
+      }
+    );
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error?.message || 'Gemini API error');
+    updateTrace(tid, '✓', 'done');
+
+    const candidate = data.candidates?.[0];
+    const parts = candidate?.content?.parts || [];
+    contents.push({ role: 'model', parts });
+
+    const textParts = parts.filter(p => p.text);
+    const fnCalls = parts.filter(p => p.functionCall);
+
+    if (!fnCalls.length) {
+      finalText = textParts.map(p => p.text).join('\n');
+      break;
+    }
+
+    // Execute tool calls
+    const fnResponses = [];
+    for (const part of fnCalls) {
+      const { name, args } = part.functionCall;
+      const ttid = addTrace('🔧', name, args, 'active');
+      let result;
+      try {
+        result = await callTool(name, args);
+        updateTrace(ttid, '✓', 'done');
+        if (name === 'find_client_by_name') collectedData.client = Array.isArray(result) ? result[0] : result;
+        if (name === 'get_financial_profile') collectedData.profile = Array.isArray(result) ? result[0] : result;
+        if (name === 'update_tax_records') collectedData.updated = true;
+      } catch(e) {
+        result = { error: e.message };
+        updateTrace(ttid, '✗', 'error');
+      }
+      fnResponses.push({ functionResponse: { name, response: { result } } });
+    }
+    contents.push({ role: 'user', parts: fnResponses });
+  }
+  return finalText;
+}
+
+// ── Claude agentic loop ──
+async function runClaude(query, apiKey, collectedData) {
+  const messages = [{ role: 'user', content: query }];
+  let finalText = '';
+
+  for (let loop = 0; loop < 8; loop++) {
+    const tid = addTrace('◆', `Claude reasoning (turn ${loop + 1})`, null, 'active');
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'anthropic-dangerous-direct-browser-calls': 'true' },
+      body: JSON.stringify({ model: CLAUDE_MODEL, max_tokens: 2048, system: SYSTEM_PROMPT, tools: CLAUDE_TOOLS, messages })
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error?.message || 'Claude API error');
+    updateTrace(tid, '✓', 'done');
+    messages.push({ role: 'assistant', content: data.content });
+
+    if (data.stop_reason === 'end_turn') {
+      finalText = data.content.filter(b => b.type === 'text').map(b => b.text).join('\n');
+      break;
+    }
+    if (data.stop_reason !== 'tool_use') break;
+
+    const toolBlocks = data.content.filter(b => b.type === 'tool_use');
+    const toolResults = [];
+    for (const tb of toolBlocks) {
+      const ttid = addTrace('🔧', tb.name, tb.input, 'active');
+      let result;
+      try {
+        result = await callTool(tb.name, tb.input);
+        updateTrace(ttid, '✓', 'done');
+        if (tb.name === 'find_client_by_name') collectedData.client = Array.isArray(result) ? result[0] : result;
+        if (tb.name === 'get_financial_profile') collectedData.profile = Array.isArray(result) ? result[0] : result;
+        if (tb.name === 'update_tax_records') collectedData.updated = true;
+      } catch(e) {
+        result = { error: e.message };
+        updateTrace(ttid, '✗', 'error');
+      }
+      toolResults.push({ type: 'tool_result', tool_use_id: tb.id, content: JSON.stringify(result) });
+    }
+    messages.push({ role: 'user', content: toolResults });
+  }
+  return finalText;
+}
+
 function formatINR(n) { if (!n && n !== 0) return '—'; return '₹' + Number(n).toLocaleString('en-IN'); }
 
 function renderResponse(text, data, elapsed) {
   document.getElementById('response-card').style.display = 'block';
-  document.getElementById('response-time').textContent = `${elapsed}s · ${new Date().toLocaleTimeString()}`;
+  document.getElementById('response-meta').textContent = `${elapsed}s · ${currentModel === 'gemini' ? 'Gemini 2.5 Flash' : 'Claude Sonnet'} · ${new Date().toLocaleTimeString()}`;
   let html = '';
   if (data.profile) {
     const p = data.profile;
@@ -432,7 +559,7 @@ function renderResponse(text, data, elapsed) {
       <div class="data-card"><div class="data-card-label">Salary</div><div class="data-card-value">${formatINR(p.salary)}</div></div>
       <div class="data-card"><div class="data-card-label">LTCG</div><div class="data-card-value amber">${formatINR(p.ltcg)}</div></div>
       <div class="data-card"><div class="data-card-label">STCG</div><div class="data-card-value red">${formatINR(p.stcg)}</div></div>
-      <div class="data-card"><div class="data-card-label">Annual Income</div><div class="data-card-value green">${formatINR((p.salary||0)+(p.ltcg||0)+(p.stcg||0))}</div></div>
+      <div class="data-card"><div class="data-card-label">Total Income</div><div class="data-card-value green">${formatINR((p.salary||0)+(p.ltcg||0)+(p.stcg||0))}</div></div>
     </div><hr class="divider">`;
   }
   html += `<div class="response-content">${formatMd(text)}</div>`;
@@ -457,7 +584,7 @@ function addToHistory(query) {
   if (empty) empty.remove();
   const el = document.createElement('div');
   el.className = 'history-item';
-  el.innerHTML = `<div class="history-q">${query.slice(0,55)}${query.length>55?'…':''}</div><div class="history-ts">${new Date().toLocaleTimeString()}</div>`;
+  el.innerHTML = `<div class="history-q">${query.slice(0,55)}${query.length>55?'…':''}</div><div class="history-ts">${currentModel === 'gemini' ? '✦' : '◆'} ${new Date().toLocaleTimeString()}</div>`;
   el.onclick = () => setQuery(query);
   list.prepend(el);
 }
