@@ -295,10 +295,12 @@ adk run bq
 ---
 ### Step 4 - Test using Web UI(ADK Web-UI)
 
-# This must match the variable name in agent.py
+This must match the variable name in agent.py
+
 export ADK_APP_NAME=root_agent
 
-# This points to the API Server you just started in the other tab
+This points to the API Server you just started in the other tab
+
 export MCP_SERVER_URL=http://localhost:8000
 
 adk web --host 0.0.0.0 --port 8083 --allow_origins 'regex:https://.*\.cloudshell\.dev'
