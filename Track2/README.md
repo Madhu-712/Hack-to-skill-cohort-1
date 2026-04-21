@@ -256,10 +256,6 @@ pip install -r requirements.txt
 
 ### Step 2 — Download & Run MCP Toolbox
 
-```bash
-export VERSION=0.23.0
-curl -O https://storage.googleapis.com/genai-toolbox/v$VERSION/linux/amd64/toolbox
-chmod +x toolbox
 
 # Move to mcp-toolbox folder
 mkdir -p mcp-toolbox
@@ -269,6 +265,9 @@ cd mcp-toolbox
 export VERSION=0.23.0
 curl -O https://storage.googleapis.com/genai-toolbox/v$VERSION/linux/amd64/toolbox
 chmod +x toolbox
+
+# Export project 
+export BIGQUERY_PROJECT=<YOUR_PROJECT_NAME>
 
 # Start the toolbox
 ./toolbox --prebuilt bigquery
@@ -288,6 +287,9 @@ Open a **new terminal tab** and run:
 ```bash
 cd ~/bigquery
 source .venv/bin/activate
+
+pip install toolbox-core
+
 adk run bq
 ```
 
