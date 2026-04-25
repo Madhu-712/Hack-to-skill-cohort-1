@@ -44,7 +44,15 @@ marketing/
     ├── agent.py          # Defines the Orchestrator, Data Analyst, and Marketing Strategist agents
     ├── Dockerfile        # Dockerfile for the socio_marketing service (if deployed separately)
     └── tools.py          # Defines the custom tools (fetch_social_data, upload_report, reset_workflow_state)
-```
+|__frontend
+    |__index.html
+    |__script.js
+
+## 🚀 Frontend Features
+- **Visual Analytics Dashboard**: Interactive Doughnut and Pie charts visualizing platform engagement and content distribution.
+- **Agentic Query Engine**: A built-in AI assistant that processes natural language queries about reach, sentiment, and performance.
+- **Dynamic Filtering**: Real-time month-wise data segmentation (March vs. February).
+
 
 ## Getting Started
 
@@ -98,6 +106,23 @@ To run this project locally, follow these steps:
     adk web --host 0.0.0.0 --port 8080 --allow_origins "https://*.cloudshell.dev"
     ```
     This will start the ADK web server, and you can interact with the agents via its interface, typically accessed through a browser.
+
+6. ## 🛠️ Execution Steps for frontend
+1. **Navigate to the dashboard folder**:
+   ```bash
+   cd Hackathon/frontend
+   ```
+2. **Launch a local server**:
+   ```bash
+   python -m http.server 8000
+   ```
+3. **Open the App**:
+   Visit [http://localhost:8000](http://localhost:8000) in your browser.
+
+## 📊 Interaction Guide
+- **Search**: Type keywords in the top-right bar to filter the activity log.
+- **AI Agent**: Type a question (e.g., "Best platform?") and press **Enter** to see the SweetTreats AI calculate insights instantly.
+
 
 ## About Data
 
@@ -186,6 +211,10 @@ The project is designed to be containerized using Docker, making it suitable for
 Resource	Service Type	Live Demo URL
 
 Socio-Marketing	Cloud Run (Main Service)	https://socio-marketing-service-738033056694.us-central1.run.app
+
+Frontend demo:
+
+http://localhost:8000](http://localhost:8000
 
 
 ## Contribution
