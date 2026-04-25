@@ -1,4 +1,5 @@
-# SweetTreats Marketing Intelligence System
+
+# 🍰 SweetTreats Marketing Intelligence System (Hackathon)
 An AI-powered analytics and support system designed to synthesize social media performance and automate marketing strategy for SweetTreatsBakeryoperations.
 
 ## Project Overview
