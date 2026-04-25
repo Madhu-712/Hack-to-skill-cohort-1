@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Treats | Marketing Intelligence</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Quicksand:wght@500;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcf8f6;
+        }
+        .brand-font {
+            font-family: 'Quicksand', sans-serif;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+        }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 glass-card px-6 py-4 flex justify-between items-center mb-8">
+        <div class="flex items-center space-x-2">
+            <div class="bg-pink-500 p-2 rounded-lg text-white">
+                <i class="fas fa-cookie-bite text-xl"></i>
+            </div>
+            <span class="brand-font text-2xl font-bold tracking-tight">SweetTreats <span class="text-pink-500 underline decoration-pink-200 underline-offset-4">Intelligence</span></span>
+        </div>
+        <div class="hidden md:flex space-x-6 font-medium text-slate-500">
+            <a href="#" class="text-pink-600 border-b-2 border-pink-500">Dashboard</a>
+            <a href="#" class="hover:text-pink-500 transition">Campaigns</a>
+            <a href="#" class="hover:text-pink-500 transition">Audience</a>
+        </div>
+        <div class="flex items-center space-x-4">
+            <button class="bg-slate-900 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-slate-800 transition">
+                Export Data
+            </button>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-6 pb-20">
+        
+        <!-- Header & Search -->
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-10 gap-4">
+            <div>
+                <h1 class="text-3xl font-bold mb-2">Social Performance Overview</h1>
+                <p class="text-slate-500">Real-time insights from your latest bakery campaigns.</p>
+            </div>
+            <div class="relative w-full md:w-96">
+                <i class="fas fa-magic absolute left-4 top-1/2 -translate-y-1/2 text-pink-400"></i>
+                <input type="text" id="agentSearch" placeholder="Ask AI: What's my best post type?" 
+                       class="w-full pl-12 pr-4 py-3 rounded-2xl border border-slate-200 focus:ring-2 focus:ring-pink-500 focus:outline-none shadow-sm transition">
+            </div>
+        </div>
+
+        <!-- Key Metrics Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+            <div class="glass-card p-6 rounded-3xl">
+                <div class="flex justify-between items-start mb-4">
+                    <div class="bg-blue-100 p-3 rounded-2xl text-blue-600"><i class="fas fa-users"></i></div>
+                    <span class="text-emerald-500 text-sm font-bold">+12.5%</span>
+                </div>
+                <h3 class="text-slate-500 text-sm font-medium mb-1">Total Reach</h3>
+                <p class="text-2xl font-bold" id="totalReach">0</p>
+            </div>
+            <div class="glass-card p-6 rounded-3xl">
+                <div class="flex justify-between items-start mb-4">
+                    <div class="bg-pink-100 p-3 rounded-2xl text-pink-600"><i class="fas fa-heart"></i></div>
+                    <span class="text-emerald-500 text-sm font-bold">+5.2%</span>
+                </div>
+                <h3 class="text-slate-500 text-sm font-medium mb-1">Avg. Engagement</h3>
+                <p class="text-2xl font-bold" id="avgEngage">0%</p>
+            </div>
+            <div class="glass-card p-6 rounded-3xl">
+                <div class="flex justify-between items-start mb-4">
+                    <div class="bg-orange-100 p-3 rounded-2xl text-orange-600"><i class="fas fa-bolt"></i></div>
+                    <span class="text-slate-400 text-sm font-bold">Stable</span>
+                </div>
+                <h3 class="text-slate-500 text-sm font-medium mb-1">Sentiment Score</h3>
+                <p class="text-2xl font-bold" id="sentiment">94/100</p>
+            </div>
+            <div class="glass-card p-6 rounded-3xl">
+                <div class="flex justify-between items-start mb-4">
+                    <div class="bg-purple-100 p-3 rounded-2xl text-purple-600"><i class="fas fa-mobile-alt"></i></div>
+                    <span class="text-emerald-500 text-sm font-bold">High</span>
+                </div>
+                <h3 class="text-slate-500 text-sm font-medium mb-1">Top Device</h3>
+                <p class="text-2xl font-bold">Mobile</p>
+            </div>
+        </div>
+
+        <!-- Visual Analytics Dashboard -->
+        <div class="glass-card rounded-3xl p-8 mb-10">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
+                <h2 class="text-2xl font-bold">Visual Analytics Dashboard</h2>
+                <div class="flex items-center space-x-4">
+                    <label for="monthSelect" class="text-sm font-semibold text-slate-500">Filter by Month:</label>
+                    <select id="monthSelect" class="bg-white border border-slate-200 rounded-xl px-4 py-2 text-sm focus:ring-2 focus:ring-pink-500 outline-none cursor-pointer shadow-sm">
+                        <option value="all">Full Year 2025</option>
+                        <option value="03" selected>March 2025</option>
+                        <option value="02">February 2025</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="flex flex-col items-center">
+                    <h3 class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">Engagement by Platform</h3>
+                    <div class="w-full max-w-[300px]">
+                        <canvas id="platformChart"></canvas>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <h3 class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">Content Type Distribution</h3>
+                    <div class="w-full max-w-[300px]">
+                        <canvas id="typeChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Platform Breakdown -->
+            <div class="lg:col-span-2 glass-card rounded-3xl p-8">
+                <div class="flex justify-between items-center mb-8">
+                    <h2 class="text-xl font-bold">Platform Performance Index</h2>
+                </div>
+                <div class="space-y-6" id="platformBars">
+                    <!-- Progress bars handled by platform overview logic -->
+                </div>
+            </div>
+
+            <!-- Insights Side Panel -->
+            <div class="glass-card rounded-3xl p-8 flex flex-col">
+                <h2 class="text-xl font-bold mb-6">Marketing Intelligence</h2>
+                <div class="space-y-6 flex-grow">
+                    <div class="flex gap-4">
+                        <div class="shrink-0 w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-600"><i class="fas fa-lightbulb"></i></div>
+                        <div><h4 class="font-bold text-sm">Visuals Lead</h4><p class="text-xs text-slate-500 leading-relaxed">Close-up "Food Porn" style images see 22% higher engagement.</p></div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="shrink-0 w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center text-purple-600"><i class="fas fa-sync"></i></div>
+                        <div><h4 class="font-bold text-sm">Feedback Loop</h4><p class="text-xs text-slate-500 leading-relaxed">Facebook Polls drive 3x more comments.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Activity Table -->
+        <div class="mt-8 glass-card rounded-3xl overflow-hidden">
+            <div class="p-8 border-b border-slate-100 flex justify-between items-center">
+                <h2 class="text-xl font-bold">Detailed Activity Log</h2>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left">
+                    <thead class="bg-slate-50 text-slate-400 text-xs uppercase font-bold tracking-wider">
+                        <tr>
+                            <th class="px-8 py-4">Post</th>
+                            <th class="px-8 py-4">Type</th>
+                            <th class="px-8 py-4">Engagement</th>
+                            <th class="px-8 py-4">Sentiment</th>
+                            <th class="px-8 py-4">Device</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-100" id="activityTable"></tbody>
+                </table>
+            </div>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
