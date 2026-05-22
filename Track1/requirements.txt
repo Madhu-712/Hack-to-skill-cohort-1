@@ -18,3 +18,28 @@ gunicorn>=21.2.0
 python-dotenv>=1.0.0
 
 streamlit==1.55.0
+
+
+
+# Core Agent Development Kit & GenAI
+google-adk>=1.23.0
+google-genai>=0.3.0
+
+# Google Cloud & Vertex AI
+google-cloud-aiplatform>=1.70.0
+google-auth>=2.23.0
+
+# Web Server (Switching from FastAPI/Streamlit to Flask for your app.py)
+Flask>=3.0.0
+gunicorn>=21.2.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Optional: For Google Search Tooling
+google-search-results>=2.4.2
+
+
+
+
+
